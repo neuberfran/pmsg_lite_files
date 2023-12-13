@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['majorloopcounts',['majorLoopCounts',['../a00014.html#accd14b645237edae7fa51c5db6aa6998',1,'edma_transfer_config_t']]],
+  ['master_5fslave',['master_slave',['../a00051.html#a4daf6a63ca5b405aac9332ca477c3501',1,'sgtl_config_t::master_slave()'],['../a00058.html#a2628e48b064d8d943c0f247da6404342',1,'wm8960_config_t::master_slave()']]],
+  ['masterclock',['masterClock',['../a00058.html#a8641bb5e2d06983e204a10b798d2d230',1,'wm8960_config_t']]],
+  ['masternumber',['masterNumber',['../a00059.html#a10bd4c62d889a112a5b8c715454e9a81',1,'xrdc_hardware_config_t']]],
+  ['masterslave',['masterSlave',['../a00020.html#af23ab88febf5c71ed99eebe478152330',1,'flexio_i2s_config_t::masterSlave()'],['../a00046.html#a2c16d7b69db892ed087ced965280be77',1,'sai_config_t::masterSlave()'],['../a00046.html#a95e16eefdf3fe266c9feb0d9d755a712',1,'sai_transceiver_t::masterSlave()']]],
+  ['match0',['match0',['../a00029.html#ad28aaeb70cf478b4564cc05da64ce062',1,'lpi2c_data_match_config_t']]],
+  ['match1',['match1',['../a00029.html#a8062fa234f06a2888f04dc95dab28240',1,'lpi2c_data_match_config_t']]],
+  ['matchmode',['matchMode',['../a00029.html#a1ee7d6261dcde31818b381f189569d80',1,'lpi2c_data_match_config_t']]],
+  ['mclk_5fhz',['mclk_HZ',['../a00012.html#ae3b11f4616fc011852a6f06e644c00d9',1,'da7212_audio_format_t::mclk_HZ()'],['../a00051.html#ae0edadf6baf0a743e4765421ad2abc3f',1,'sgtl_audio_format_t::mclk_HZ()'],['../a00058.html#afb1efbb406e368e6fd5393da2543bb8a',1,'wm8960_audio_format_t::mclk_HZ()']]],
+  ['mem',['mem',['../a00059.html#ad27b82d41756b7cd25d835f0213dbc15',1,'xrdc_mem_access_config_t']]],
+  ['minorloopbytes',['minorLoopBytes',['../a00014.html#a6f4c2ec17c05de3741d67447f784f721',1,'edma_transfer_config_t']]],
+  ['minoroffset',['minorOffset',['../a00014.html#aff7bae6e4e019c2b49508bbfec6cd1ea',1,'edma_minor_offset_config_t']]],
+  ['minusmuxinput',['minusMuxInput',['../a00008.html#a47e25c53ffff810bbcd90517b6e5cbc2',1,'acmp_channel_config_t']]],
+  ['minute',['minute',['../a00054.html#a94effdb46795404af3432392f35e2353',1,'snvs_hp_rtc_datetime_t::minute()'],['../a00055.html#a266253051fa3ee775a27bffb92d9be5b',1,'snvs_lp_srtc_datetime_t::minute()']]],
+  ['modereg',['modeReg',['../a00039.html#a33c9dff366ca9bacfbf71ac5a8965f56',1,'_ltc_edma_handle']]],
+  ['monitormode',['monitorMode',['../a00048.html#a90e56c1272b9fea9e9fd14a4b5030c8e',1,'scg_sosc_config_t::monitorMode()'],['../a00048.html#a1b5a3e3233759f0d90da9f79f7c45922',1,'scg_rosc_config_t::monitorMode()']]],
+  ['month',['month',['../a00054.html#aeae304d30957ee76f2ae1549118ea383',1,'snvs_hp_rtc_datetime_t::month()'],['../a00055.html#afeeab32d19b15b5dd7ebbcd3c1322e28',1,'snvs_lp_srtc_datetime_t::month()']]],
+  ['mrcnumber',['mrcNumber',['../a00059.html#ac225d5d2a0bc45439340b309a41a66d6',1,'xrdc_hardware_config_t']]],
+  ['mult',['mult',['../a00048.html#a85dc4e44cb753c715f14c4c55241c0d1',1,'scg_spll_config_t::mult()'],['../a00048.html#a676b6f8ac978176d13a316de3f833d63',1,'scg_apll_config_t::mult()']]],
+  ['mux',['mux',['../a00044.html#ade807d653fda48c9b52607ea603526b3',1,'port_pin_config_t']]]
+];

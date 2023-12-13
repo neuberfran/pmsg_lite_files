@@ -1,0 +1,235 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+APP_MU_IRQ_PRIORITY	platform/imx6sx_m4/rpmsg_platform.c	/^#define APP_MU_IRQ_PRIORITY /;"	d	file:
+APP_MU_IRQ_PRIORITY	platform/imx7d_m4/rpmsg_platform.c	/^#define APP_MU_IRQ_PRIORITY /;"	d	file:
+ISR_COUNT	environment/rpmsg_env_bm.c	/^#define ISR_COUNT /;"	d	file:
+ISR_COUNT	environment/rpmsg_env_freertos.c	/^#define ISR_COUNT /;"	d	file:
+ISR_COUNT	environment/rpmsg_env_zephyr.c	/^#define ISR_COUNT /;"	d	file:
+MAILBOX_IRQHandler	platform/lpc5410x/rpmsg_platform.c	/^void MAILBOX_IRQHandler(void)$/;"	f	typeref:typename:void
+MAILBOX_IRQHandler	platform/lpc5411x/rpmsg_platform.c	/^void MAILBOX_IRQHandler(void)$/;"	f	typeref:typename:void
+data	environment/rpmsg_env_bm.c	/^    void *data;$/;"	m	struct:isr_info	typeref:typename:void *	file:
+data	environment/rpmsg_env_freertos.c	/^    void *data;$/;"	m	struct:isr_info	typeref:typename:void *	file:
+data	environment/rpmsg_env_zephyr.c	/^    void *data;$/;"	m	struct:isr_info	typeref:typename:void *	file:
+disable_counter	platform/imx6sx_m4/rpmsg_platform.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+disable_counter	platform/imx7d_m4/rpmsg_platform.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+disable_counter	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+disable_counter	platform/lpc5410x/rpmsg_platform.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+disable_counter	platform/lpc5411x/rpmsg_platform.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+disable_counter	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^static int disable_counter = 0;$/;"	v	typeref:typename:int	file:
+env_acquire_sync_lock	environment/rpmsg_env_freertos.c	/^void env_acquire_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_acquire_sync_lock	environment/rpmsg_env_zephyr.c	/^void env_acquire_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_allocate_memory	environment/rpmsg_env_bm.c	/^void *env_allocate_memory(unsigned int size)$/;"	f	typeref:typename:void *
+env_allocate_memory	environment/rpmsg_env_freertos.c	/^void *env_allocate_memory(unsigned int size)$/;"	f	typeref:typename:void *
+env_allocate_memory	environment/rpmsg_env_zephyr.c	/^void *env_allocate_memory(unsigned int size)$/;"	f	typeref:typename:void *
+env_create_mutex	environment/rpmsg_env_bm.c	/^int env_create_mutex(void **lock, int count)$/;"	f	typeref:typename:int
+env_create_mutex	environment/rpmsg_env_freertos.c	/^int env_create_mutex(void **lock, int count)$/;"	f	typeref:typename:int
+env_create_mutex	environment/rpmsg_env_zephyr.c	/^int env_create_mutex(void **lock, int count)$/;"	f	typeref:typename:int
+env_create_queue	environment/rpmsg_env_freertos.c	/^int env_create_queue(void **queue, int length, int element_size)$/;"	f	typeref:typename:int
+env_create_queue	environment/rpmsg_env_zephyr.c	/^int env_create_queue(void **queue, int length, int element_size)$/;"	f	typeref:typename:int
+env_create_sync_lock	environment/rpmsg_env_freertos.c	/^int env_create_sync_lock(void **lock, int state)$/;"	f	typeref:typename:int
+env_create_sync_lock	environment/rpmsg_env_zephyr.c	/^int env_create_sync_lock(void **lock, int state)$/;"	f	typeref:typename:int
+env_deinit	environment/rpmsg_env_bm.c	/^int env_deinit(void)$/;"	f	typeref:typename:int
+env_deinit	environment/rpmsg_env_freertos.c	/^int env_deinit(void)$/;"	f	typeref:typename:int
+env_deinit	environment/rpmsg_env_zephyr.c	/^int env_deinit(void)$/;"	f	typeref:typename:int
+env_delete_mutex	environment/rpmsg_env_bm.c	/^void env_delete_mutex(void *lock)$/;"	f	typeref:typename:void
+env_delete_mutex	environment/rpmsg_env_freertos.c	/^void env_delete_mutex(void *lock)$/;"	f	typeref:typename:void
+env_delete_mutex	environment/rpmsg_env_zephyr.c	/^void env_delete_mutex(void *lock)$/;"	f	typeref:typename:void
+env_delete_queue	environment/rpmsg_env_freertos.c	/^void env_delete_queue(void *queue)$/;"	f	typeref:typename:void
+env_delete_queue	environment/rpmsg_env_zephyr.c	/^void env_delete_queue(void *queue)$/;"	f	typeref:typename:void
+env_delete_sync_lock	environment/rpmsg_env_freertos.c	/^void env_delete_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_delete_sync_lock	environment/rpmsg_env_zephyr.c	/^void env_delete_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_disable_cache	environment/rpmsg_env_bm.c	/^void env_disable_cache(void)$/;"	f	typeref:typename:void
+env_disable_cache	environment/rpmsg_env_freertos.c	/^void env_disable_cache(void)$/;"	f	typeref:typename:void
+env_disable_cache	environment/rpmsg_env_zephyr.c	/^void env_disable_cache(void)$/;"	f	typeref:typename:void
+env_disable_interrupt	environment/rpmsg_env_bm.c	/^void env_disable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_disable_interrupt	environment/rpmsg_env_freertos.c	/^void env_disable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_disable_interrupt	environment/rpmsg_env_zephyr.c	/^void env_disable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_enable_interrupt	environment/rpmsg_env_bm.c	/^void env_enable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_enable_interrupt	environment/rpmsg_env_freertos.c	/^void env_enable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_enable_interrupt	environment/rpmsg_env_zephyr.c	/^void env_enable_interrupt(unsigned int vector_id)$/;"	f	typeref:typename:void
+env_free_memory	environment/rpmsg_env_bm.c	/^void env_free_memory(void *ptr)$/;"	f	typeref:typename:void
+env_free_memory	environment/rpmsg_env_freertos.c	/^void env_free_memory(void *ptr)$/;"	f	typeref:typename:void
+env_free_memory	environment/rpmsg_env_zephyr.c	/^void env_free_memory(void *ptr)$/;"	f	typeref:typename:void
+env_get_current_queue_size	environment/rpmsg_env_freertos.c	/^int env_get_current_queue_size(void *queue)$/;"	f	typeref:typename:int
+env_get_current_queue_size	environment/rpmsg_env_zephyr.c	/^int env_get_current_queue_size(void *queue)$/;"	f	typeref:typename:int
+env_get_queue	environment/rpmsg_env_freertos.c	/^int env_get_queue(void *queue, void *msg, int timeout_ms)$/;"	f	typeref:typename:int
+env_get_queue	environment/rpmsg_env_zephyr.c	/^int env_get_queue(void *queue, void *msg, int timeout_ms)$/;"	f	typeref:typename:int
+env_get_timestamp	environment/rpmsg_env_freertos.c	/^unsigned long long env_get_timestamp(void)$/;"	f	typeref:typename:unsigned long long
+env_in_isr	environment/rpmsg_env_freertos.c	/^static int env_in_isr(void)$/;"	f	typeref:typename:int	file:
+env_in_isr	environment/rpmsg_env_zephyr.c	/^static int env_in_isr(void)$/;"	f	typeref:typename:int	file:
+env_init	environment/rpmsg_env_bm.c	/^int env_init(void)$/;"	f	typeref:typename:int
+env_init	environment/rpmsg_env_freertos.c	/^int env_init(void)$/;"	f	typeref:typename:int
+env_init	environment/rpmsg_env_zephyr.c	/^int env_init(void)$/;"	f	typeref:typename:int
+env_init_counter	environment/rpmsg_env_bm.c	/^static int env_init_counter = 0;$/;"	v	typeref:typename:int	file:
+env_init_counter	environment/rpmsg_env_freertos.c	/^static int env_init_counter = 0;$/;"	v	typeref:typename:int	file:
+env_init_counter	environment/rpmsg_env_zephyr.c	/^static int env_init_counter = 0;$/;"	v	typeref:typename:int	file:
+env_isr	environment/rpmsg_env_bm.c	/^void env_isr(int vector)$/;"	f	typeref:typename:void
+env_isr	environment/rpmsg_env_freertos.c	/^void env_isr(int vector)$/;"	f	typeref:typename:void
+env_isr	environment/rpmsg_env_zephyr.c	/^void env_isr(int vector)$/;"	f	typeref:typename:void
+env_lock_mutex	environment/rpmsg_env_bm.c	/^void env_lock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_lock_mutex	environment/rpmsg_env_freertos.c	/^void env_lock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_lock_mutex	environment/rpmsg_env_zephyr.c	/^void env_lock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_map_memory	environment/rpmsg_env_bm.c	/^void env_map_memory(unsigned int pa, unsigned int va, unsigned int size, unsigned int flags)$/;"	f	typeref:typename:void
+env_map_memory	environment/rpmsg_env_freertos.c	/^void env_map_memory(unsigned int pa, unsigned int va, unsigned int size, unsigned int flags)$/;"	f	typeref:typename:void
+env_map_memory	environment/rpmsg_env_zephyr.c	/^void env_map_memory(unsigned int pa, unsigned int va, unsigned int size, unsigned int flags)$/;"	f	typeref:typename:void
+env_map_patova	environment/rpmsg_env_bm.c	/^void *env_map_patova(unsigned long address)$/;"	f	typeref:typename:void *
+env_map_patova	environment/rpmsg_env_freertos.c	/^void *env_map_patova(unsigned long address)$/;"	f	typeref:typename:void *
+env_map_patova	environment/rpmsg_env_zephyr.c	/^void *env_map_patova(unsigned long address)$/;"	f	typeref:typename:void *
+env_map_vatopa	environment/rpmsg_env_bm.c	/^unsigned long env_map_vatopa(void *address)$/;"	f	typeref:typename:unsigned long
+env_map_vatopa	environment/rpmsg_env_freertos.c	/^unsigned long env_map_vatopa(void *address)$/;"	f	typeref:typename:unsigned long
+env_map_vatopa	environment/rpmsg_env_zephyr.c	/^unsigned long env_map_vatopa(void *address)$/;"	f	typeref:typename:unsigned long
+env_mb	environment/rpmsg_env_bm.c	/^void env_mb(void)$/;"	f	typeref:typename:void
+env_mb	environment/rpmsg_env_freertos.c	/^void env_mb(void)$/;"	f	typeref:typename:void
+env_mb	environment/rpmsg_env_zephyr.c	/^void env_mb(void)$/;"	f	typeref:typename:void
+env_memcpy	environment/rpmsg_env_bm.c	/^void env_memcpy(void *dst, void const *src, unsigned long len)$/;"	f	typeref:typename:void
+env_memcpy	environment/rpmsg_env_freertos.c	/^void env_memcpy(void *dst, void const *src, unsigned long len)$/;"	f	typeref:typename:void
+env_memcpy	environment/rpmsg_env_zephyr.c	/^void env_memcpy(void *dst, void const *src, unsigned long len)$/;"	f	typeref:typename:void
+env_memset	environment/rpmsg_env_bm.c	/^void env_memset(void *ptr, int value, unsigned long size)$/;"	f	typeref:typename:void
+env_memset	environment/rpmsg_env_freertos.c	/^void env_memset(void *ptr, int value, unsigned long size)$/;"	f	typeref:typename:void
+env_memset	environment/rpmsg_env_zephyr.c	/^void env_memset(void *ptr, int value, unsigned long size)$/;"	f	typeref:typename:void
+env_put_queue	environment/rpmsg_env_freertos.c	/^int env_put_queue(void *queue, void *msg, int timeout_ms)$/;"	f	typeref:typename:int
+env_put_queue	environment/rpmsg_env_zephyr.c	/^int env_put_queue(void *queue, void *msg, int timeout_ms)$/;"	f	typeref:typename:int
+env_register_isr	environment/rpmsg_env_bm.c	/^void env_register_isr(int vector_id, void *data)$/;"	f	typeref:typename:void
+env_register_isr	environment/rpmsg_env_freertos.c	/^void env_register_isr(int vector_id, void *data)$/;"	f	typeref:typename:void
+env_register_isr	environment/rpmsg_env_zephyr.c	/^void env_register_isr(int vector_id, void *data)$/;"	f	typeref:typename:void
+env_release_sync_lock	environment/rpmsg_env_freertos.c	/^void env_release_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_release_sync_lock	environment/rpmsg_env_zephyr.c	/^void env_release_sync_lock(void *lock)$/;"	f	typeref:typename:void
+env_rmb	environment/rpmsg_env_bm.c	/^void env_rmb(void)$/;"	f	typeref:typename:void
+env_rmb	environment/rpmsg_env_freertos.c	/^void env_rmb(void)$/;"	f	typeref:typename:void
+env_rmb	environment/rpmsg_env_zephyr.c	/^void env_rmb(void)$/;"	f	typeref:typename:void
+env_sema	environment/rpmsg_env_freertos.c	/^SemaphoreHandle_t env_sema = NULL;$/;"	v	typeref:typename:SemaphoreHandle_t
+env_sema	environment/rpmsg_env_zephyr.c	/^static struct k_sem env_sema = {0};$/;"	v	typeref:struct:k_sem	file:
+env_sleep_msec	environment/rpmsg_env_bm.c	/^void env_sleep_msec(int num_msec)$/;"	f	typeref:typename:void
+env_sleep_msec	environment/rpmsg_env_freertos.c	/^void env_sleep_msec(int num_msec)$/;"	f	typeref:typename:void
+env_sleep_msec	environment/rpmsg_env_zephyr.c	/^void env_sleep_msec(int num_msec)$/;"	f	typeref:typename:void
+env_strcmp	environment/rpmsg_env_bm.c	/^int env_strcmp(const char *dst, const char *src)$/;"	f	typeref:typename:int
+env_strcmp	environment/rpmsg_env_freertos.c	/^int env_strcmp(const char *dst, const char *src)$/;"	f	typeref:typename:int
+env_strcmp	environment/rpmsg_env_zephyr.c	/^int env_strcmp(const char *dst, const char *src)$/;"	f	typeref:typename:int
+env_strncmp	environment/rpmsg_env_bm.c	/^int env_strncmp(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:int
+env_strncmp	environment/rpmsg_env_freertos.c	/^int env_strncmp(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:int
+env_strncmp	environment/rpmsg_env_zephyr.c	/^int env_strncmp(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:int
+env_strncpy	environment/rpmsg_env_bm.c	/^void env_strncpy(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:void
+env_strncpy	environment/rpmsg_env_freertos.c	/^void env_strncpy(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:void
+env_strncpy	environment/rpmsg_env_zephyr.c	/^void env_strncpy(char *dest, const char *src, unsigned long len)$/;"	f	typeref:typename:void
+env_unlock_mutex	environment/rpmsg_env_bm.c	/^void env_unlock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_unlock_mutex	environment/rpmsg_env_freertos.c	/^void env_unlock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_unlock_mutex	environment/rpmsg_env_zephyr.c	/^void env_unlock_mutex(void *lock)$/;"	f	typeref:typename:void
+env_unregister_isr	environment/rpmsg_env_bm.c	/^void env_unregister_isr(int vector_id)$/;"	f	typeref:typename:void
+env_unregister_isr	environment/rpmsg_env_freertos.c	/^void env_unregister_isr(int vector_id)$/;"	f	typeref:typename:void
+env_unregister_isr	environment/rpmsg_env_zephyr.c	/^void env_unregister_isr(int vector_id)$/;"	f	typeref:typename:void
+env_wmb	environment/rpmsg_env_bm.c	/^void env_wmb(void)$/;"	f	typeref:typename:void
+env_wmb	environment/rpmsg_env_freertos.c	/^void env_wmb(void)$/;"	f	typeref:typename:void
+env_wmb	environment/rpmsg_env_zephyr.c	/^void env_wmb(void)$/;"	f	typeref:typename:void
+ipm_handle	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^static struct device *ipm_handle = NULL;$/;"	v	typeref:struct:device *	file:
+ipm_handle	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^static struct device *ipm_handle = NULL;$/;"	v	typeref:struct:device *	file:
+isr_counter	platform/imx6sx_m4/rpmsg_platform.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_counter	platform/imx7d_m4/rpmsg_platform.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_counter	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_counter	platform/lpc5410x/rpmsg_platform.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_counter	platform/lpc5411x/rpmsg_platform.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_counter	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^static int isr_counter = 0;$/;"	v	typeref:typename:int	file:
+isr_info	environment/rpmsg_env_bm.c	/^struct isr_info$/;"	s	file:
+isr_info	environment/rpmsg_env_freertos.c	/^struct isr_info$/;"	s	file:
+isr_info	environment/rpmsg_env_zephyr.c	/^struct isr_info$/;"	s	file:
+isr_table	environment/rpmsg_env_bm.c	/^static struct isr_info isr_table[ISR_COUNT];$/;"	v	typeref:struct:isr_info[]	file:
+isr_table	environment/rpmsg_env_freertos.c	/^static struct isr_info isr_table[ISR_COUNT];$/;"	v	typeref:struct:isr_info[]	file:
+isr_table	environment/rpmsg_env_zephyr.c	/^static struct isr_info isr_table[ISR_COUNT];$/;"	v	typeref:struct:isr_info[]	file:
+lock	platform/imx6sx_m4/rpmsg_platform.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+lock	platform/imx7d_m4/rpmsg_platform.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+lock	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+lock	platform/lpc5410x/rpmsg_platform.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+lock	platform/lpc5411x/rpmsg_platform.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+lock	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^static void *lock;$/;"	v	typeref:typename:void *	file:
+mcmgr_event_handler	platform/lpc5410x/rpmsg_platform.c	/^static void mcmgr_event_handler(uint16_t vring_idx, void *context)$/;"	f	typeref:typename:void	file:
+mcmgr_event_handler	platform/lpc5411x/rpmsg_platform.c	/^static void mcmgr_event_handler(uint16_t vring_idx, void *context)$/;"	f	typeref:typename:void	file:
+platform_cache_all_flush_invalidate	platform/imx6sx_m4/rpmsg_platform.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_all_flush_invalidate	platform/imx7d_m4/rpmsg_platform.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_all_flush_invalidate	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_all_flush_invalidate	platform/lpc5410x/rpmsg_platform.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_all_flush_invalidate	platform/lpc5411x/rpmsg_platform.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_all_flush_invalidate	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void platform_cache_all_flush_invalidate()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/imx6sx_m4/rpmsg_platform.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/imx7d_m4/rpmsg_platform.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/lpc5410x/rpmsg_platform.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/lpc5411x/rpmsg_platform.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_cache_disable	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void platform_cache_disable()$/;"	f	typeref:typename:void
+platform_deinit	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit	platform/imx7d_m4/rpmsg_platform.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit	platform/lpc5410x/rpmsg_platform.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit	platform/lpc5411x/rpmsg_platform.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_deinit(void)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/imx7d_m4/rpmsg_platform.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/lpc5410x/rpmsg_platform.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/lpc5411x/rpmsg_platform.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_deinit_interrupt	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_deinit_interrupt(int vq_id)$/;"	f	typeref:typename:int
+platform_in_isr	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_in_isr	platform/imx7d_m4/rpmsg_platform.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_in_isr	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_in_isr	platform/lpc5410x/rpmsg_platform.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_in_isr	platform/lpc5411x/rpmsg_platform.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_in_isr	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_in_isr(void)$/;"	f	typeref:typename:int
+platform_init	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init	platform/imx7d_m4/rpmsg_platform.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init	platform/lpc5410x/rpmsg_platform.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init	platform/lpc5411x/rpmsg_platform.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_init(void)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/imx7d_m4/rpmsg_platform.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/lpc5410x/rpmsg_platform.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/lpc5411x/rpmsg_platform.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_init_interrupt	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_init_interrupt(int vq_id, void *isr_data)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/imx7d_m4/rpmsg_platform.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/lpc5410x/rpmsg_platform.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/lpc5411x/rpmsg_platform.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_disable	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_interrupt_disable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/imx6sx_m4/rpmsg_platform.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/imx7d_m4/rpmsg_platform.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/lpc5410x/rpmsg_platform.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/lpc5411x/rpmsg_platform.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_interrupt_enable	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^int platform_interrupt_enable(unsigned int vq_id)$/;"	f	typeref:typename:int
+platform_ipm_callback	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void platform_ipm_callback(void *context, uint32_t id, volatile void *data)$/;"	f	typeref:typename:void
+platform_ipm_callback	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void platform_ipm_callback(void *context, u32_t id, volatile void *data)$/;"	f	typeref:typename:void
+platform_map_mem_region	platform/imx6sx_m4/rpmsg_platform.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_map_mem_region	platform/imx7d_m4/rpmsg_platform.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_map_mem_region	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_map_mem_region	platform/lpc5410x/rpmsg_platform.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_map_mem_region	platform/lpc5411x/rpmsg_platform.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_map_mem_region	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void platform_map_mem_region(unsigned int vrt_addr, unsigned int phy_addr, unsigned int size, un/;"	f	typeref:typename:void
+platform_notify	platform/imx6sx_m4/rpmsg_platform.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_notify	platform/imx7d_m4/rpmsg_platform.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_notify	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_notify	platform/lpc5410x/rpmsg_platform.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_notify	platform/lpc5411x/rpmsg_platform.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_notify	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void platform_notify(int vq_id)$/;"	f	typeref:typename:void
+platform_patova	platform/imx6sx_m4/rpmsg_platform.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_patova	platform/imx7d_m4/rpmsg_platform.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_patova	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_patova	platform/lpc5410x/rpmsg_platform.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_patova	platform/lpc5411x/rpmsg_platform.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_patova	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^void *platform_patova(unsigned long addr)$/;"	f	typeref:typename:void *
+platform_time_delay	platform/imx6sx_m4/rpmsg_platform.c	/^void platform_time_delay(int num_msec)$/;"	f	typeref:typename:void
+platform_time_delay	platform/imx7d_m4/rpmsg_platform.c	/^void platform_time_delay(int num_msec)$/;"	f	typeref:typename:void
+platform_time_delay	platform/lpc5410x/rpmsg_platform.c	/^void platform_time_delay(int num_msec)$/;"	f	typeref:typename:void
+platform_time_delay	platform/lpc5411x/rpmsg_platform.c	/^void platform_time_delay(int num_msec)$/;"	f	typeref:typename:void
+platform_vatopa	platform/imx6sx_m4/rpmsg_platform.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+platform_vatopa	platform/imx7d_m4/rpmsg_platform.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+platform_vatopa	platform/imx7d_m4/rpmsg_platform_zephyr_ipm.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+platform_vatopa	platform/lpc5410x/rpmsg_platform.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+platform_vatopa	platform/lpc5411x/rpmsg_platform.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+platform_vatopa	platform/lpc5411x/rpmsg_platform_zephyr_ipm.c	/^unsigned long platform_vatopa(void *addr)$/;"	f	typeref:typename:unsigned long
+rpmsg_handler	platform/imx6sx_m4/rpmsg_platform.c	/^void rpmsg_handler(void)$/;"	f	typeref:typename:void
+rpmsg_handler	platform/imx7d_m4/rpmsg_platform.c	/^void rpmsg_handler(void)$/;"	f	typeref:typename:void

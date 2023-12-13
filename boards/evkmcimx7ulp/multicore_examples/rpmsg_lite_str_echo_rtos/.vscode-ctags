@@ -1,0 +1,1333 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+APP_A7Reset_IRQ_PRIO	app_srtm.h	/^#define APP_A7Reset_IRQ_PRIO /;"	d
+APP_AUDIO_LPI2C_SCL_GPIO	app_srtm.h	/^#define APP_AUDIO_LPI2C_SCL_GPIO /;"	d
+APP_AUDIO_LPI2C_SCL_PIN	app_srtm.h	/^#define APP_AUDIO_LPI2C_SCL_PIN /;"	d
+APP_AUDIO_LPI2C_SDA_GPIO	app_srtm.h	/^#define APP_AUDIO_LPI2C_SDA_GPIO /;"	d
+APP_AUDIO_LPI2C_SDA_PIN	app_srtm.h	/^#define APP_AUDIO_LPI2C_SDA_PIN /;"	d
+APP_DMA_IRQN	app_srtm.c	/^#define APP_DMA_IRQN(/;"	d	file:
+APP_DisableRebootMonitor	app_srtm.c	/^static void APP_DisableRebootMonitor(bool disableIRQ)$/;"	f	typeref:typename:void	file:
+APP_EnableRebootMonitor	app_srtm.c	/^static void APP_EnableRebootMonitor(void)$/;"	f	typeref:typename:void	file:
+APP_GPIO_IDX	app_srtm.h	/^#define APP_GPIO_IDX(/;"	d
+APP_GPIO_IRQ_PRIO	app_srtm.h	/^#define APP_GPIO_IRQ_PRIO /;"	d
+APP_HEART_BEAT_TIMER_PERIOD_MS	app_srtm.h	/^#define APP_HEART_BEAT_TIMER_PERIOD_MS /;"	d
+APP_HandleGPIOHander	app_srtm.c	/^static void APP_HandleGPIOHander(uint8_t gpioIdx)$/;"	f	typeref:typename:void	file:
+APP_HeartBeatTimerCallback	app_srtm.c	/^static void APP_HeartBeatTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_INPUT_BT_HOST_WAKE	app_srtm.c	/^    APP_INPUT_BT_HOST_WAKE = 3U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_INPUT_GPIO_START	app_srtm.c	/^#define APP_INPUT_GPIO_START /;"	d	file:
+APP_INPUT_ONOFF	app_srtm.c	/^    APP_INPUT_ONOFF        = 0U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_INPUT_VOL_MINUS	app_srtm.c	/^    APP_INPUT_VOL_MINUS    = 2U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_INPUT_VOL_PLUS	app_srtm.c	/^    APP_INPUT_VOL_PLUS     = 1U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_INPUT_WL_HOST_WAKE	app_srtm.c	/^    APP_INPUT_WL_HOST_WAKE = 4U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_IO_ConfIEvent	app_srtm.c	/^static srtm_status_t APP_IO_ConfIEvent($/;"	f	typeref:typename:srtm_status_t	file:
+APP_IO_ConfInput	app_srtm.c	/^static srtm_status_t APP_IO_ConfInput(uint8_t inputIdx, srtm_io_event_t event, bool wakeup)$/;"	f	typeref:typename:srtm_status_t	file:
+APP_IO_ConfKEvent	app_srtm.c	/^static srtm_status_t APP_IO_ConfKEvent($/;"	f	typeref:typename:srtm_status_t	file:
+APP_IO_ConfOutput	app_srtm.c	/^static srtm_status_t APP_IO_ConfOutput(uint16_t ioId, srtm_io_value_t ioValue)$/;"	f	typeref:typename:srtm_status_t	file:
+APP_IO_GetInput	app_srtm.c	/^static srtm_status_t APP_IO_GetInput(srtm_service_t service,$/;"	f	typeref:typename:srtm_status_t	file:
+APP_IO_GetIoIndex	app_srtm.c	/^static uint8_t APP_IO_GetIoIndex(uint16_t ioId)$/;"	f	typeref:typename:uint8_t	file:
+APP_IO_GetLLWUPin	app_srtm.c	/^static uint8_t APP_IO_GetLLWUPin(uint16_t ioId)$/;"	f	typeref:typename:uint8_t	file:
+APP_IO_NUM	app_srtm.c	/^    APP_IO_NUM           = 7U$/;"	e	enum:__anonb65b96fc0103	file:
+APP_IO_SetOutput	app_srtm.c	/^static srtm_status_t APP_IO_SetOutput(srtm_service_t service,$/;"	f	typeref:typename:srtm_status_t	file:
+APP_KEYPAD_INDEX_ONOFF	app_srtm.h	/^#define APP_KEYPAD_INDEX_ONOFF /;"	d
+APP_KEYPAD_INDEX_VOL_MINUS	app_srtm.h	/^#define APP_KEYPAD_INDEX_VOL_MINUS /;"	d
+APP_KEYPAD_INDEX_VOL_PLUS	app_srtm.h	/^#define APP_KEYPAD_INDEX_VOL_PLUS /;"	d
+APP_Keypad_GetInputIndex	app_srtm.c	/^static uint8_t APP_Keypad_GetInputIndex(uint8_t keyIdx)$/;"	f	typeref:typename:uint8_t	file:
+APP_Keypad_GetIoEvent	app_srtm.c	/^static srtm_io_event_t APP_Keypad_GetIoEvent(uint8_t keyIdx, srtm_keypad_event_t event)$/;"	f	typeref:typename:srtm_io_event_t	file:
+APP_LINKUP_TIMER_PERIOD_MS	app_srtm.h	/^#define APP_LINKUP_TIMER_PERIOD_MS /;"	d
+APP_LLWU0_IRQ_PRIO	app_srtm.h	/^#define APP_LLWU0_IRQ_PRIO /;"	d
+APP_LPI2C0_BAUDRATE	app_srtm.h	/^#define APP_LPI2C0_BAUDRATE /;"	d
+APP_LPI2C0_IRQ_PRIO	app_srtm.h	/^#define APP_LPI2C0_IRQ_PRIO /;"	d
+APP_LPI2C3_BAUDRATE	app_srtm.h	/^#define APP_LPI2C3_BAUDRATE /;"	d
+APP_LPI2C3_IRQ_PRIO	app_srtm.h	/^#define APP_LPI2C3_IRQ_PRIO /;"	d
+APP_LPI2C_DELAY	app_srtm.h	/^#define APP_LPI2C_DELAY /;"	d
+APP_LinkupTimerCallback	app_srtm.c	/^static void APP_LinkupTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_MS2TICK	app_srtm.c	/^#define APP_MS2TICK(/;"	d	file:
+APP_OUTPUT_BT_REG_ON	app_srtm.c	/^    APP_OUTPUT_BT_REG_ON = 6U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_OUTPUT_GPIO_START	app_srtm.c	/^#define APP_OUTPUT_GPIO_START /;"	d	file:
+APP_OUTPUT_WL_REG_ON	app_srtm.c	/^    APP_OUTPUT_WL_REG_ON = 5U,$/;"	e	enum:__anonb65b96fc0103	file:
+APP_OnOffTimerCallback	app_srtm.c	/^static void APP_OnOffTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_PEDOMETER_POLL_DELAY_MAX	app_srtm.h	/^#define APP_PEDOMETER_POLL_DELAY_MAX /;"	d
+APP_PEDOMETER_POLL_DELAY_MIN	app_srtm.h	/^#define APP_PEDOMETER_POLL_DELAY_MIN /;"	d
+APP_PEDOMETER_SAMPLE_RATE	app_srtm.h	/^#define APP_PEDOMETER_SAMPLE_RATE /;"	d
+APP_PEDOMETER_SAMPLE_WINDOW	app_srtm.h	/^#define APP_PEDOMETER_SAMPLE_WINDOW /;"	d
+APP_PEDOMETER_SENSOR_SAMPLE_RATE	app_srtm.h	/^#define APP_PEDOMETER_SENSOR_SAMPLE_RATE /;"	d
+APP_PF1550_LPI2C_SCL_GPIO	app_srtm.h	/^#define APP_PF1550_LPI2C_SCL_GPIO /;"	d
+APP_PF1550_LPI2C_SCL_PIN	app_srtm.h	/^#define APP_PF1550_LPI2C_SCL_PIN /;"	d
+APP_PF1550_LPI2C_SDA_GPIO	app_srtm.h	/^#define APP_PF1550_LPI2C_SDA_GPIO /;"	d
+APP_PF1550_LPI2C_SDA_PIN	app_srtm.h	/^#define APP_PF1550_LPI2C_SDA_PIN /;"	d
+APP_PIN_A7_POW_EN	app_srtm.h	/^#define APP_PIN_A7_POW_EN /;"	d
+APP_PIN_BT_HOST_WAKE	app_srtm.h	/^#define APP_PIN_BT_HOST_WAKE /;"	d
+APP_PIN_BT_REG_ON	app_srtm.h	/^#define APP_PIN_BT_REG_ON /;"	d
+APP_PIN_DDR_SW_EN	app_srtm.h	/^#define APP_PIN_DDR_SW_EN /;"	d
+APP_PIN_IDX	app_srtm.h	/^#define APP_PIN_IDX(/;"	d
+APP_PIN_ONOFF	app_srtm.h	/^#define APP_PIN_ONOFF /;"	d
+APP_PIN_VOL_MINUS	app_srtm.h	/^#define APP_PIN_VOL_MINUS /;"	d
+APP_PIN_VOL_PLUS	app_srtm.h	/^#define APP_PIN_VOL_PLUS /;"	d
+APP_PIN_WL_HOST_WAKE	app_srtm.h	/^#define APP_PIN_WL_HOST_WAKE /;"	d
+APP_PIN_WL_REG_ON	app_srtm.h	/^#define APP_PIN_WL_REG_ON /;"	d
+APP_PedometerTimerCallback	app_srtm.c	/^static void APP_PedometerTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_PowerOffCA7	app_srtm.c	/^static void APP_PowerOffCA7(bool suspendMode)$/;"	f	typeref:typename:void	file:
+APP_PowerOnCA7	app_srtm.c	/^static void APP_PowerOnCA7(bool suspendMode)$/;"	f	typeref:typename:void	file:
+APP_ResetCA7Regulators	app_srtm.c	/^static void APP_ResetCA7Regulators(void)$/;"	f	typeref:typename:void	file:
+APP_ResetSRTM	app_srtm.c	/^static void APP_ResetSRTM(app_srtm_state_t state)$/;"	f	typeref:typename:void	file:
+APP_SAI_IRQ_PRIO	app_srtm.h	/^#define APP_SAI_IRQ_PRIO /;"	d
+APP_SAI_RX_DMA_CHANNEL	app_srtm.h	/^#define APP_SAI_RX_DMA_CHANNEL /;"	d
+APP_SAI_RX_DMA_IRQ_PRIO	app_srtm.h	/^#define APP_SAI_RX_DMA_IRQ_PRIO /;"	d
+APP_SAI_TX_DMA_CHANNEL	app_srtm.h	/^#define APP_SAI_TX_DMA_CHANNEL /;"	d
+APP_SAI_TX_DMA_IRQ_PRIO	app_srtm.h	/^#define APP_SAI_TX_DMA_IRQ_PRIO /;"	d
+APP_SNVS_IRQ_PRIO	app_srtm.h	/^#define APP_SNVS_IRQ_PRIO /;"	d
+APP_SRTM_A7ResetHandler	app_srtm.c	/^static void APP_SRTM_A7ResetHandler(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_AUDIO_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_AUDIO_CHANNEL_NAME /;"	d
+APP_SRTM_BootCA7	app_srtm.c	/^void APP_SRTM_BootCA7(void)$/;"	f	typeref:typename:void
+APP_SRTM_ConfigUSBWakeup	app_srtm.c	/^static void APP_SRTM_ConfigUSBWakeup(bool enable)$/;"	f	typeref:typename:void	file:
+APP_SRTM_ControlCA7	app_srtm.c	/^static void APP_SRTM_ControlCA7(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DISPATCHER_TASK_PRIO	app_srtm.h	/^#define APP_SRTM_DISPATCHER_TASK_PRIO /;"	d
+APP_SRTM_DeinitCodecDevice	app_srtm.c	/^static void APP_SRTM_DeinitCodecDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DeinitI2C	app_srtm.c	/^static void APP_SRTM_DeinitI2C(lpi2c_rtos_handle_t *handle)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DeinitPeerCore	app_srtm.c	/^static void APP_SRTM_DeinitPeerCore(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DeinitPmicDevice	app_srtm.c	/^static void APP_SRTM_DeinitPmicDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DeinitSensorDevice	app_srtm.c	/^static void APP_SRTM_DeinitSensorDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DoSetWakeupModule	app_srtm.c	/^static void APP_SRTM_DoSetWakeupModule(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DoSetWakeupPin	app_srtm.c	/^static void APP_SRTM_DoSetWakeupPin(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DoWakeup	app_srtm.c	/^static void APP_SRTM_DoWakeup(void *param)$/;"	f	typeref:typename:void	file:
+APP_SRTM_DoWakeupCA7	app_srtm.c	/^static void APP_SRTM_DoWakeupCA7(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_GetPf1550Reg	app_srtm.c	/^static void APP_SRTM_GetPf1550Reg(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_GetPmicReg	app_srtm.c	/^uint32_t APP_SRTM_GetPmicReg(uint32_t reg)$/;"	f	typeref:typename:uint32_t
+APP_SRTM_GetRPMsgHandle	app_srtm.c	/^struct rpmsg_lite_instance *APP_SRTM_GetRPMsgHandle(void)$/;"	f	typeref:struct:rpmsg_lite_instance *
+APP_SRTM_GpioReset	app_srtm.c	/^static void APP_SRTM_GpioReset(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_I2C_ReleaseBus	app_srtm.c	/^void APP_SRTM_I2C_ReleaseBus(void)$/;"	f	typeref:typename:void
+APP_SRTM_I2C_ReleaseBusDelay	app_srtm.c	/^static void APP_SRTM_I2C_ReleaseBusDelay(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_IO_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_IO_CHANNEL_NAME /;"	d
+APP_SRTM_Init	app_srtm.c	/^void APP_SRTM_Init(void)$/;"	f	typeref:typename:void
+APP_SRTM_InitAudioDevice	app_srtm.c	/^static void APP_SRTM_InitAudioDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitAudioService	app_srtm.c	/^static void APP_SRTM_InitAudioService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitCodecDevice	app_srtm.c	/^static void APP_SRTM_InitCodecDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitI2C	app_srtm.c	/^static void APP_SRTM_InitI2C(lpi2c_rtos_handle_t *handle, LPI2C_Type *base, uint32_t baudrate, u/;"	f	typeref:typename:void	file:
+APP_SRTM_InitIoKeyDevice	app_srtm.c	/^static void APP_SRTM_InitIoKeyDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitIoKeyService	app_srtm.c	/^static void APP_SRTM_InitIoKeyService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitLfclService	app_srtm.c	/^static void APP_SRTM_InitLfclService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitPeerCore	app_srtm.c	/^static void APP_SRTM_InitPeerCore(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitPeriph	app_srtm.c	/^static void APP_SRTM_InitPeriph(bool resume)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitPmicDevice	app_srtm.c	/^static void APP_SRTM_InitPmicDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitPmicService	app_srtm.c	/^static void APP_SRTM_InitPmicService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitRtcDevice	app_srtm.c	/^static void APP_SRTM_InitRtcDevice(bool start)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitRtcService	app_srtm.c	/^static void APP_SRTM_InitRtcService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitSensorDevice	app_srtm.c	/^static void APP_SRTM_InitSensorDevice(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitSensorService	app_srtm.c	/^static void APP_SRTM_InitSensorService(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_InitServices	app_srtm.c	/^static void APP_SRTM_InitServices(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_KEYPAD_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_KEYPAD_CHANNEL_NAME /;"	d
+APP_SRTM_LFCL_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_LFCL_CHANNEL_NAME /;"	d
+APP_SRTM_LfclEventHandler	app_srtm.c	/^static srtm_status_t APP_SRTM_LfclEventHandler($/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_Linkup	app_srtm.c	/^static void APP_SRTM_Linkup(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_MONITOR_TASK_PRIO	app_srtm.h	/^#define APP_SRTM_MONITOR_TASK_PRIO /;"	d
+APP_SRTM_NotifyPeerCoreReady	app_srtm.c	/^static void APP_SRTM_NotifyPeerCoreReady(struct rpmsg_lite_instance *rpmsgHandle, bool ready)$/;"	f	typeref:typename:void	file:
+APP_SRTM_PMIC_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_PMIC_CHANNEL_NAME /;"	d
+APP_SRTM_PollLinkup	app_srtm.c	/^static void APP_SRTM_PollLinkup(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_PollSensor	app_srtm.c	/^static void APP_SRTM_PollSensor(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_PollSuspend	app_srtm.c	/^static void APP_SRTM_PollSuspend(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_PowerOff	app_srtm.c	/^    APP_SRTM_PowerOff,$/;"	e	enum:__anonb65b96fc0303	file:
+APP_SRTM_PowerOffVlls	app_srtm.c	/^    APP_SRTM_PowerOffVlls,$/;"	e	enum:__anonb65b96fc0303	file:
+APP_SRTM_PowerOn	app_srtm.c	/^    APP_SRTM_PowerOn = 0x0U,$/;"	e	enum:__anonb65b96fc0303	file:
+APP_SRTM_RTC_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_RTC_CHANNEL_NAME /;"	d
+APP_SRTM_ReadCodecRegMap	app_srtm.c	/^static status_t APP_SRTM_ReadCodecRegMap(void *handle, uint32_t reg, uint32_t *val)$/;"	f	typeref:typename:status_t	file:
+APP_SRTM_RebootCA7	app_srtm.c	/^void APP_SRTM_RebootCA7(void)$/;"	f	typeref:typename:void
+APP_SRTM_RecycleWakeupProc	app_srtm.c	/^static void APP_SRTM_RecycleWakeupProc(srtm_message_t message, void *param)$/;"	f	typeref:typename:void	file:
+APP_SRTM_ResetServices	app_srtm.c	/^static void APP_SRTM_ResetServices(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_Resume	app_srtm.c	/^void APP_SRTM_Resume(bool resume)$/;"	f	typeref:typename:void
+APP_SRTM_SENSOR_CHANNEL_NAME	app_srtm.h	/^#define APP_SRTM_SENSOR_CHANNEL_NAME /;"	d
+APP_SRTM_Sensor_DeinitPedometer	app_srtm.c	/^static srtm_status_t APP_SRTM_Sensor_DeinitPedometer(void)$/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_Sensor_EnableDataReport	app_srtm.c	/^static srtm_status_t APP_SRTM_Sensor_EnableDataReport(srtm_sensor_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_Sensor_EnableStateDetector	app_srtm.c	/^static srtm_status_t APP_SRTM_Sensor_EnableStateDetector(srtm_sensor_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_Sensor_InitPedometer	app_srtm.c	/^static srtm_status_t APP_SRTM_Sensor_InitPedometer(void)$/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_Sensor_SetPollDelay	app_srtm.c	/^static srtm_status_t APP_SRTM_Sensor_SetPollDelay(srtm_sensor_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+APP_SRTM_SetIRQHandler	app_srtm.c	/^void APP_SRTM_SetIRQHandler(app_irq_handler_t handler, void *param)$/;"	f	typeref:typename:void
+APP_SRTM_SetPf1550Reg	app_srtm.c	/^static void APP_SRTM_SetPf1550Reg(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_SRTM_SetPmicReg	app_srtm.c	/^void APP_SRTM_SetPmicReg(uint32_t reg, uint32_t value)$/;"	f	typeref:typename:void
+APP_SRTM_SetRpmsgMonitor	app_srtm.c	/^void APP_SRTM_SetRpmsgMonitor(app_rpmsg_monitor_t monitor, void *param)$/;"	f	typeref:typename:void
+APP_SRTM_SetWakeupModule	app_srtm.c	/^void APP_SRTM_SetWakeupModule(uint32_t module, bool enable)$/;"	f	typeref:typename:void
+APP_SRTM_SetWakeupPin	app_srtm.c	/^void APP_SRTM_SetWakeupPin(uint16_t ioId, uint16_t event)$/;"	f	typeref:typename:void
+APP_SRTM_ShutdownCA7	app_srtm.c	/^void APP_SRTM_ShutdownCA7(void)$/;"	f	typeref:typename:void
+APP_SRTM_StateLinkedUp	app_srtm.c	/^    APP_SRTM_StateLinkedUp,$/;"	e	enum:__anonb65b96fc0203	file:
+APP_SRTM_StateReboot	app_srtm.c	/^    APP_SRTM_StateReboot,$/;"	e	enum:__anonb65b96fc0203	file:
+APP_SRTM_StateRun	app_srtm.c	/^    APP_SRTM_StateRun = 0x0U,$/;"	e	enum:__anonb65b96fc0203	file:
+APP_SRTM_StateShutdown	app_srtm.c	/^    APP_SRTM_StateShutdown,$/;"	e	enum:__anonb65b96fc0203	file:
+APP_SRTM_Suspend	app_srtm.c	/^void APP_SRTM_Suspend(void)$/;"	f	typeref:typename:void
+APP_SRTM_ToggleSW3	app_srtm.c	/^void APP_SRTM_ToggleSW3(void)$/;"	f	typeref:typename:void
+APP_SRTM_WakeupCA7	app_srtm.c	/^void APP_SRTM_WakeupCA7(void)$/;"	f	typeref:typename:void
+APP_SRTM_WakeupCA7InIRQ	app_srtm.c	/^static void APP_SRTM_WakeupCA7InIRQ(void)$/;"	f	typeref:typename:void	file:
+APP_SRTM_WriteCodecRegMap	app_srtm.c	/^static status_t APP_SRTM_WriteCodecRegMap(void *handle, uint32_t reg, uint32_t val)$/;"	f	typeref:typename:status_t	file:
+APP_SUSPEND_TIMER_PERIOD_MS	app_srtm.h	/^#define APP_SUSPEND_TIMER_PERIOD_MS /;"	d
+APP_SuspendTimerCallback	app_srtm.c	/^static void APP_SuspendTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_TASK_STACK_SIZE	main_remote.c	/^#define APP_TASK_STACK_SIZE /;"	d	file:
+APP_ToggleSW3	app_srtm.c	/^static void APP_ToggleSW3(srtm_dispatcher_t dispatcher, void *param1, void *param2)$/;"	f	typeref:typename:void	file:
+APP_USB_IRQ_PRIO	app_srtm.h	/^#define APP_USB_IRQ_PRIO /;"	d
+APP_UpdateSimDgo	app_srtm.c	/^void APP_UpdateSimDgo(uint32_t gpIdx, uint32_t mask, uint32_t value)$/;"	f	typeref:typename:void
+APP_VolMinusTimerCallback	app_srtm.c	/^static void APP_VolMinusTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+APP_VolPlusTimerCallback	app_srtm.c	/^static void APP_VolPlusTimerCallback(TimerHandle_t xTimer)$/;"	f	typeref:typename:void	file:
+AT_QUICKACCESS_SECTION_CODE	clock_config.c	/^AT_QUICKACCESS_SECTION_CODE(void BOARD_SetRunMode($/;"	f
+BOARD_A7_POW_EN_CHANNEL	pin_mux.h	/^#define BOARD_A7_POW_EN_CHANNEL /;"	d
+BOARD_A7_POW_EN_LABEL	pin_mux.h	/^#define BOARD_A7_POW_EN_LABEL /;"	d
+BOARD_A7_POW_EN_NAME	pin_mux.h	/^#define BOARD_A7_POW_EN_NAME /;"	d
+BOARD_A7_POW_EN_PERIPHERAL	pin_mux.h	/^#define BOARD_A7_POW_EN_PERIPHERAL /;"	d
+BOARD_A7_POW_EN_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_A7_POW_EN_PIN_FUNCTION_ID /;"	d
+BOARD_A7_POW_EN_PIN_NAME	pin_mux.h	/^#define BOARD_A7_POW_EN_PIN_NAME /;"	d
+BOARD_A7_POW_EN_SIGNAL	pin_mux.h	/^#define BOARD_A7_POW_EN_SIGNAL /;"	d
+BOARD_ACCEL_I2C_BASEADDR	board.h	/^#define BOARD_ACCEL_I2C_BASEADDR /;"	d
+BOARD_ACCEL_I2C_CLOCK_FREQ	board.h	/^#define BOARD_ACCEL_I2C_CLOCK_FREQ /;"	d
+BOARD_Accel_I2C_Init	board.c	/^void BOARD_Accel_I2C_Init(void)$/;"	f	typeref:typename:void
+BOARD_Accel_I2C_Receive	board.c	/^status_t BOARD_Accel_I2C_Receive($/;"	f	typeref:typename:status_t
+BOARD_Accel_I2C_Send	board.c	/^status_t BOARD_Accel_I2C_Send(uint8_t deviceAddress, uint32_t subAddress, uint8_t subaddressSize/;"	f	typeref:typename:status_t
+BOARD_BT_HOST_WAKE_CHANNEL	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_CHANNEL /;"	d
+BOARD_BT_HOST_WAKE_LABEL	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_LABEL /;"	d
+BOARD_BT_HOST_WAKE_NAME	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_NAME /;"	d
+BOARD_BT_HOST_WAKE_PERIPHERAL	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_PERIPHERAL /;"	d
+BOARD_BT_HOST_WAKE_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_PIN_FUNCTION_ID /;"	d
+BOARD_BT_HOST_WAKE_PIN_NAME	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_PIN_NAME /;"	d
+BOARD_BT_HOST_WAKE_SIGNAL	pin_mux.h	/^#define BOARD_BT_HOST_WAKE_SIGNAL /;"	d
+BOARD_BT_REG_ON_CHANNEL	pin_mux.h	/^#define BOARD_BT_REG_ON_CHANNEL /;"	d
+BOARD_BT_REG_ON_LABEL	pin_mux.h	/^#define BOARD_BT_REG_ON_LABEL /;"	d
+BOARD_BT_REG_ON_NAME	pin_mux.h	/^#define BOARD_BT_REG_ON_NAME /;"	d
+BOARD_BT_REG_ON_PERIPHERAL	pin_mux.h	/^#define BOARD_BT_REG_ON_PERIPHERAL /;"	d
+BOARD_BT_REG_ON_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_BT_REG_ON_PIN_FUNCTION_ID /;"	d
+BOARD_BT_REG_ON_PIN_NAME	pin_mux.h	/^#define BOARD_BT_REG_ON_PIN_NAME /;"	d
+BOARD_BT_REG_ON_SIGNAL	pin_mux.h	/^#define BOARD_BT_REG_ON_SIGNAL /;"	d
+BOARD_BootClockHSRUN	clock_config.c	/^void BOARD_BootClockHSRUN(void)$/;"	f	typeref:typename:void
+BOARD_BootClockRUN	clock_config.c	/^void BOARD_BootClockRUN(void)$/;"	f	typeref:typename:void
+BOARD_BootClockVLPR	clock_config.c	/^void BOARD_BootClockVLPR(void)$/;"	f	typeref:typename:void
+BOARD_CODEC_I2C_BASEADDR	board.h	/^#define BOARD_CODEC_I2C_BASEADDR /;"	d
+BOARD_CODEC_I2C_CLOCK_FREQ	board.h	/^#define BOARD_CODEC_I2C_CLOCK_FREQ /;"	d
+BOARD_CODEC_I2C_INSTANCE	board.h	/^#define BOARD_CODEC_I2C_INSTANCE /;"	d
+BOARD_Codec_I2C_Init	board.c	/^void BOARD_Codec_I2C_Init(void)$/;"	f	typeref:typename:void
+BOARD_Codec_I2C_Receive	board.c	/^status_t BOARD_Codec_I2C_Receive($/;"	f	typeref:typename:status_t
+BOARD_Codec_I2C_Send	board.c	/^status_t BOARD_Codec_I2C_Send($/;"	f	typeref:typename:status_t
+BOARD_DDR_SW_EN_CHANNEL	pin_mux.h	/^#define BOARD_DDR_SW_EN_CHANNEL /;"	d
+BOARD_DDR_SW_EN_LABEL	pin_mux.h	/^#define BOARD_DDR_SW_EN_LABEL /;"	d
+BOARD_DDR_SW_EN_NAME	pin_mux.h	/^#define BOARD_DDR_SW_EN_NAME /;"	d
+BOARD_DDR_SW_EN_PERIPHERAL	pin_mux.h	/^#define BOARD_DDR_SW_EN_PERIPHERAL /;"	d
+BOARD_DDR_SW_EN_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_DDR_SW_EN_PIN_FUNCTION_ID /;"	d
+BOARD_DDR_SW_EN_PIN_NAME	pin_mux.h	/^#define BOARD_DDR_SW_EN_PIN_NAME /;"	d
+BOARD_DDR_SW_EN_SIGNAL	pin_mux.h	/^#define BOARD_DDR_SW_EN_SIGNAL /;"	d
+BOARD_DEBUG_UART_BASEADDR	board.h	/^#define BOARD_DEBUG_UART_BASEADDR /;"	d
+BOARD_DEBUG_UART_BAUDRATE	board.h	/^#define BOARD_DEBUG_UART_BAUDRATE /;"	d
+BOARD_DEBUG_UART_CLKSRC	board.h	/^#define BOARD_DEBUG_UART_CLKSRC /;"	d
+BOARD_DEBUG_UART_CLK_FREQ	board.h	/^#define BOARD_DEBUG_UART_CLK_FREQ /;"	d
+BOARD_DEBUG_UART_INSTANCE	board.h	/^#define BOARD_DEBUG_UART_INSTANCE /;"	d
+BOARD_DEBUG_UART_PCC_ADDRESS	board.h	/^#define BOARD_DEBUG_UART_PCC_ADDRESS /;"	d
+BOARD_DEBUG_UART_TYPE	board.h	/^#define BOARD_DEBUG_UART_TYPE /;"	d
+BOARD_I2C0_SCL_LABEL	pin_mux.h	/^#define BOARD_I2C0_SCL_LABEL /;"	d
+BOARD_I2C0_SCL_NAME	pin_mux.h	/^#define BOARD_I2C0_SCL_NAME /;"	d
+BOARD_I2C0_SCL_PERIPHERAL	pin_mux.h	/^#define BOARD_I2C0_SCL_PERIPHERAL /;"	d
+BOARD_I2C0_SCL_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2C0_SCL_PIN_FUNCTION_ID /;"	d
+BOARD_I2C0_SCL_PIN_NAME	pin_mux.h	/^#define BOARD_I2C0_SCL_PIN_NAME /;"	d
+BOARD_I2C0_SCL_SIGNAL	pin_mux.h	/^#define BOARD_I2C0_SCL_SIGNAL /;"	d
+BOARD_I2C0_SDA_LABEL	pin_mux.h	/^#define BOARD_I2C0_SDA_LABEL /;"	d
+BOARD_I2C0_SDA_NAME	pin_mux.h	/^#define BOARD_I2C0_SDA_NAME /;"	d
+BOARD_I2C0_SDA_PERIPHERAL	pin_mux.h	/^#define BOARD_I2C0_SDA_PERIPHERAL /;"	d
+BOARD_I2C0_SDA_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2C0_SDA_PIN_FUNCTION_ID /;"	d
+BOARD_I2C0_SDA_PIN_NAME	pin_mux.h	/^#define BOARD_I2C0_SDA_PIN_NAME /;"	d
+BOARD_I2C0_SDA_SIGNAL	pin_mux.h	/^#define BOARD_I2C0_SDA_SIGNAL /;"	d
+BOARD_I2C3_SCL_LABEL	pin_mux.h	/^#define BOARD_I2C3_SCL_LABEL /;"	d
+BOARD_I2C3_SCL_NAME	pin_mux.h	/^#define BOARD_I2C3_SCL_NAME /;"	d
+BOARD_I2C3_SCL_PERIPHERAL	pin_mux.h	/^#define BOARD_I2C3_SCL_PERIPHERAL /;"	d
+BOARD_I2C3_SCL_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2C3_SCL_PIN_FUNCTION_ID /;"	d
+BOARD_I2C3_SCL_PIN_NAME	pin_mux.h	/^#define BOARD_I2C3_SCL_PIN_NAME /;"	d
+BOARD_I2C3_SCL_SIGNAL	pin_mux.h	/^#define BOARD_I2C3_SCL_SIGNAL /;"	d
+BOARD_I2C3_SDA_LABEL	pin_mux.h	/^#define BOARD_I2C3_SDA_LABEL /;"	d
+BOARD_I2C3_SDA_NAME	pin_mux.h	/^#define BOARD_I2C3_SDA_NAME /;"	d
+BOARD_I2C3_SDA_PERIPHERAL	pin_mux.h	/^#define BOARD_I2C3_SDA_PERIPHERAL /;"	d
+BOARD_I2C3_SDA_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2C3_SDA_PIN_FUNCTION_ID /;"	d
+BOARD_I2C3_SDA_PIN_NAME	pin_mux.h	/^#define BOARD_I2C3_SDA_PIN_NAME /;"	d
+BOARD_I2C3_SDA_SIGNAL	pin_mux.h	/^#define BOARD_I2C3_SDA_SIGNAL /;"	d
+BOARD_I2C_ConfigurePins	pin_mux.c	/^void BOARD_I2C_ConfigurePins(void) {                       \/*!< Function assigned for the core:/;"	f	typeref:typename:void
+BOARD_I2S0_MCLK_LABEL	pin_mux.h	/^#define BOARD_I2S0_MCLK_LABEL /;"	d
+BOARD_I2S0_MCLK_NAME	pin_mux.h	/^#define BOARD_I2S0_MCLK_NAME /;"	d
+BOARD_I2S0_MCLK_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S0_MCLK_PERIPHERAL /;"	d
+BOARD_I2S0_MCLK_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S0_MCLK_PIN_FUNCTION_ID /;"	d
+BOARD_I2S0_MCLK_PIN_NAME	pin_mux.h	/^#define BOARD_I2S0_MCLK_PIN_NAME /;"	d
+BOARD_I2S0_MCLK_SIGNAL	pin_mux.h	/^#define BOARD_I2S0_MCLK_SIGNAL /;"	d
+BOARD_I2S0_RXD0_CHANNEL	pin_mux.h	/^#define BOARD_I2S0_RXD0_CHANNEL /;"	d
+BOARD_I2S0_RXD0_LABEL	pin_mux.h	/^#define BOARD_I2S0_RXD0_LABEL /;"	d
+BOARD_I2S0_RXD0_NAME	pin_mux.h	/^#define BOARD_I2S0_RXD0_NAME /;"	d
+BOARD_I2S0_RXD0_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S0_RXD0_PERIPHERAL /;"	d
+BOARD_I2S0_RXD0_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S0_RXD0_PIN_FUNCTION_ID /;"	d
+BOARD_I2S0_RXD0_PIN_NAME	pin_mux.h	/^#define BOARD_I2S0_RXD0_PIN_NAME /;"	d
+BOARD_I2S0_RXD0_SIGNAL	pin_mux.h	/^#define BOARD_I2S0_RXD0_SIGNAL /;"	d
+BOARD_I2S0_TXD0_CHANNEL	pin_mux.h	/^#define BOARD_I2S0_TXD0_CHANNEL /;"	d
+BOARD_I2S0_TXD0_LABEL	pin_mux.h	/^#define BOARD_I2S0_TXD0_LABEL /;"	d
+BOARD_I2S0_TXD0_NAME	pin_mux.h	/^#define BOARD_I2S0_TXD0_NAME /;"	d
+BOARD_I2S0_TXD0_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S0_TXD0_PERIPHERAL /;"	d
+BOARD_I2S0_TXD0_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S0_TXD0_PIN_FUNCTION_ID /;"	d
+BOARD_I2S0_TXD0_PIN_NAME	pin_mux.h	/^#define BOARD_I2S0_TXD0_PIN_NAME /;"	d
+BOARD_I2S0_TXD0_SIGNAL	pin_mux.h	/^#define BOARD_I2S0_TXD0_SIGNAL /;"	d
+BOARD_I2S0_TX_BCLK_LABEL	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_LABEL /;"	d
+BOARD_I2S0_TX_BCLK_NAME	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_NAME /;"	d
+BOARD_I2S0_TX_BCLK_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_PERIPHERAL /;"	d
+BOARD_I2S0_TX_BCLK_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_PIN_FUNCTION_ID /;"	d
+BOARD_I2S0_TX_BCLK_PIN_NAME	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_PIN_NAME /;"	d
+BOARD_I2S0_TX_BCLK_SIGNAL	pin_mux.h	/^#define BOARD_I2S0_TX_BCLK_SIGNAL /;"	d
+BOARD_I2S0_TX_FS_LABEL	pin_mux.h	/^#define BOARD_I2S0_TX_FS_LABEL /;"	d
+BOARD_I2S0_TX_FS_NAME	pin_mux.h	/^#define BOARD_I2S0_TX_FS_NAME /;"	d
+BOARD_I2S0_TX_FS_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S0_TX_FS_PERIPHERAL /;"	d
+BOARD_I2S0_TX_FS_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S0_TX_FS_PIN_FUNCTION_ID /;"	d
+BOARD_I2S0_TX_FS_PIN_NAME	pin_mux.h	/^#define BOARD_I2S0_TX_FS_PIN_NAME /;"	d
+BOARD_I2S0_TX_FS_SIGNAL	pin_mux.h	/^#define BOARD_I2S0_TX_FS_SIGNAL /;"	d
+BOARD_I2S1_RXD0_CHANNEL	pin_mux.h	/^#define BOARD_I2S1_RXD0_CHANNEL /;"	d
+BOARD_I2S1_RXD0_LABEL	pin_mux.h	/^#define BOARD_I2S1_RXD0_LABEL /;"	d
+BOARD_I2S1_RXD0_NAME	pin_mux.h	/^#define BOARD_I2S1_RXD0_NAME /;"	d
+BOARD_I2S1_RXD0_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S1_RXD0_PERIPHERAL /;"	d
+BOARD_I2S1_RXD0_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S1_RXD0_PIN_FUNCTION_ID /;"	d
+BOARD_I2S1_RXD0_PIN_NAME	pin_mux.h	/^#define BOARD_I2S1_RXD0_PIN_NAME /;"	d
+BOARD_I2S1_RXD0_SIGNAL	pin_mux.h	/^#define BOARD_I2S1_RXD0_SIGNAL /;"	d
+BOARD_I2S1_TXD0_CHANNEL	pin_mux.h	/^#define BOARD_I2S1_TXD0_CHANNEL /;"	d
+BOARD_I2S1_TXD0_LABEL	pin_mux.h	/^#define BOARD_I2S1_TXD0_LABEL /;"	d
+BOARD_I2S1_TXD0_NAME	pin_mux.h	/^#define BOARD_I2S1_TXD0_NAME /;"	d
+BOARD_I2S1_TXD0_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S1_TXD0_PERIPHERAL /;"	d
+BOARD_I2S1_TXD0_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S1_TXD0_PIN_FUNCTION_ID /;"	d
+BOARD_I2S1_TXD0_PIN_NAME	pin_mux.h	/^#define BOARD_I2S1_TXD0_PIN_NAME /;"	d
+BOARD_I2S1_TXD0_SIGNAL	pin_mux.h	/^#define BOARD_I2S1_TXD0_SIGNAL /;"	d
+BOARD_I2S1_TX_BCLK_CHANNEL	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_CHANNEL /;"	d
+BOARD_I2S1_TX_BCLK_LABEL	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_LABEL /;"	d
+BOARD_I2S1_TX_BCLK_NAME	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_NAME /;"	d
+BOARD_I2S1_TX_BCLK_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_PERIPHERAL /;"	d
+BOARD_I2S1_TX_BCLK_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_PIN_FUNCTION_ID /;"	d
+BOARD_I2S1_TX_BCLK_PIN_NAME	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_PIN_NAME /;"	d
+BOARD_I2S1_TX_BCLK_SIGNAL	pin_mux.h	/^#define BOARD_I2S1_TX_BCLK_SIGNAL /;"	d
+BOARD_I2S1_TX_FS_CHANNEL	pin_mux.h	/^#define BOARD_I2S1_TX_FS_CHANNEL /;"	d
+BOARD_I2S1_TX_FS_LABEL	pin_mux.h	/^#define BOARD_I2S1_TX_FS_LABEL /;"	d
+BOARD_I2S1_TX_FS_NAME	pin_mux.h	/^#define BOARD_I2S1_TX_FS_NAME /;"	d
+BOARD_I2S1_TX_FS_PERIPHERAL	pin_mux.h	/^#define BOARD_I2S1_TX_FS_PERIPHERAL /;"	d
+BOARD_I2S1_TX_FS_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_I2S1_TX_FS_PIN_FUNCTION_ID /;"	d
+BOARD_I2S1_TX_FS_PIN_NAME	pin_mux.h	/^#define BOARD_I2S1_TX_FS_PIN_NAME /;"	d
+BOARD_I2S1_TX_FS_SIGNAL	pin_mux.h	/^#define BOARD_I2S1_TX_FS_SIGNAL /;"	d
+BOARD_InitBootPins	pin_mux.c	/^void BOARD_InitBootPins(void)$/;"	f	typeref:typename:void
+BOARD_InitClock	clock_config.c	/^static void BOARD_InitClock(void)$/;"	f	typeref:typename:void	file:
+BOARD_InitDebugConsole	board.c	/^void BOARD_InitDebugConsole(void)$/;"	f	typeref:typename:void
+BOARD_InitPins_Core1	pin_mux.c	/^void BOARD_InitPins_Core1(void) {                          \/*!< Function assigned for the core:/;"	f	typeref:typename:void
+BOARD_IsRunOnQSPI	clock_config.c	/^bool BOARD_IsRunOnQSPI(void)$/;"	f	typeref:typename:bool
+BOARD_LPI2C_Init	board.c	/^void BOARD_LPI2C_Init(LPI2C_Type *base, uint32_t clkSrc_Hz)$/;"	f	typeref:typename:void
+BOARD_LPI2C_Receive	board.c	/^status_t BOARD_LPI2C_Receive(LPI2C_Type *base,$/;"	f	typeref:typename:status_t
+BOARD_LPI2C_Send	board.c	/^status_t BOARD_LPI2C_Send(LPI2C_Type *base,$/;"	f	typeref:typename:status_t
+BOARD_NAME	board.h	/^#define BOARD_NAME /;"	d
+BOARD_PMIC_INT_CHANNEL	pin_mux.h	/^#define BOARD_PMIC_INT_CHANNEL /;"	d
+BOARD_PMIC_INT_LABEL	pin_mux.h	/^#define BOARD_PMIC_INT_LABEL /;"	d
+BOARD_PMIC_INT_NAME	pin_mux.h	/^#define BOARD_PMIC_INT_NAME /;"	d
+BOARD_PMIC_INT_PERIPHERAL	pin_mux.h	/^#define BOARD_PMIC_INT_PERIPHERAL /;"	d
+BOARD_PMIC_INT_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_PMIC_INT_PIN_FUNCTION_ID /;"	d
+BOARD_PMIC_INT_PIN_NAME	pin_mux.h	/^#define BOARD_PMIC_INT_PIN_NAME /;"	d
+BOARD_PMIC_INT_SIGNAL	pin_mux.h	/^#define BOARD_PMIC_INT_SIGNAL /;"	d
+BOARD_PTB4_CHANNEL	pin_mux.h	/^#define BOARD_PTB4_CHANNEL /;"	d
+BOARD_PTB4_LABEL	pin_mux.h	/^#define BOARD_PTB4_LABEL /;"	d
+BOARD_PTB4_NAME	pin_mux.h	/^#define BOARD_PTB4_NAME /;"	d
+BOARD_PTB4_PERIPHERAL	pin_mux.h	/^#define BOARD_PTB4_PERIPHERAL /;"	d
+BOARD_PTB4_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_PTB4_PIN_FUNCTION_ID /;"	d
+BOARD_PTB4_PIN_NAME	pin_mux.h	/^#define BOARD_PTB4_PIN_NAME /;"	d
+BOARD_PTB4_SIGNAL	pin_mux.h	/^#define BOARD_PTB4_SIGNAL /;"	d
+BOARD_PTB5_CHANNEL	pin_mux.h	/^#define BOARD_PTB5_CHANNEL /;"	d
+BOARD_PTB5_LABEL	pin_mux.h	/^#define BOARD_PTB5_LABEL /;"	d
+BOARD_PTB5_NAME	pin_mux.h	/^#define BOARD_PTB5_NAME /;"	d
+BOARD_PTB5_PERIPHERAL	pin_mux.h	/^#define BOARD_PTB5_PERIPHERAL /;"	d
+BOARD_PTB5_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_PTB5_PIN_FUNCTION_ID /;"	d
+BOARD_PTB5_PIN_NAME	pin_mux.h	/^#define BOARD_PTB5_PIN_NAME /;"	d
+BOARD_PTB5_SIGNAL	pin_mux.h	/^#define BOARD_PTB5_SIGNAL /;"	d
+BOARD_RTC_CLK_LABEL	pin_mux.h	/^#define BOARD_RTC_CLK_LABEL /;"	d
+BOARD_RTC_CLK_NAME	pin_mux.h	/^#define BOARD_RTC_CLK_NAME /;"	d
+BOARD_RTC_CLK_PERIPHERAL	pin_mux.h	/^#define BOARD_RTC_CLK_PERIPHERAL /;"	d
+BOARD_RTC_CLK_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_RTC_CLK_PIN_FUNCTION_ID /;"	d
+BOARD_RTC_CLK_PIN_NAME	pin_mux.h	/^#define BOARD_RTC_CLK_PIN_NAME /;"	d
+BOARD_RTC_CLK_SIGNAL	pin_mux.h	/^#define BOARD_RTC_CLK_SIGNAL /;"	d
+BOARD_SEN_INT_CHANNEL	pin_mux.h	/^#define BOARD_SEN_INT_CHANNEL /;"	d
+BOARD_SEN_INT_LABEL	pin_mux.h	/^#define BOARD_SEN_INT_LABEL /;"	d
+BOARD_SEN_INT_NAME	pin_mux.h	/^#define BOARD_SEN_INT_NAME /;"	d
+BOARD_SEN_INT_PERIPHERAL	pin_mux.h	/^#define BOARD_SEN_INT_PERIPHERAL /;"	d
+BOARD_SEN_INT_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_SEN_INT_PIN_FUNCTION_ID /;"	d
+BOARD_SEN_INT_PIN_NAME	pin_mux.h	/^#define BOARD_SEN_INT_PIN_NAME /;"	d
+BOARD_SEN_INT_SIGNAL	pin_mux.h	/^#define BOARD_SEN_INT_SIGNAL /;"	d
+BOARD_SetRunModeFunc	clock_config.h	/^typedef void (*BOARD_SetRunModeFunc)($/;"	t	typeref:typename:void (*)(SCG_Type * scg,uint32_t scgRunConfig,QuadSPI_Type * qspi,clock_ip_name_t qspiClock,uint32_t qspiClockConfig)
+BOARD_UART0_RX_LABEL	pin_mux.h	/^#define BOARD_UART0_RX_LABEL /;"	d
+BOARD_UART0_RX_NAME	pin_mux.h	/^#define BOARD_UART0_RX_NAME /;"	d
+BOARD_UART0_RX_PERIPHERAL	pin_mux.h	/^#define BOARD_UART0_RX_PERIPHERAL /;"	d
+BOARD_UART0_RX_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_UART0_RX_PIN_FUNCTION_ID /;"	d
+BOARD_UART0_RX_PIN_NAME	pin_mux.h	/^#define BOARD_UART0_RX_PIN_NAME /;"	d
+BOARD_UART0_RX_SIGNAL	pin_mux.h	/^#define BOARD_UART0_RX_SIGNAL /;"	d
+BOARD_UART0_TX_LABEL	pin_mux.h	/^#define BOARD_UART0_TX_LABEL /;"	d
+BOARD_UART0_TX_NAME	pin_mux.h	/^#define BOARD_UART0_TX_NAME /;"	d
+BOARD_UART0_TX_PERIPHERAL	pin_mux.h	/^#define BOARD_UART0_TX_PERIPHERAL /;"	d
+BOARD_UART0_TX_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_UART0_TX_PIN_FUNCTION_ID /;"	d
+BOARD_UART0_TX_PIN_NAME	pin_mux.h	/^#define BOARD_UART0_TX_PIN_NAME /;"	d
+BOARD_UART0_TX_SIGNAL	pin_mux.h	/^#define BOARD_UART0_TX_SIGNAL /;"	d
+BOARD_UART_IRQ	board.h	/^#define BOARD_UART_IRQ /;"	d
+BOARD_UART_IRQ_HANDLER	board.h	/^#define BOARD_UART_IRQ_HANDLER /;"	d
+BOARD_VOLM_GPIO	board.h	/^#define BOARD_VOLM_GPIO /;"	d
+BOARD_VOLM_GPIO_PIN	board.h	/^#define BOARD_VOLM_GPIO_PIN /;"	d
+BOARD_VOLM_IRQ	board.h	/^#define BOARD_VOLM_IRQ /;"	d
+BOARD_VOLM_IRQ_HANDLER	board.h	/^#define BOARD_VOLM_IRQ_HANDLER /;"	d
+BOARD_VOLM_NAME	board.h	/^#define BOARD_VOLM_NAME /;"	d
+BOARD_VOLM_PORT	board.h	/^#define BOARD_VOLM_PORT /;"	d
+BOARD_VOLP_GPIO	board.h	/^#define BOARD_VOLP_GPIO /;"	d
+BOARD_VOLP_GPIO_PIN	board.h	/^#define BOARD_VOLP_GPIO_PIN /;"	d
+BOARD_VOLP_IRQ	board.h	/^#define BOARD_VOLP_IRQ /;"	d
+BOARD_VOLP_IRQ_HANDLER	board.h	/^#define BOARD_VOLP_IRQ_HANDLER /;"	d
+BOARD_VOLP_NAME	board.h	/^#define BOARD_VOLP_NAME /;"	d
+BOARD_VOLP_PORT	board.h	/^#define BOARD_VOLP_PORT /;"	d
+BOARD_VOL_DOWN_CHANNEL	pin_mux.h	/^#define BOARD_VOL_DOWN_CHANNEL /;"	d
+BOARD_VOL_DOWN_LABEL	pin_mux.h	/^#define BOARD_VOL_DOWN_LABEL /;"	d
+BOARD_VOL_DOWN_NAME	pin_mux.h	/^#define BOARD_VOL_DOWN_NAME /;"	d
+BOARD_VOL_DOWN_PERIPHERAL	pin_mux.h	/^#define BOARD_VOL_DOWN_PERIPHERAL /;"	d
+BOARD_VOL_DOWN_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_VOL_DOWN_PIN_FUNCTION_ID /;"	d
+BOARD_VOL_DOWN_PIN_NAME	pin_mux.h	/^#define BOARD_VOL_DOWN_PIN_NAME /;"	d
+BOARD_VOL_DOWN_SIGNAL	pin_mux.h	/^#define BOARD_VOL_DOWN_SIGNAL /;"	d
+BOARD_VOL_UP_CHANNEL	pin_mux.h	/^#define BOARD_VOL_UP_CHANNEL /;"	d
+BOARD_VOL_UP_LABEL	pin_mux.h	/^#define BOARD_VOL_UP_LABEL /;"	d
+BOARD_VOL_UP_NAME	pin_mux.h	/^#define BOARD_VOL_UP_NAME /;"	d
+BOARD_VOL_UP_PERIPHERAL	pin_mux.h	/^#define BOARD_VOL_UP_PERIPHERAL /;"	d
+BOARD_VOL_UP_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_VOL_UP_PIN_FUNCTION_ID /;"	d
+BOARD_VOL_UP_PIN_NAME	pin_mux.h	/^#define BOARD_VOL_UP_PIN_NAME /;"	d
+BOARD_VOL_UP_SIGNAL	pin_mux.h	/^#define BOARD_VOL_UP_SIGNAL /;"	d
+BOARD_WL_HOST_WAKE_CHANNEL	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_CHANNEL /;"	d
+BOARD_WL_HOST_WAKE_LABEL	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_LABEL /;"	d
+BOARD_WL_HOST_WAKE_NAME	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_NAME /;"	d
+BOARD_WL_HOST_WAKE_PERIPHERAL	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_PERIPHERAL /;"	d
+BOARD_WL_HOST_WAKE_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_PIN_FUNCTION_ID /;"	d
+BOARD_WL_HOST_WAKE_PIN_NAME	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_PIN_NAME /;"	d
+BOARD_WL_HOST_WAKE_SIGNAL	pin_mux.h	/^#define BOARD_WL_HOST_WAKE_SIGNAL /;"	d
+BOARD_WL_REG_ON_CHANNEL	pin_mux.h	/^#define BOARD_WL_REG_ON_CHANNEL /;"	d
+BOARD_WL_REG_ON_LABEL	pin_mux.h	/^#define BOARD_WL_REG_ON_LABEL /;"	d
+BOARD_WL_REG_ON_NAME	pin_mux.h	/^#define BOARD_WL_REG_ON_NAME /;"	d
+BOARD_WL_REG_ON_PERIPHERAL	pin_mux.h	/^#define BOARD_WL_REG_ON_PERIPHERAL /;"	d
+BOARD_WL_REG_ON_PIN_FUNCTION_ID	pin_mux.h	/^#define BOARD_WL_REG_ON_PIN_FUNCTION_ID /;"	d
+BOARD_WL_REG_ON_PIN_NAME	pin_mux.h	/^#define BOARD_WL_REG_ON_PIN_NAME /;"	d
+BOARD_WL_REG_ON_SIGNAL	pin_mux.h	/^#define BOARD_WL_REG_ON_SIGNAL /;"	d
+BOARD_XTAL0_CLK_HZ	clock_config.h	/^#define BOARD_XTAL0_CLK_HZ /;"	d
+BOARD_XTAL32K_CLK_HZ	clock_config.h	/^#define BOARD_XTAL32K_CLK_HZ /;"	d
+CMC1_IRQHandler	app_srtm.c	/^void CMC1_IRQHandler(void)$/;"	f	typeref:typename:void
+CR	app_srtm.c	/^        uint32_t CR;$/;"	m	struct:__anonb65b96fc0508::__anonb65b96fc0708	typeref:typename:uint32_t	file:
+FORMAT_NUM_USED	srtm/services/srtm_audio_service.h	/^#define FORMAT_NUM_USED /;"	d
+FREERTOS_CONFIG_H	FreeRTOSConfig.h	/^#define FREERTOS_CONFIG_H$/;"	d
+FW_RSC_U32_ADDR_ANY	remoteproc.h	/^#define FW_RSC_U32_ADDR_ANY /;"	d
+FW_RSC_U64_ADDR_ANY	remoteproc.h	/^#define FW_RSC_U64_ADDR_ANY /;"	d
+I2C_ReceiveFunc	app_srtm.c	/^static status_t I2C_ReceiveFunc(lpi2c_rtos_handle_t *handle,$/;"	f	typeref:typename:status_t	file:
+I2C_SendFunc	app_srtm.c	/^static status_t I2C_SendFunc(lpi2c_rtos_handle_t *handle,$/;"	f	typeref:typename:status_t	file:
+INCLUDE_eTaskGetState	FreeRTOSConfig.h	/^#define INCLUDE_eTaskGetState /;"	d
+INCLUDE_uxTaskGetStackHighWaterMark	FreeRTOSConfig.h	/^#define INCLUDE_uxTaskGetStackHighWaterMark /;"	d
+INCLUDE_uxTaskPriorityGet	FreeRTOSConfig.h	/^#define INCLUDE_uxTaskPriorityGet /;"	d
+INCLUDE_vTaskDelay	FreeRTOSConfig.h	/^#define INCLUDE_vTaskDelay /;"	d
+INCLUDE_vTaskDelayUntil	FreeRTOSConfig.h	/^#define INCLUDE_vTaskDelayUntil /;"	d
+INCLUDE_vTaskDelete	FreeRTOSConfig.h	/^#define INCLUDE_vTaskDelete /;"	d
+INCLUDE_vTaskPrioritySet	FreeRTOSConfig.h	/^#define INCLUDE_vTaskPrioritySet /;"	d
+INCLUDE_vTaskSuspend	FreeRTOSConfig.h	/^#define INCLUDE_vTaskSuspend /;"	d
+INCLUDE_xTaskAbortDelay	FreeRTOSConfig.h	/^#define INCLUDE_xTaskAbortDelay /;"	d
+INCLUDE_xTaskGetCurrentTaskHandle	FreeRTOSConfig.h	/^#define INCLUDE_xTaskGetCurrentTaskHandle /;"	d
+INCLUDE_xTaskGetHandle	FreeRTOSConfig.h	/^#define INCLUDE_xTaskGetHandle /;"	d
+INCLUDE_xTaskGetIdleTaskHandle	FreeRTOSConfig.h	/^#define INCLUDE_xTaskGetIdleTaskHandle /;"	d
+INCLUDE_xTaskGetSchedulerState	FreeRTOSConfig.h	/^#define INCLUDE_xTaskGetSchedulerState /;"	d
+INCLUDE_xTaskResumeFromISR	FreeRTOSConfig.h	/^#define INCLUDE_xTaskResumeFromISR /;"	d
+INCLUDE_xTimerPendFunctionCall	FreeRTOSConfig.h	/^#define INCLUDE_xTimerPendFunctionCall /;"	d
+LLWU0_IRQHandler	app_srtm.c	/^void LLWU0_IRQHandler(void)$/;"	f	typeref:typename:void
+LLWU_MODULE_CMP0	app_srtm.h	/^#define LLWU_MODULE_CMP0 /;"	d
+LLWU_MODULE_CMP1	app_srtm.h	/^#define LLWU_MODULE_CMP1 /;"	d
+LLWU_MODULE_LPTMR0	app_srtm.h	/^#define LLWU_MODULE_LPTMR0 /;"	d
+LLWU_MODULE_LPTMR1	app_srtm.h	/^#define LLWU_MODULE_LPTMR1 /;"	d
+LLWU_MODULE_SNVS	app_srtm.h	/^#define LLWU_MODULE_SNVS /;"	d
+LLWU_MODULE_USBPHY	app_srtm.h	/^#define LLWU_MODULE_USBPHY /;"	d
+LOCAL_EPT_ADDR	main_remote.c	/^#define LOCAL_EPT_ADDR /;"	d	file:
+MANUFACTURER_NAME	board.h	/^#define MANUFACTURER_NAME /;"	d
+METAL_PACKED_BEGIN	remoteproc.h	/^#define METAL_PACKED_BEGIN /;"	d
+METAL_PACKED_END	remoteproc.h	/^#define METAL_PACKED_END$/;"	d
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_carveout
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_devmem
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_hdr
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_trace
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_vdev
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_vdev_vring
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:fw_rsc_vendor
+METAL_PACKED_END	remoteproc.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:resource_table
+METAL_PACKED_END	rsc_table.h	/^} METAL_PACKED_END;$/;"	v	typeref:struct:remote_resource_table
+NO_RESOURCE_ENTRIES	rsc_table.h	/^#define NO_RESOURCE_ENTRIES /;"	d
+NUM_VRINGS	rsc_table.c	/^#define NUM_VRINGS /;"	d	file:
+PCTLA_IRQHandler	app_srtm.c	/^void PCTLA_IRQHandler(void)$/;"	f	typeref:typename:void
+PCTLB_IRQHandler	app_srtm.c	/^void PCTLB_IRQHandler(void)$/;"	f	typeref:typename:void
+PMIC_I2C_ReceiveFunc	app_srtm.c	/^static status_t PMIC_I2C_ReceiveFunc($/;"	f	typeref:typename:status_t	file:
+PMIC_I2C_SendFunc	app_srtm.c	/^static status_t PMIC_I2C_SendFunc($/;"	f	typeref:typename:status_t	file:
+REMOTEPROC_H	remoteproc.h	/^#define REMOTEPROC_H$/;"	d
+RL_API_HAS_ZEROCOPY	rpmsg_config.h	/^#define RL_API_HAS_ZEROCOPY /;"	d
+RL_BUFFER_COUNT	rpmsg_config.h	/^#define RL_BUFFER_COUNT /;"	d
+RL_BUFFER_PAYLOAD_SIZE	rpmsg_config.h	/^#define RL_BUFFER_PAYLOAD_SIZE /;"	d
+RL_CLEAR_USED_BUFFERS	rpmsg_config.h	/^#define RL_CLEAR_USED_BUFFERS /;"	d
+RL_DEBUG_CHECK_BUFFERS	rpmsg_config.h	/^#define RL_DEBUG_CHECK_BUFFERS /;"	d
+RL_MS_PER_INTERVAL	rpmsg_config.h	/^#define RL_MS_PER_INTERVAL /;"	d
+RL_USE_ENVIRONMENT_CONTEXT	rpmsg_config.h	/^#define RL_USE_ENVIRONMENT_CONTEXT /;"	d
+RL_USE_MCMGR_IPC_ISR_HANDLER	rpmsg_config.h	/^#define RL_USE_MCMGR_IPC_ISR_HANDLER /;"	d
+RL_USE_STATIC_API	rpmsg_config.h	/^#define RL_USE_STATIC_API /;"	d
+RPMSG_CONFIG_H_	rpmsg_config.h	/^#define RPMSG_CONFIG_H_$/;"	d
+RPMSG_LITE_LINK_ID	main_remote.c	/^#define RPMSG_LITE_LINK_ID /;"	d	file:
+RPMSG_LITE_NS_ANNOUNCE_STRING	main_remote.c	/^#define RPMSG_LITE_NS_ANNOUNCE_STRING /;"	d	file:
+RPMSG_LITE_SHMEM_BASE	main_remote.c	/^#define RPMSG_LITE_SHMEM_BASE /;"	d	file:
+RPMSG_LITE_SRTM_LINK_ID	app_srtm.h	/^#define RPMSG_LITE_SRTM_LINK_ID /;"	d
+RPMSG_LITE_SRTM_SHMEM_BASE	app_srtm.h	/^#define RPMSG_LITE_SRTM_SHMEM_BASE /;"	d
+RPROC_MAX_NAME_LEN	remoteproc.h	/^#define RPROC_MAX_NAME_LEN /;"	d
+RSC_CARVEOUT	remoteproc.h	/^    RSC_CARVEOUT     = 0,$/;"	e	enum:fw_resource_type
+RSC_DEVMEM	remoteproc.h	/^    RSC_DEVMEM       = 1,$/;"	e	enum:fw_resource_type
+RSC_LAST	remoteproc.h	/^    RSC_LAST         = 4,$/;"	e	enum:fw_resource_type
+RSC_NOTIFY_ID_ANY	remoteproc.h	/^#define RSC_NOTIFY_ID_ANY /;"	d
+RSC_TABLE_H_	rsc_table.h	/^#define RSC_TABLE_H_$/;"	d
+RSC_TRACE	remoteproc.h	/^    RSC_TRACE        = 2,$/;"	e	enum:fw_resource_type
+RSC_VDEV	remoteproc.h	/^    RSC_VDEV         = 3,$/;"	e	enum:fw_resource_type
+RSC_VDEV_FEATURE_NS	rsc_table.h	/^#define RSC_VDEV_FEATURE_NS /;"	d
+RSC_VENDOR_END	remoteproc.h	/^    RSC_VENDOR_END   = 512,$/;"	e	enum:fw_resource_type
+RSC_VENDOR_START	remoteproc.h	/^    RSC_VENDOR_START = 128,$/;"	e	enum:fw_resource_type
+RTC_GetSeconds	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static uint32_t RTC_GetSeconds(SNVS_Type *base)$/;"	f	typeref:typename:uint32_t	file:
+RTC_SetAlarm	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static srtm_status_t RTC_SetAlarm(SNVS_Type *base, uint32_t seconds)$/;"	f	typeref:typename:srtm_status_t	file:
+RTC_SetSeconds	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static void RTC_SetSeconds(SNVS_Type *base, uint32_t seconds)$/;"	f	typeref:typename:void	file:
+SNVS_IRQHandler	app_srtm.c	/^void SNVS_IRQHandler(void)$/;"	f	typeref:typename:void
+SRTM_AUDIO_CATEGORY	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CATEGORY /;"	d	file:
+SRTM_AUDIO_CHANNEL_LEFT	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CHANNEL_LEFT /;"	d	file:
+SRTM_AUDIO_CHANNEL_RIGHT	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CHANNEL_RIGHT /;"	d	file:
+SRTM_AUDIO_CHANNEL_STEREO	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CHANNEL_STEREO /;"	d	file:
+SRTM_AUDIO_CMD_GET_CODEC_REG	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_GET_CODEC_REG /;"	d	file:
+SRTM_AUDIO_CMD_RX_CLOSE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_CLOSE /;"	d	file:
+SRTM_AUDIO_CMD_RX_GET_BUF_OFFSET	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_GET_BUF_OFFSET /;"	d	file:
+SRTM_AUDIO_CMD_RX_OPEN	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_OPEN /;"	d	file:
+SRTM_AUDIO_CMD_RX_PAUSE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_PAUSE /;"	d	file:
+SRTM_AUDIO_CMD_RX_RESTART	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_RESTART /;"	d	file:
+SRTM_AUDIO_CMD_RX_RESUME	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_RESUME /;"	d	file:
+SRTM_AUDIO_CMD_RX_SET_BUF	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_SET_BUF /;"	d	file:
+SRTM_AUDIO_CMD_RX_SET_PARAM	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_SET_PARAM /;"	d	file:
+SRTM_AUDIO_CMD_RX_START	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_START /;"	d	file:
+SRTM_AUDIO_CMD_RX_STOP	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_STOP /;"	d	file:
+SRTM_AUDIO_CMD_RX_SUSPEND	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_RX_SUSPEND /;"	d	file:
+SRTM_AUDIO_CMD_SET_CODEC_REG	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_SET_CODEC_REG /;"	d	file:
+SRTM_AUDIO_CMD_TX_CLOSE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_CLOSE /;"	d	file:
+SRTM_AUDIO_CMD_TX_GET_BUF_OFFSET	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_GET_BUF_OFFSET /;"	d	file:
+SRTM_AUDIO_CMD_TX_OPEN	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_OPEN /;"	d	file:
+SRTM_AUDIO_CMD_TX_PAUSE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_PAUSE /;"	d	file:
+SRTM_AUDIO_CMD_TX_RESTART	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_RESTART /;"	d	file:
+SRTM_AUDIO_CMD_TX_RESUME	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_RESUME /;"	d	file:
+SRTM_AUDIO_CMD_TX_SET_BUF	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_SET_BUF /;"	d	file:
+SRTM_AUDIO_CMD_TX_SET_PARAM	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_SET_PARAM /;"	d	file:
+SRTM_AUDIO_CMD_TX_START	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_START /;"	d	file:
+SRTM_AUDIO_CMD_TX_STOP	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_STOP /;"	d	file:
+SRTM_AUDIO_CMD_TX_SUSPEND	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_CMD_TX_SUSPEND /;"	d	file:
+SRTM_AUDIO_NTF_RX_PERIOD_DONE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_NTF_RX_PERIOD_DONE /;"	d	file:
+SRTM_AUDIO_NTF_TX_PERIOD_DONE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_NTF_TX_PERIOD_DONE /;"	d	file:
+SRTM_AUDIO_RETURN_CODE_FAIL	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_RETURN_CODE_FAIL /;"	d	file:
+SRTM_AUDIO_RETURN_CODE_SUCEESS	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_AUDIO_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_AUDIO_SAMPLE_FORMAT_S16_LE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_SAMPLE_FORMAT_S16_LE /;"	d	file:
+SRTM_AUDIO_SAMPLE_FORMAT_S24_LE	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_SAMPLE_FORMAT_S24_LE /;"	d	file:
+SRTM_AUDIO_SERVICE_CONFIG_PROC_NUMBER	srtm/services/srtm_audio_service.h	/^#define SRTM_AUDIO_SERVICE_CONFIG_PROC_NUMBER /;"	d
+SRTM_AUDIO_SERVICE_DEBUG_OFF	srtm/services/srtm_audio_service.h	/^#define SRTM_AUDIO_SERVICE_DEBUG_OFF /;"	d
+SRTM_AUDIO_VERSION	srtm/services/srtm_audio_service.c	/^#define SRTM_AUDIO_VERSION /;"	d	file:
+SRTM_AudioDirRx	srtm/services/srtm_audio_service.h	/^    SRTM_AudioDirRx = 0U,$/;"	e	enum:__anone036b1aa0103
+SRTM_AudioDirTx	srtm/services/srtm_audio_service.h	/^    SRTM_AudioDirTx = 1U,$/;"	e	enum:__anone036b1aa0103
+SRTM_AudioService_AddAudioInterface	srtm/services/srtm_audio_service.c	/^srtm_status_t SRTM_AudioService_AddAudioInterface(srtm_service_t service, srtm_sai_adapter_t sai/;"	f	typeref:typename:srtm_status_t
+SRTM_AudioService_BindChannel	srtm/services/srtm_audio_service.c	/^srtm_status_t SRTM_AudioService_BindChannel(srtm_service_t service, srtm_sai_adapter_t sai, srtm/;"	f	typeref:typename:srtm_status_t
+SRTM_AudioService_Create	srtm/services/srtm_audio_service.c	/^srtm_service_t SRTM_AudioService_Create(srtm_sai_adapter_t sai, srtm_codec_adapter_t codec)$/;"	f	typeref:typename:srtm_service_t
+SRTM_AudioService_CreateIface	srtm/services/srtm_audio_service.c	/^static srtm_audio_iface_t SRTM_AudioService_CreateIface(srtm_audio_service_t handle,$/;"	f	typeref:typename:srtm_audio_iface_t	file:
+SRTM_AudioService_Destroy	srtm/services/srtm_audio_service.c	/^void SRTM_AudioService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_AudioService_DestroyIface	srtm/services/srtm_audio_service.c	/^static void SRTM_AudioService_DestroyIface(srtm_audio_iface_t iface)$/;"	f	typeref:typename:void	file:
+SRTM_AudioService_FindInterface	srtm/services/srtm_audio_service.c	/^static srtm_audio_iface_t SRTM_AudioService_FindInterface(srtm_audio_service_t handle, uint8_t i/;"	f	typeref:typename:srtm_audio_iface_t	file:
+SRTM_AudioService_FindInterfaceByAdapter	srtm/services/srtm_audio_service.c	/^static srtm_audio_iface_t SRTM_AudioService_FindInterfaceByAdapter(srtm_audio_service_t handle, /;"	f	typeref:typename:srtm_audio_iface_t	file:
+SRTM_AudioService_FindInterfaceByChannel	srtm/services/srtm_audio_service.c	/^static srtm_audio_iface_t SRTM_AudioService_FindInterfaceByChannel(srtm_audio_service_t handle, /;"	f	typeref:typename:srtm_audio_iface_t	file:
+SRTM_AudioService_GetRespLen	srtm/services/srtm_audio_service.c	/^static uint16_t SRTM_AudioService_GetRespLen(uint8_t command)$/;"	f	typeref:typename:uint16_t	file:
+SRTM_AudioService_HandlePeriodDone	srtm/services/srtm_audio_service.c	/^static void SRTM_AudioService_HandlePeriodDone(srtm_dispatcher_t dispatcher,$/;"	f	typeref:typename:void	file:
+SRTM_AudioService_HandleRxPeriodDone	srtm/services/srtm_audio_service.c	/^static void SRTM_AudioService_HandleRxPeriodDone(srtm_dispatcher_t dispatcher, void *param1, voi/;"	f	typeref:typename:void	file:
+SRTM_AudioService_HandleTxPeriodDone	srtm/services/srtm_audio_service.c	/^static void SRTM_AudioService_HandleTxPeriodDone(srtm_dispatcher_t dispatcher, void *param1, voi/;"	f	typeref:typename:void	file:
+SRTM_AudioService_Notify	srtm/services/srtm_audio_service.c	/^static srtm_status_t SRTM_AudioService_Notify(srtm_service_t service, srtm_notification_t notif)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_AudioService_PeriodDone	srtm/services/srtm_audio_service.c	/^static srtm_status_t SRTM_AudioService_PeriodDone(srtm_service_t service,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_AudioService_RecycleMessage	srtm/services/srtm_audio_service.c	/^static void SRTM_AudioService_RecycleMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_AudioService_Request	srtm/services/srtm_audio_service.c	/^static srtm_status_t SRTM_AudioService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_AudioService_Reset	srtm/services/srtm_audio_service.c	/^void SRTM_AudioService_Reset(srtm_service_t service, srtm_peercore_t core)$/;"	f	typeref:typename:void
+SRTM_AudioStateClosed	srtm/services/srtm_audio_service.h	/^    SRTM_AudioStateClosed  = 0U,$/;"	e	enum:__anone036b1aa0203
+SRTM_AudioStateOpened	srtm/services/srtm_audio_service.h	/^    SRTM_AudioStateOpened  = 1U,$/;"	e	enum:__anone036b1aa0203
+SRTM_AudioStateStarted	srtm/services/srtm_audio_service.h	/^    SRTM_AudioStateStarted = 2U,$/;"	e	enum:__anone036b1aa0203
+SRTM_Audio_DSD16bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_DSD16bits    = 49U,$/;"	e	enum:__anone036b1aa0303
+SRTM_Audio_DSD32bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_DSD32bits    = 50U,$/;"	e	enum:__anone036b1aa0303
+SRTM_Audio_DSD8bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_DSD8bits     = 48U,$/;"	e	enum:__anone036b1aa0303
+SRTM_Audio_Stereo16Bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_Stereo16Bits = 0U,$/;"	e	enum:__anone036b1aa0303
+SRTM_Audio_Stereo24Bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_Stereo24Bits = 1U,$/;"	e	enum:__anone036b1aa0303
+SRTM_Audio_Stereo32Bits	srtm/services/srtm_audio_service.h	/^    SRTM_Audio_Stereo32Bits = 2U,$/;"	e	enum:__anone036b1aa0303
+SRTM_DEBUG_COMMUNICATION	srtm/channels/srtm_rpmsg_endpoint.c	/^#define SRTM_DEBUG_COMMUNICATION /;"	d	file:
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_audio_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_io_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_keypad_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_lfcl_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_pmic_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_rtc_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DEBUG_VERBOSE_LEVEL	srtm/services/srtm_sensor_service.h	/^#define SRTM_DEBUG_VERBOSE_LEVEL /;"	d
+SRTM_DispatcherTask	app_srtm.c	/^static void SRTM_DispatcherTask(void *pvParameters)$/;"	f	typeref:typename:void	file:
+SRTM_I2CCodecAdapter_Create	srtm/services/srtm_i2c_codec_adapter.c	/^srtm_codec_adapter_t SRTM_I2CCodecAdapter_Create(codec_handle_t *driver, srtm_i2c_codec_config_t/;"	f	typeref:typename:srtm_codec_adapter_t
+SRTM_I2CCodecAdapter_Destroy	srtm/services/srtm_i2c_codec_adapter.c	/^void SRTM_I2CCodecAdapter_Destroy(srtm_codec_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_I2CCodecAdapter_GetReg	srtm/services/srtm_i2c_codec_adapter.c	/^static srtm_status_t SRTM_I2CCodecAdapter_GetReg(srtm_codec_adapter_t adapter, uint32_t reg, uin/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_I2CCodecAdapter_SetParam	srtm/services/srtm_i2c_codec_adapter.c	/^static srtm_status_t SRTM_I2CCodecAdapter_SetParam(srtm_codec_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_I2CCodecAdapter_SetReg	srtm/services/srtm_i2c_codec_adapter.c	/^static srtm_status_t SRTM_I2CCodecAdapter_SetReg(srtm_codec_adapter_t adapter, uint32_t reg, uin/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_IO_CATEGORY	srtm/services/srtm_io_service.c	/^#define SRTM_IO_CATEGORY /;"	d	file:
+SRTM_IO_CMD_CONF_INPUT_EVENT	srtm/services/srtm_io_service.c	/^#define SRTM_IO_CMD_CONF_INPUT_EVENT /;"	d	file:
+SRTM_IO_CMD_GET_INPUT	srtm/services/srtm_io_service.c	/^#define SRTM_IO_CMD_GET_INPUT /;"	d	file:
+SRTM_IO_CMD_SET_OUTPUT	srtm/services/srtm_io_service.c	/^#define SRTM_IO_CMD_SET_OUTPUT /;"	d	file:
+SRTM_IO_NTF_INPUT_EVENT	srtm/services/srtm_io_service.c	/^#define SRTM_IO_NTF_INPUT_EVENT /;"	d	file:
+SRTM_IO_RETURN_CODE_FAIL	srtm/services/srtm_io_service.c	/^#define SRTM_IO_RETURN_CODE_FAIL /;"	d	file:
+SRTM_IO_RETURN_CODE_SUCEESS	srtm/services/srtm_io_service.c	/^#define SRTM_IO_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_IO_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_io_service.c	/^#define SRTM_IO_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_IO_SERVICE_DEBUG_OFF	srtm/services/srtm_io_service.h	/^#define SRTM_IO_SERVICE_DEBUG_OFF /;"	d
+SRTM_IO_VERSION	srtm/services/srtm_io_service.c	/^#define SRTM_IO_VERSION /;"	d	file:
+SRTM_IoEventEitherEdge	srtm/services/srtm_io_service.h	/^    SRTM_IoEventEitherEdge,$/;"	e	enum:_srtm_io_event
+SRTM_IoEventFallingEdge	srtm/services/srtm_io_service.h	/^    SRTM_IoEventFallingEdge,$/;"	e	enum:_srtm_io_event
+SRTM_IoEventHighLevel	srtm/services/srtm_io_service.h	/^    SRTM_IoEventHighLevel,$/;"	e	enum:_srtm_io_event
+SRTM_IoEventLowLevel	srtm/services/srtm_io_service.h	/^    SRTM_IoEventLowLevel,$/;"	e	enum:_srtm_io_event
+SRTM_IoEventNone	srtm/services/srtm_io_service.h	/^    SRTM_IoEventNone = 0U, \/* Ignore the event *\/$/;"	e	enum:_srtm_io_event
+SRTM_IoEventRisingEdge	srtm/services/srtm_io_service.h	/^    SRTM_IoEventRisingEdge,$/;"	e	enum:_srtm_io_event
+SRTM_IoService_Create	srtm/services/srtm_io_service.c	/^srtm_service_t SRTM_IoService_Create(void)$/;"	f	typeref:typename:srtm_service_t
+SRTM_IoService_Destroy	srtm/services/srtm_io_service.c	/^void SRTM_IoService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_IoService_FindPin	srtm/services/srtm_io_service.c	/^static srtm_io_pin_t SRTM_IoService_FindPin(srtm_io_service_t handle, uint16_t ioId, bool rm, bo/;"	f	typeref:typename:srtm_io_pin_t	file:
+SRTM_IoService_FreePin	srtm/services/srtm_io_service.c	/^static void SRTM_IoService_FreePin(srtm_io_pin_t pin)$/;"	f	typeref:typename:void	file:
+SRTM_IoService_Notify	srtm/services/srtm_io_service.c	/^static srtm_status_t SRTM_IoService_Notify(srtm_service_t service, srtm_notification_t notif)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_IoService_NotifyInputEvent	srtm/services/srtm_io_service.c	/^srtm_status_t SRTM_IoService_NotifyInputEvent(srtm_service_t service, uint16_t ioId)$/;"	f	typeref:typename:srtm_status_t
+SRTM_IoService_RecycleMessage	srtm/services/srtm_io_service.c	/^static void SRTM_IoService_RecycleMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_IoService_RegisterPin	srtm/services/srtm_io_service.c	/^srtm_status_t SRTM_IoService_RegisterPin(srtm_service_t service,$/;"	f	typeref:typename:srtm_status_t
+SRTM_IoService_Request	srtm/services/srtm_io_service.c	/^static srtm_status_t SRTM_IoService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_IoService_Reset	srtm/services/srtm_io_service.c	/^void SRTM_IoService_Reset(srtm_service_t service, srtm_peercore_t core)$/;"	f	typeref:typename:void
+SRTM_IoService_UnregisterPin	srtm/services/srtm_io_service.c	/^srtm_status_t SRTM_IoService_UnregisterPin(srtm_service_t service, uint16_t ioId)$/;"	f	typeref:typename:srtm_status_t
+SRTM_IoValueHigh	srtm/services/srtm_io_service.h	/^    SRTM_IoValueHigh,$/;"	e	enum:_srtm_io_value
+SRTM_IoValueLow	srtm/services/srtm_io_service.h	/^    SRTM_IoValueLow = 0U,$/;"	e	enum:_srtm_io_value
+SRTM_KEYPAD_CATEGORY	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_CATEGORY /;"	d	file:
+SRTM_KEYPAD_CMD_CONF_EVENT	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_CMD_CONF_EVENT /;"	d	file:
+SRTM_KEYPAD_NTF_KEYPAD_EVENT	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_NTF_KEYPAD_EVENT /;"	d	file:
+SRTM_KEYPAD_NTF_NUM_PER_KEY	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_NTF_NUM_PER_KEY /;"	d	file:
+SRTM_KEYPAD_RETURN_CODE_FAIL	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_RETURN_CODE_FAIL /;"	d	file:
+SRTM_KEYPAD_RETURN_CODE_SUCEESS	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_KEYPAD_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_KEYPAD_SERVICE_DEBUG_OFF	srtm/services/srtm_keypad_service.h	/^#define SRTM_KEYPAD_SERVICE_DEBUG_OFF /;"	d
+SRTM_KEYPAD_VERSION	srtm/services/srtm_keypad_service.c	/^#define SRTM_KEYPAD_VERSION /;"	d	file:
+SRTM_KeypadEventNone	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadEventNone = 0U, \/* Ignore the event *\/$/;"	e	enum:_srtm_keypad_event
+SRTM_KeypadEventPress	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadEventPress,$/;"	e	enum:_srtm_keypad_event
+SRTM_KeypadEventPressOrRelease	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadEventPressOrRelease,$/;"	e	enum:_srtm_keypad_event
+SRTM_KeypadEventRelease	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadEventRelease,$/;"	e	enum:_srtm_keypad_event
+SRTM_KeypadService_Create	srtm/services/srtm_keypad_service.c	/^srtm_service_t SRTM_KeypadService_Create(void)$/;"	f	typeref:typename:srtm_service_t
+SRTM_KeypadService_Destroy	srtm/services/srtm_keypad_service.c	/^void SRTM_KeypadService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_KeypadService_FindKey	srtm/services/srtm_keypad_service.c	/^static srtm_keypad_key_t SRTM_KeypadService_FindKey($/;"	f	typeref:typename:srtm_keypad_key_t	file:
+SRTM_KeypadService_FreeKey	srtm/services/srtm_keypad_service.c	/^static void SRTM_KeypadService_FreeKey(srtm_keypad_key_t key)$/;"	f	typeref:typename:void	file:
+SRTM_KeypadService_GetKeyNotifIndex	srtm/services/srtm_keypad_service.c	/^static uint32_t SRTM_KeypadService_GetKeyNotifIndex(srtm_keypad_key_t key)$/;"	f	typeref:typename:uint32_t	file:
+SRTM_KeypadService_Notify	srtm/services/srtm_keypad_service.c	/^static srtm_status_t SRTM_KeypadService_Notify(srtm_service_t service, srtm_notification_t notif/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_KeypadService_NotifyKeypadEvent	srtm/services/srtm_keypad_service.c	/^srtm_status_t SRTM_KeypadService_NotifyKeypadEvent(srtm_service_t service, uint8_t keyIdx, srtm_/;"	f	typeref:typename:srtm_status_t
+SRTM_KeypadService_RecycleMessage	srtm/services/srtm_keypad_service.c	/^static void SRTM_KeypadService_RecycleMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_KeypadService_RegisterKey	srtm/services/srtm_keypad_service.c	/^srtm_status_t SRTM_KeypadService_RegisterKey(srtm_service_t service,$/;"	f	typeref:typename:srtm_status_t
+SRTM_KeypadService_Request	srtm/services/srtm_keypad_service.c	/^static srtm_status_t SRTM_KeypadService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_KeypadService_Reset	srtm/services/srtm_keypad_service.c	/^void SRTM_KeypadService_Reset(srtm_service_t service, srtm_peercore_t core)$/;"	f	typeref:typename:void
+SRTM_KeypadService_UnregisterKey	srtm/services/srtm_keypad_service.c	/^srtm_status_t SRTM_KeypadService_UnregisterKey(srtm_service_t service, uint8_t keyIdx)$/;"	f	typeref:typename:srtm_status_t
+SRTM_KeypadValuePressed	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadValuePressed,$/;"	e	enum:_srtm_keypad_value
+SRTM_KeypadValueReleased	srtm/services/srtm_keypad_service.h	/^    SRTM_KeypadValueReleased = 0U,$/;"	e	enum:_srtm_keypad_value
+SRTM_LFCL_CATEGORY	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_CATEGORY /;"	d	file:
+SRTM_LFCL_CMD_CHANGE_POWER_MODE	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_CMD_CHANGE_POWER_MODE /;"	d	file:
+SRTM_LFCL_CMD_HEART_BEAT_ENABLE	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_CMD_HEART_BEAT_ENABLE /;"	d	file:
+SRTM_LFCL_HEART_BEAT_DISABLE	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_HEART_BEAT_DISABLE /;"	d	file:
+SRTM_LFCL_HEART_BEAT_ENABLE	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_HEART_BEAT_ENABLE /;"	d	file:
+SRTM_LFCL_NTF_HEART_BEAT	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_NTF_HEART_BEAT /;"	d	file:
+SRTM_LFCL_POWER_MODE_REBOOT	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_POWER_MODE_REBOOT /;"	d	file:
+SRTM_LFCL_POWER_MODE_RUN	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_POWER_MODE_RUN /;"	d	file:
+SRTM_LFCL_POWER_MODE_SHUTDOWN	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_POWER_MODE_SHUTDOWN /;"	d	file:
+SRTM_LFCL_POWER_MODE_VLLS	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_POWER_MODE_VLLS /;"	d	file:
+SRTM_LFCL_RETURN_CODE_FAIL	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_RETURN_CODE_FAIL /;"	d	file:
+SRTM_LFCL_RETURN_CODE_SUCEESS	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_LFCL_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_LFCL_SERVICE_DEBUG_OFF	srtm/services/srtm_lfcl_service.h	/^#define SRTM_LFCL_SERVICE_DEBUG_OFF /;"	d
+SRTM_LFCL_VERSION	srtm/services/srtm_lfcl_service.c	/^#define SRTM_LFCL_VERSION /;"	d	file:
+SRTM_LfclService_ChangePowerMode	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_ChangePowerMode($/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_Create	srtm/services/srtm_lfcl_service.c	/^srtm_service_t SRTM_LfclService_Create(void)$/;"	f	typeref:typename:srtm_service_t
+SRTM_LfclService_DeactivatePeerCore	srtm/services/srtm_lfcl_service.c	/^static void SRTM_LfclService_DeactivatePeerCore(srtm_dispatcher_t disp, void *param1, void *para/;"	f	typeref:typename:void	file:
+SRTM_LfclService_Destroy	srtm/services/srtm_lfcl_service.c	/^void SRTM_LfclService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_LfclService_EnableHeartBeat	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_EnableHeartBeat(srtm_lfcl_service_t handle, srtm_peercore_/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_HeartBeat	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_HeartBeat(srtm_lfcl_service_t handle, srtm_peercore_t core/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_Notify	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_Notify(srtm_service_t service, srtm_notification_t notif)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_NotifySubscribers	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_NotifySubscribers(srtm_lfcl_service_t handle,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_Request	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_LfclService_Subscribe	srtm/services/srtm_lfcl_service.c	/^srtm_status_t SRTM_LfclService_Subscribe(srtm_service_t service, srtm_lfcl_service_cb_t callback/;"	f	typeref:typename:srtm_status_t
+SRTM_LfclService_Unsubscribe	srtm/services/srtm_lfcl_service.c	/^srtm_status_t SRTM_LfclService_Unsubscribe(srtm_service_t service, srtm_lfcl_service_cb_t callba/;"	f	typeref:typename:srtm_status_t
+SRTM_LfclService_WakeupPeerCore	srtm/services/srtm_lfcl_service.c	/^static srtm_status_t SRTM_LfclService_WakeupPeerCore(srtm_peercore_t core, void *param)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Lfcl_Event_HeartBeat	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_HeartBeat        = 0x50U, \/*!< Peer core heart beat event *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_HeartBeatDisable	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_HeartBeatDisable = 0x41U, \/*!< Peer core request to disable heart beat moni/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_HeartBeatEnable	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_HeartBeatEnable  = 0x40U, \/*!< Peer core request to enable heart beat monit/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_RebootReq	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_RebootReq   = 0x22U, \/*!< Peer core request to reboot *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_Running	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_Running     = 0x20U, \/*!< Peer core indicates it is running *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_ShutdownReq	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_ShutdownReq = 0x23U, \/*!< Peer core request to shutdown *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_SuspendReq	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_SuspendReq  = 0x21U, \/*!< Peer core request to suspend *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_Lfcl_Event_WakeupReq	srtm/services/srtm_lfcl_service.h	/^    SRTM_Lfcl_Event_WakeupReq = 0x30U, \/*!< Request peer core to exit suspend mode *\/$/;"	e	enum:_srtm_lfcl_event
+SRTM_MonitorTask	app_srtm.c	/^static void SRTM_MonitorTask(void *pvParameters)$/;"	f	typeref:typename:void	file:
+SRTM_NotSuspended	srtm/services/srtm_sai_edma_adapter.c	/^    SRTM_NotSuspended,$/;"	e	enum:_srtm_sai_edma_suspend_state	file:
+SRTM_PACKED_END	srtm/services/srtm_audio_service.h	/^} SRTM_PACKED_END;$/;"	v	typeref:struct:_srtm_audio_payload
+SRTM_PACKED_END	srtm/services/srtm_pmic_service.h	/^} SRTM_PACKED_END;$/;"	v	typeref:struct:_srtm_pmic_payload
+SRTM_PACKED_END	srtm/services/srtm_rtc_service.h	/^} SRTM_PACKED_END;$/;"	v	typeref:struct:_srtm_rtc_alarm
+SRTM_PACKED_END	srtm/services/srtm_rtc_service.h	/^} SRTM_PACKED_END;$/;"	v	typeref:struct:_srtm_rtc_payload
+SRTM_PACKED_END	srtm/services/srtm_sensor_service.h	/^} SRTM_PACKED_END;$/;"	v	typeref:struct:_srtm_sensor_payload
+SRTM_PMIC_CATEGORY	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CATEGORY /;"	d	file:
+SRTM_PMIC_CMD_DISABLE	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_DISABLE /;"	d	file:
+SRTM_PMIC_CMD_ENABLE	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_ENABLE /;"	d	file:
+SRTM_PMIC_CMD_GET_REGISTER	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_GET_REGISTER /;"	d	file:
+SRTM_PMIC_CMD_GET_VOLTAGE	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_GET_VOLTAGE /;"	d	file:
+SRTM_PMIC_CMD_IS_ENABLED	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_IS_ENABLED /;"	d	file:
+SRTM_PMIC_CMD_SET_REGISTER	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_SET_REGISTER /;"	d	file:
+SRTM_PMIC_CMD_SET_STANDBY_VOLTAGE	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_SET_STANDBY_VOLTAGE /;"	d	file:
+SRTM_PMIC_CMD_SET_VOLTAGE	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_CMD_SET_VOLTAGE /;"	d	file:
+SRTM_PMIC_REGULATOR_STATUS_DISABLED	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_REGULATOR_STATUS_DISABLED /;"	d	file:
+SRTM_PMIC_REGULATOR_STATUS_ENABLED	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_REGULATOR_STATUS_ENABLED /;"	d	file:
+SRTM_PMIC_RETURN_CODE_FAIL	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_RETURN_CODE_FAIL /;"	d	file:
+SRTM_PMIC_RETURN_CODE_SUCEESS	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_PMIC_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_PMIC_SERVICE_DEBUG_OFF	srtm/services/srtm_pmic_service.h	/^#define SRTM_PMIC_SERVICE_DEBUG_OFF /;"	d
+SRTM_PMIC_VERSION	srtm/services/srtm_pmic_service.c	/^#define SRTM_PMIC_VERSION /;"	d	file:
+SRTM_Pf1550Adapter_Create	srtm/services/srtm_pf1550_adapter.c	/^srtm_pmic_adapter_t SRTM_Pf1550Adapter_Create(pf1550_handle_t *driver)$/;"	f	typeref:typename:srtm_pmic_adapter_t
+SRTM_Pf1550Adapter_Destroy	srtm/services/srtm_pf1550_adapter.c	/^void SRTM_Pf1550Adapter_Destroy(srtm_pmic_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_Pf1550Adapter_Disable	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_Disable(srtm_pmic_adapter_t adapter, uint8_t regulator)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_Enable	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_Enable(srtm_pmic_adapter_t adapter, uint8_t regulator)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_GetRegister	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_GetRegister(srtm_pmic_adapter_t adapter, uint8_t reg, ui/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_GetVoltage	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_GetVoltage(srtm_pmic_adapter_t adapter, uint8_t regulato/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_IsEnabled	srtm/services/srtm_pf1550_adapter.c	/^static bool SRTM_Pf1550Adapter_IsEnabled(srtm_pmic_adapter_t adapter, uint8_t regulator)$/;"	f	typeref:typename:bool	file:
+SRTM_Pf1550Adapter_SetRegister	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_SetRegister(srtm_pmic_adapter_t adapter, uint8_t reg, ui/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_SetStandbyVoltage	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_SetStandbyVoltage(srtm_pmic_adapter_t adapter, uint8_t r/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Pf1550Adapter_SetVoltage	srtm/services/srtm_pf1550_adapter.c	/^static srtm_status_t SRTM_Pf1550Adapter_SetVoltage(srtm_pmic_adapter_t adapter, uint8_t regulato/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_PmicService_Create	srtm/services/srtm_pmic_service.c	/^srtm_service_t SRTM_PmicService_Create(srtm_pmic_adapter_t adapter)$/;"	f	typeref:typename:srtm_service_t
+SRTM_PmicService_Destroy	srtm/services/srtm_pmic_service.c	/^void SRTM_PmicService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_PmicService_Notify	srtm/services/srtm_pmic_service.c	/^static srtm_status_t SRTM_PmicService_Notify(srtm_service_t service, srtm_notification_t notif)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_PmicService_Request	srtm/services/srtm_pmic_service.c	/^static srtm_status_t SRTM_PmicService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RPMsgEndpoint_Create	srtm/channels/srtm_rpmsg_endpoint.c	/^srtm_channel_t SRTM_RPMsgEndpoint_Create(srtm_rpmsg_endpoint_config_t *config)$/;"	f	typeref:typename:srtm_channel_t
+SRTM_RPMsgEndpoint_Destroy	srtm/channels/srtm_rpmsg_endpoint.c	/^void SRTM_RPMsgEndpoint_Destroy(srtm_channel_t channel)$/;"	f	typeref:typename:void
+SRTM_RPMsgEndpoint_OverrideRxHandler	srtm/channels/srtm_rpmsg_endpoint.c	/^srtm_status_t SRTM_RPMsgEndpoint_OverrideRxHandler(srtm_channel_t channel,$/;"	f	typeref:typename:srtm_status_t
+SRTM_RPMsgEndpoint_RxHandler	srtm/channels/srtm_rpmsg_endpoint.c	/^static int32_t SRTM_RPMsgEndpoint_RxHandler(void *payload, uint32_t payload_len, uint32_t src, v/;"	f	typeref:typename:int32_t	file:
+SRTM_RPMsgEndpoint_SendData	srtm/channels/srtm_rpmsg_endpoint.c	/^static srtm_status_t SRTM_RPMsgEndpoint_SendData(srtm_channel_t channel, void *data, uint32_t le/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RPMsgEndpoint_Start	srtm/channels/srtm_rpmsg_endpoint.c	/^static srtm_status_t SRTM_RPMsgEndpoint_Start(srtm_channel_t channel)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RPMsgEndpoint_Stop	srtm/channels/srtm_rpmsg_endpoint.c	/^static srtm_status_t SRTM_RPMsgEndpoint_Stop(srtm_channel_t channel)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RTC_ALARM_DISABLED	srtm/services/srtm_rtc_service.h	/^#define SRTM_RTC_ALARM_DISABLED /;"	d
+SRTM_RTC_ALARM_ENABLED	srtm/services/srtm_rtc_service.h	/^#define SRTM_RTC_ALARM_ENABLED /;"	d
+SRTM_RTC_ALARM_NOT_PENDING	srtm/services/srtm_rtc_service.h	/^#define SRTM_RTC_ALARM_NOT_PENDING /;"	d
+SRTM_RTC_ALARM_PENDING	srtm/services/srtm_rtc_service.h	/^#define SRTM_RTC_ALARM_PENDING /;"	d
+SRTM_RTC_CATEGORY	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CATEGORY /;"	d	file:
+SRTM_RTC_CMD_ENABLE_ALARM	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CMD_ENABLE_ALARM /;"	d	file:
+SRTM_RTC_CMD_GET_ALARM	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CMD_GET_ALARM /;"	d	file:
+SRTM_RTC_CMD_GET_TIME	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CMD_GET_TIME /;"	d	file:
+SRTM_RTC_CMD_SET_ALARM	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CMD_SET_ALARM /;"	d	file:
+SRTM_RTC_CMD_SET_TIME	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_CMD_SET_TIME /;"	d	file:
+SRTM_RTC_NTF_ALARM	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_NTF_ALARM /;"	d	file:
+SRTM_RTC_RETURN_CODE_FAIL	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_RETURN_CODE_FAIL /;"	d	file:
+SRTM_RTC_RETURN_CODE_SUCEESS	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_RTC_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_RTC_SERVICE_DEBUG_OFF	srtm/services/srtm_rtc_service.h	/^#define SRTM_RTC_SERVICE_DEBUG_OFF /;"	d
+SRTM_RTC_VERSION	srtm/services/srtm_rtc_service.c	/^#define SRTM_RTC_VERSION /;"	d	file:
+SRTM_RtcService_Create	srtm/services/srtm_rtc_service.c	/^srtm_service_t SRTM_RtcService_Create(srtm_rtc_adapter_t adapter)$/;"	f	typeref:typename:srtm_service_t
+SRTM_RtcService_Destroy	srtm/services/srtm_rtc_service.c	/^void SRTM_RtcService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_RtcService_Notify	srtm/services/srtm_rtc_service.c	/^static srtm_status_t SRTM_RtcService_Notify(srtm_service_t service, srtm_notification_t notif)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RtcService_NotifyAlarm	srtm/services/srtm_rtc_service.c	/^static srtm_status_t SRTM_RtcService_NotifyAlarm(srtm_service_t service)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RtcService_RecycleMessage	srtm/services/srtm_rtc_service.c	/^static void SRTM_RtcService_RecycleMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_RtcService_Request	srtm/services/srtm_rtc_service.c	/^static srtm_status_t SRTM_RtcService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_RtcService_Reset	srtm/services/srtm_rtc_service.c	/^void SRTM_RtcService_Reset(srtm_service_t service, srtm_peercore_t core)$/;"	f	typeref:typename:void
+SRTM_SAI_EDMA_LOCAL_BUF_ENABLE	srtm/services/srtm_sai_edma_adapter.h	/^#define SRTM_SAI_EDMA_LOCAL_BUF_ENABLE /;"	d
+SRTM_SAI_EDMA_MAX_LOCAL_BUF_PERIODS	srtm/services/srtm_sai_edma_adapter.h	/^#define SRTM_SAI_EDMA_MAX_LOCAL_BUF_PERIODS /;"	d
+SRTM_SAI_EDMA_MAX_LOCAL_PERIOD_ALIGNMENT	srtm/services/srtm_sai_edma_adapter.h	/^#define SRTM_SAI_EDMA_MAX_LOCAL_PERIOD_ALIGNMENT /;"	d
+SRTM_SAI_EDMA_MAX_LOCAL_PERIOD_ALIGNMENT_MASK	srtm/services/srtm_sai_edma_adapter.h	/^#define SRTM_SAI_EDMA_MAX_LOCAL_PERIOD_ALIGNMENT_MASK /;"	d
+SRTM_SENSOR_CATEGORY	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_CATEGORY /;"	d	file:
+SRTM_SENSOR_CMD_ENABLE_DATA_REPORT	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_CMD_ENABLE_DATA_REPORT /;"	d	file:
+SRTM_SENSOR_CMD_ENABLE_STATE_DETECTOR	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_CMD_ENABLE_STATE_DETECTOR /;"	d	file:
+SRTM_SENSOR_CMD_SET_POLL_DELAY	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_CMD_SET_POLL_DELAY /;"	d	file:
+SRTM_SENSOR_NTF_DATA	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_NTF_DATA /;"	d	file:
+SRTM_SENSOR_NTF_STATE_CHANGED	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_NTF_STATE_CHANGED /;"	d	file:
+SRTM_SENSOR_RETURN_CODE_FAIL	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_RETURN_CODE_FAIL /;"	d	file:
+SRTM_SENSOR_RETURN_CODE_SUCEESS	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_RETURN_CODE_SUCEESS /;"	d	file:
+SRTM_SENSOR_RETURN_CODE_UNSUPPORTED	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_RETURN_CODE_UNSUPPORTED /;"	d	file:
+SRTM_SENSOR_SERVICE_DEBUG_OFF	srtm/services/srtm_sensor_service.h	/^#define SRTM_SENSOR_SERVICE_DEBUG_OFF /;"	d
+SRTM_SENSOR_VERSION	srtm/services/srtm_sensor_service.c	/^#define SRTM_SENSOR_VERSION /;"	d	file:
+SRTM_STATIC_API	srtm_config.h	/^#define SRTM_STATIC_API /;"	d
+SRTM_SaiEdmaAdapter_AddNewPeriods	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_AddNewPeriods(srtm_sai_edma_runtime_t rtm, uint32_t periodIdx)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_Close	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Close(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir,/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_CopyData	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_CopyData(srtm_sai_edma_adapter_t handle)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_Create	srtm/services/srtm_sai_edma_adapter.c	/^srtm_sai_adapter_t SRTM_SaiEdmaAdapter_Create(I2S_Type *sai,$/;"	f	typeref:typename:srtm_sai_adapter_t
+SRTM_SaiEdmaAdapter_DeinitSAI	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_DeinitSAI(srtm_sai_edma_adapter_t handle, srtm_audio_dir_t dir)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_Destroy	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_Destroy(srtm_sai_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_DmaTransfer	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_DmaTransfer(srtm_sai_edma_adapter_t handle, srtm_audio_dir_t dir/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_End	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_End(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, u/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_GetAudioServiceState	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_GetAudioServiceState(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_GetBufOffset	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_GetBufOffset(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_GetXfer	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_GetXfer(srtm_sai_edma_runtime_t rtm, sai_transfer_t *xfer)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_HostWakeProc	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_HostWakeProc(srtm_dispatcher_t dispatcher, void *param1, void *p/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_InitSAI	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_InitSAI(srtm_sai_edma_adapter_t handle, srtm_audio_dir_t dir)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_Open	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Open(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, /;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_Pause	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Pause(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir,/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_PeriodReady	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_PeriodReady(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_RecycleRxMessage	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RecycleRxMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_RecycleTxMessage	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RecycleTxMessage(srtm_message_t msg, void *param)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_Restart	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Restart(srtm_sai_adapter_t adapter, srtm_audio_dir_t di/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_Resume	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Resume(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_ResumeHost	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_ResumeHost(srtm_sai_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_ResumeHostProc	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_ResumeHostProc(srtm_dispatcher_t dispatcher, void *param1, void /;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_RxCopyData	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RxCopyData(srtm_sai_edma_adapter_t handle)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_RxDataCopyProc	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RxDataCopyProc(srtm_dispatcher_t dispatcher, void *param1, void /;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_RxPeriodCopyAndNotify	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RxPeriodCopyAndNotify(srtm_sai_edma_adapter_t handle)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_RxTransferProc	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_RxTransferProc(srtm_dispatcher_t dispatcher, void *param1, void /;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_SetBuf	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_SetBuf(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_SetConfig	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_SetConfig(srtm_sai_edma_adapter_t handle, srtm_audio_dir_t dir)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_SetDataHandlerOnHostSuspend	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetDataHandlerOnHostSuspend(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetLocalBuf	srtm/services/srtm_sai_edma_adapter.c	/^static inline void SRTM_SaiEdmaAdapter_SetLocalBuf(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_SetParam	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_SetParam($/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_SetPostCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetPostCopyCallback(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetPreCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetPreCopyCallback(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetRxLocalBuf	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetRxLocalBuf(srtm_sai_adapter_t adapter, srtm_sai_edma_local_buf_t *lo/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetTxLocalBuf	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetTxLocalBuf(srtm_sai_adapter_t adapter, srtm_sai_edma_local_buf_t *lo/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetTxPostCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetTxPostCopyCallback(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_SetTxPreCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^void SRTM_SaiEdmaAdapter_SetTxPreCopyCallback(srtm_sai_adapter_t adapter,$/;"	f	typeref:typename:void
+SRTM_SaiEdmaAdapter_Start	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Start(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir,/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_Stop	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Stop(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, /;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_Suspend	srtm/services/srtm_sai_edma_adapter.c	/^static srtm_status_t SRTM_SaiEdmaAdapter_Suspend(srtm_sai_adapter_t adapter, srtm_audio_dir_t di/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SaiEdmaAdapter_Transfer	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_Transfer(srtm_sai_edma_adapter_t handle, srtm_audio_dir_t dir)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdapter_TxTransferProc	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdapter_TxTransferProc(srtm_dispatcher_t dispatcher, void *param1, void /;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaAdaptor_ResetLocalBuf	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaAdaptor_ResetLocalBuf(srtm_sai_edma_runtime_t rtm, srtm_audio_dir_t dir)$/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaRxCallback	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaRxCallback(I2S_Type *sai, sai_edma_handle_t *edmaHandle, status_t status/;"	f	typeref:typename:void	file:
+SRTM_SaiEdmaTxCallback	srtm/services/srtm_sai_edma_adapter.c	/^static void SRTM_SaiEdmaTxCallback(I2S_Type *sai, sai_edma_handle_t *edmaHandle, status_t status/;"	f	typeref:typename:void	file:
+SRTM_SensorService_Create	srtm/services/srtm_sensor_service.c	/^srtm_service_t SRTM_SensorService_Create(srtm_sensor_adapter_t sensor)$/;"	f	typeref:typename:srtm_service_t
+SRTM_SensorService_Destroy	srtm/services/srtm_sensor_service.c	/^void SRTM_SensorService_Destroy(srtm_service_t service)$/;"	f	typeref:typename:void
+SRTM_SensorService_Notify	srtm/services/srtm_sensor_service.c	/^static srtm_status_t SRTM_SensorService_Notify(srtm_service_t service, srtm_notification_t notif/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SensorService_ReportData	srtm/services/srtm_sensor_service.c	/^static srtm_status_t SRTM_SensorService_ReportData($/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SensorService_Request	srtm/services/srtm_sensor_service.c	/^static srtm_status_t SRTM_SensorService_Request(srtm_service_t service, srtm_request_t request)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SensorService_Reset	srtm/services/srtm_sensor_service.c	/^void SRTM_SensorService_Reset(srtm_service_t service, srtm_peercore_t core)$/;"	f	typeref:typename:void
+SRTM_SensorService_UpdateState	srtm/services/srtm_sensor_service.c	/^static srtm_status_t SRTM_SensorService_UpdateState(srtm_service_t service, srtm_sensor_type_t t/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SensorTypePedometer	srtm/services/srtm_sensor_service.h	/^    SRTM_SensorTypePedometer = 0x00U,$/;"	e	enum:__anond7e64a320103
+SRTM_SensorTypeTilt	srtm/services/srtm_sensor_service.h	/^    SRTM_SensorTypeTilt      = 0x01U,$/;"	e	enum:__anond7e64a320103
+SRTM_SnvsLpRtcAdapter_Create	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^srtm_rtc_adapter_t SRTM_SnvsLpRtcAdapter_Create(SNVS_Type *base)$/;"	f	typeref:typename:srtm_rtc_adapter_t
+SRTM_SnvsLpRtcAdapter_Destroy	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^void SRTM_SnvsLpRtcAdapter_Destroy(srtm_rtc_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_SnvsLpRtcAdapter_EnableAlarm	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^srtm_status_t SRTM_SnvsLpRtcAdapter_EnableAlarm(srtm_rtc_adapter_t adapter, bool enable)$/;"	f	typeref:typename:srtm_status_t
+SRTM_SnvsLpRtcAdapter_GetAlarm	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static srtm_status_t SRTM_SnvsLpRtcAdapter_GetAlarm(srtm_rtc_adapter_t adapter, struct _srtm_rtc/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SnvsLpRtcAdapter_GetTime	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static srtm_status_t SRTM_SnvsLpRtcAdapter_GetTime(srtm_rtc_adapter_t adapter, uint32_t *pSecond/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SnvsLpRtcAdapter_NotifyAlarm	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^void SRTM_SnvsLpRtcAdapter_NotifyAlarm(srtm_rtc_adapter_t adapter)$/;"	f	typeref:typename:void
+SRTM_SnvsLpRtcAdapter_SetAlarm	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static srtm_status_t SRTM_SnvsLpRtcAdapter_SetAlarm(srtm_rtc_adapter_t adapter, const struct _sr/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_SnvsLpRtcAdapter_SetTime	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^static srtm_status_t SRTM_SnvsLpRtcAdapter_SetTime(srtm_rtc_adapter_t adapter, uint32_t seconds)$/;"	f	typeref:typename:srtm_status_t	file:
+SRTM_Suspended	srtm/services/srtm_sai_edma_adapter.c	/^    SRTM_Suspended,$/;"	e	enum:_srtm_sai_edma_suspend_state	file:
+SRTM_WakingUp	srtm/services/srtm_sai_edma_adapter.c	/^    SRTM_WakingUp,$/;"	e	enum:_srtm_sai_edma_suspend_state	file:
+Sensor_I2C_ReceiveFunc	app_srtm.c	/^static status_t Sensor_I2C_ReceiveFunc($/;"	f	typeref:typename:status_t	file:
+Sensor_I2C_SendFunc	app_srtm.c	/^static status_t Sensor_I2C_SendFunc($/;"	f	typeref:typename:status_t	file:
+USBPHY_IRQHandler	app_srtm.c	/^void USBPHY_IRQHandler(void)$/;"	f	typeref:typename:void
+VDEV0_VRING_BASE	board.h	/^#define VDEV0_VRING_BASE /;"	d
+VDEV1_VRING_BASE	board.h	/^#define VDEV1_VRING_BASE /;"	d
+_APP_SRTM_H_	app_srtm.h	/^#define _APP_SRTM_H_$/;"	d
+_BOARD_H_	board.h	/^#define _BOARD_H_$/;"	d
+_CLOCK_CONFIG_H_	clock_config.h	/^#define _CLOCK_CONFIG_H_$/;"	d
+_PIN_MUX_H_	pin_mux.h	/^#define _PIN_MUX_H_$/;"	d
+_SRTM_CONFIG_H	srtm_config.h	/^#define _SRTM_CONFIG_H$/;"	d
+__SRTM_AUDIO_SERVICE_H__	srtm/services/srtm_audio_service.h	/^#define __SRTM_AUDIO_SERVICE_H__$/;"	d
+__SRTM_I2C_CODEC_ADAPTER_H__	srtm/services/srtm_i2c_codec_adapter.h	/^#define __SRTM_I2C_CODEC_ADAPTER_H__$/;"	d
+__SRTM_IO_SERVICE_H__	srtm/services/srtm_io_service.h	/^#define __SRTM_IO_SERVICE_H__$/;"	d
+__SRTM_KEYPAD_SERVICE_H__	srtm/services/srtm_keypad_service.h	/^#define __SRTM_KEYPAD_SERVICE_H__$/;"	d
+__SRTM_LFCL_SERVICE_H__	srtm/services/srtm_lfcl_service.h	/^#define __SRTM_LFCL_SERVICE_H__$/;"	d
+__SRTM_PF1550_ADAPTER_H__	srtm/services/srtm_pf1550_adapter.h	/^#define __SRTM_PF1550_ADAPTER_H__$/;"	d
+__SRTM_PMIC_SERVICE_H__	srtm/services/srtm_pmic_service.h	/^#define __SRTM_PMIC_SERVICE_H__$/;"	d
+__SRTM_RPMSG_ENDPOINT_H__	srtm/channels/srtm_rpmsg_endpoint.h	/^#define __SRTM_RPMSG_ENDPOINT_H__$/;"	d
+__SRTM_RTC_SERVICE_H__	srtm/services/srtm_rtc_service.h	/^#define __SRTM_RTC_SERVICE_H__$/;"	d
+__SRTM_SAI_EDMA_ADAPTER_H__	srtm/services/srtm_sai_edma_adapter.h	/^#define __SRTM_SAI_EDMA_ADAPTER_H__$/;"	d
+__SRTM_SENSOR_SERVICE_H__	srtm/services/srtm_sensor_service.h	/^#define __SRTM_SENSOR_SERVICE_H__$/;"	d
+__SRTM_SNVS_LP_RTC_ADAPTER_H__	srtm/services/srtm_snvs_lp_rtc_adapter.h	/^#define __SRTM_SNVS_LP_RTC_ADAPTER_H__$/;"	d
+__anonb65b96fc0103	app_srtm.c	/^{$/;"	g	file:
+__anonb65b96fc0203	app_srtm.c	/^{$/;"	g	file:
+__anonb65b96fc0303	app_srtm.c	/^{$/;"	g	file:
+__anonb65b96fc0408	app_srtm.c	/^{$/;"	s	file:
+__anonb65b96fc0508	app_srtm.c	/^{$/;"	s	file:
+__anonb65b96fc0608	app_srtm.c	/^    {$/;"	s	struct:__anonb65b96fc0508	file:
+__anonb65b96fc0708	app_srtm.c	/^    {$/;"	s	struct:__anonb65b96fc0508	file:
+__anonb65b96fc0808	app_srtm.c	/^{$/;"	s	file:
+__anond7e64a320103	srtm/services/srtm_sensor_service.h	/^{$/;"	g
+__anond7e64a32020a	srtm/services/srtm_sensor_service.h	/^    {$/;"	u	struct:_srtm_sensor_payload
+__anone036b1aa0103	srtm/services/srtm_audio_service.h	/^{$/;"	g
+__anone036b1aa0203	srtm/services/srtm_audio_service.h	/^{$/;"	g
+__anone036b1aa0303	srtm/services/srtm_audio_service.h	/^{$/;"	g
+__anone036b1aa040a	srtm/services/srtm_audio_service.h	/^    {$/;"	u	struct:_srtm_audio_payload
+__anone036b1aa050a	srtm/services/srtm_audio_service.h	/^    {$/;"	u	struct:_srtm_audio_payload
+__anone036b1aa060a	srtm/services/srtm_audio_service.h	/^    {$/;"	u	struct:_srtm_audio_payload
+__anone036b1aa070a	srtm/services/srtm_audio_service.h	/^    {$/;"	u	struct:_srtm_audio_payload
+_audio_format	srtm/services/srtm_audio_service.h	/^typedef struct _audio_format$/;"	s
+_srtm_audio_iface	srtm/services/srtm_audio_service.c	/^typedef struct _srtm_audio_iface$/;"	s	file:
+_srtm_audio_payload	srtm/services/srtm_audio_service.h	/^SRTM_PACKED_BEGIN struct _srtm_audio_payload$/;"	s
+_srtm_audio_service	srtm/services/srtm_audio_service.c	/^typedef struct _srtm_audio_service$/;"	s	file:
+_srtm_codec_adapter	srtm/services/srtm_audio_service.h	/^struct _srtm_codec_adapter$/;"	s
+_srtm_i2c_codec_adapter	srtm/services/srtm_i2c_codec_adapter.c	/^typedef struct _srtm_i2c_codec_adapter$/;"	s	file:
+_srtm_i2c_codec_config	srtm/services/srtm_i2c_codec_adapter.h	/^typedef struct _srtm_i2c_codec_config$/;"	s
+_srtm_io_event	srtm/services/srtm_io_service.h	/^typedef enum _srtm_io_event$/;"	g
+_srtm_io_pin	srtm/services/srtm_io_service.c	/^typedef struct _srtm_io_pin$/;"	s	file:
+_srtm_io_service	srtm/services/srtm_io_service.c	/^typedef struct _srtm_io_service$/;"	s	file:
+_srtm_io_value	srtm/services/srtm_io_service.h	/^typedef enum _srtm_io_value$/;"	g
+_srtm_keypad_event	srtm/services/srtm_keypad_service.h	/^typedef enum _srtm_keypad_event$/;"	g
+_srtm_keypad_key	srtm/services/srtm_keypad_service.c	/^typedef struct _srtm_keypad_key$/;"	s	file:
+_srtm_keypad_service	srtm/services/srtm_keypad_service.c	/^typedef struct _srtm_keypad_service$/;"	s	file:
+_srtm_keypad_value	srtm/services/srtm_keypad_service.h	/^typedef enum _srtm_keypad_value$/;"	g
+_srtm_lfcl_callback	srtm/services/srtm_lfcl_service.c	/^typedef struct _srtm_lfcl_callback$/;"	s	file:
+_srtm_lfcl_event	srtm/services/srtm_lfcl_service.h	/^typedef enum _srtm_lfcl_event$/;"	g
+_srtm_lfcl_service	srtm/services/srtm_lfcl_service.c	/^typedef struct _srtm_lfcl_service$/;"	s	file:
+_srtm_pf1550_adapter	srtm/services/srtm_pf1550_adapter.c	/^typedef struct _srtm_pf1550_adapter$/;"	s	file:
+_srtm_pmic_adapter	srtm/services/srtm_pmic_service.h	/^struct _srtm_pmic_adapter$/;"	s
+_srtm_pmic_payload	srtm/services/srtm_pmic_service.h	/^SRTM_PACKED_BEGIN struct _srtm_pmic_payload$/;"	s
+_srtm_pmic_service	srtm/services/srtm_pmic_service.c	/^typedef struct _srtm_pmic_service$/;"	s	file:
+_srtm_rpmsg_endpoint	srtm/channels/srtm_rpmsg_endpoint.c	/^typedef struct _srtm_rpmsg_endpoint$/;"	s	file:
+_srtm_rpmsg_endpoint_config	srtm/channels/srtm_rpmsg_endpoint.h	/^typedef struct _srtm_rpmsg_endpoint_config$/;"	s
+_srtm_rtc_adapter	srtm/services/srtm_rtc_service.h	/^struct _srtm_rtc_adapter$/;"	s
+_srtm_rtc_alarm	srtm/services/srtm_rtc_service.h	/^SRTM_PACKED_BEGIN struct _srtm_rtc_alarm$/;"	s
+_srtm_rtc_payload	srtm/services/srtm_rtc_service.h	/^SRTM_PACKED_BEGIN struct _srtm_rtc_payload$/;"	s
+_srtm_rtc_service	srtm/services/srtm_rtc_service.c	/^typedef struct _srtm_rtc_service$/;"	s	file:
+_srtm_sai_adapter	srtm/services/srtm_audio_service.h	/^struct _srtm_sai_adapter$/;"	s
+_srtm_sai_edma_adapter	srtm/services/srtm_sai_edma_adapter.c	/^typedef struct _srtm_sai_edma_adapter$/;"	s	file:
+_srtm_sai_edma_buf_runtime	srtm/services/srtm_sai_edma_adapter.c	/^typedef struct _srtm_sai_edma_buf_runtime$/;"	s	file:
+_srtm_sai_edma_config	srtm/services/srtm_sai_edma_adapter.h	/^typedef struct _srtm_sai_edma_config$/;"	s
+_srtm_sai_edma_local_buf	srtm/services/srtm_sai_edma_adapter.h	/^typedef struct _srtm_sai_edma_local_buf$/;"	s
+_srtm_sai_edma_local_period	srtm/services/srtm_sai_edma_adapter.c	/^struct _srtm_sai_edma_local_period$/;"	s	file:
+_srtm_sai_edma_local_runtime	srtm/services/srtm_sai_edma_adapter.c	/^struct _srtm_sai_edma_local_runtime$/;"	s	file:
+_srtm_sai_edma_runtime	srtm/services/srtm_sai_edma_adapter.c	/^typedef struct _srtm_sai_edma_runtime$/;"	s	file:
+_srtm_sai_edma_suspend_state	srtm/services/srtm_sai_edma_adapter.c	/^typedef enum _srtm_sai_edma_suspend_state$/;"	g	file:
+_srtm_sensor_adapter	srtm/services/srtm_sensor_service.h	/^struct _srtm_sensor_adapter$/;"	s
+_srtm_sensor_payload	srtm/services/srtm_sensor_service.h	/^SRTM_PACKED_BEGIN struct _srtm_sensor_payload$/;"	s
+_srtm_sensor_service	srtm/services/srtm_sensor_service.c	/^typedef struct _srtm_sensor_service$/;"	s	file:
+_srtm_snvs_lp_rtc_adapter	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^typedef struct _srtm_snvs_lp_rtc_adapter$/;"	s	file:
+adapter	srtm/services/srtm_i2c_codec_adapter.c	/^    struct _srtm_codec_adapter adapter;$/;"	m	struct:_srtm_i2c_codec_adapter	typeref:struct:_srtm_codec_adapter	file:
+adapter	srtm/services/srtm_pf1550_adapter.c	/^    struct _srtm_pmic_adapter adapter;$/;"	m	struct:_srtm_pf1550_adapter	typeref:struct:_srtm_pmic_adapter	file:
+adapter	srtm/services/srtm_pmic_service.c	/^    srtm_pmic_adapter_t adapter;$/;"	m	struct:_srtm_pmic_service	typeref:typename:srtm_pmic_adapter_t	file:
+adapter	srtm/services/srtm_rtc_service.c	/^    srtm_rtc_adapter_t adapter;$/;"	m	struct:_srtm_rtc_service	typeref:typename:srtm_rtc_adapter_t	file:
+adapter	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_adapter adapter;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:struct:_srtm_sai_adapter	file:
+adapter	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^    struct _srtm_rtc_adapter adapter;$/;"	m	struct:_srtm_snvs_lp_rtc_adapter	typeref:struct:_srtm_rtc_adapter	file:
+addrType	srtm/services/srtm_i2c_codec_adapter.h	/^    codec_reg_addr_t addrType;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:codec_reg_addr_t
+alarm	srtm/services/srtm_rtc_service.h	/^    struct _srtm_rtc_alarm alarm;$/;"	m	struct:_srtm_rtc_payload	typeref:struct:_srtm_rtc_alarm
+align	remoteproc.h	/^    uint32_t align;$/;"	m	struct:fw_rsc_vdev_vring	typeref:typename:uint32_t
+app_buf	main_remote.c	/^static char app_buf[512]; \/* Each RPMSG buffer can carry less than 512 payload *\/$/;"	v	typeref:typename:char[512]	file:
+app_create_task	main_remote.c	/^void app_create_task(void)$/;"	f	typeref:typename:void
+app_destroy_task	main_remote.c	/^void app_destroy_task(void)$/;"	f	typeref:typename:void
+app_io_t	app_srtm.c	/^} app_io_t;$/;"	t	typeref:struct:__anonb65b96fc0408	file:
+app_irq_handler_t	app_srtm.h	/^typedef void (*app_irq_handler_t)(IRQn_Type irq, void *param);$/;"	t	typeref:typename:void (*)(IRQn_Type irq,void * param)
+app_pedometer_t	app_srtm.c	/^} app_pedometer_t;$/;"	t	typeref:struct:__anonb65b96fc0808	file:
+app_rpmsg_monitor_t	app_srtm.h	/^typedef void (*app_rpmsg_monitor_t)(struct rpmsg_lite_instance *rpmsgHandle, bool ready, void *p/;"	t	typeref:typename:void (*)(struct rpmsg_lite_instance * rpmsgHandle,bool ready,void * param)
+app_srtm_power_t	app_srtm.c	/^} app_srtm_power_t;$/;"	t	typeref:enum:__anonb65b96fc0303	file:
+app_srtm_state_t	app_srtm.c	/^} app_srtm_state_t;$/;"	t	typeref:enum:__anonb65b96fc0203	file:
+app_suspend_ctx_t	app_srtm.c	/^} app_suspend_ctx_t;$/;"	t	typeref:struct:__anonb65b96fc0508	file:
+app_task	main_remote.c	/^void app_task(void *param)$/;"	f	typeref:typename:void
+app_task_handle	main_remote.c	/^static TaskHandle_t app_task_handle = NULL;$/;"	v	typeref:typename:TaskHandle_t	file:
+audioService	app_srtm.c	/^static srtm_service_t audioService;$/;"	v	typeref:typename:srtm_service_t	file:
+base	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^    SNVS_Type *base;$/;"	m	struct:_srtm_snvs_lp_rtc_adapter	typeref:typename:SNVS_Type *	file:
+bitWidth	srtm/services/srtm_sai_edma_adapter.c	/^    sai_word_width_t bitWidth;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:sai_word_width_t	file:
+bitwidth	srtm/services/srtm_audio_service.h	/^    uint8_t bitwidth;$/;"	m	struct:_audio_format	typeref:typename:uint8_t
+boardCodecConfig	app_srtm.c	/^codec_config_t boardCodecConfig = {.codecDevType = kCODEC_WM8960};$/;"	v	typeref:typename:codec_config_t
+buf	srtm/services/srtm_sai_edma_adapter.h	/^    uint8_t *buf;$/;"	m	struct:_srtm_sai_edma_local_buf	typeref:typename:uint8_t *
+bufAddr	srtm/services/srtm_audio_service.h	/^        uint32_t bufAddr;$/;"	m	union:_srtm_audio_payload::__anone036b1aa060a	typeref:typename:uint32_t
+bufAddr	srtm/services/srtm_sai_edma_adapter.c	/^    uint8_t *bufAddr;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint8_t *	file:
+bufOffset	srtm/services/srtm_audio_service.h	/^        uint32_t bufOffset;$/;"	m	union:_srtm_audio_payload::__anone036b1aa050a	typeref:typename:uint32_t
+bufRtm	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_buf_runtime bufRtm; \/* buffer provided by audio client. *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:struct:_srtm_sai_edma_buf_runtime	file:
+bufRtm	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_buf_runtime bufRtm;$/;"	m	struct:_srtm_sai_edma_local_runtime	typeref:struct:_srtm_sai_edma_buf_runtime	file:
+bufSize	srtm/services/srtm_audio_service.h	/^        uint32_t bufSize;$/;"	m	union:_srtm_audio_payload::__anone036b1aa070a	typeref:typename:uint32_t
+bufSize	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t bufSize;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+bufSize	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t bufSize;   \/* bytes of the whole local buffer *\/$/;"	m	struct:_srtm_sai_edma_local_buf	typeref:typename:uint32_t
+callback	srtm/services/srtm_lfcl_service.c	/^    srtm_lfcl_service_cb_t callback;$/;"	m	struct:_srtm_lfcl_callback	typeref:typename:srtm_lfcl_service_cb_t	file:
+channel	srtm/channels/srtm_rpmsg_endpoint.c	/^    struct _srtm_channel channel;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:struct:_srtm_channel	file:
+channel	srtm/services/srtm_audio_service.c	/^    srtm_channel_t channel;$/;"	m	struct:_srtm_audio_iface	typeref:typename:srtm_channel_t	file:
+channel	srtm/services/srtm_io_service.c	/^    srtm_channel_t channel;$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_channel_t	file:
+channel	srtm/services/srtm_keypad_service.c	/^    srtm_channel_t channel;$/;"	m	struct:_srtm_keypad_key	typeref:typename:srtm_channel_t	file:
+channel	srtm/services/srtm_rtc_service.c	/^    srtm_channel_t channel;$/;"	m	struct:_srtm_rtc_service	typeref:typename:srtm_channel_t	file:
+channel	srtm/services/srtm_sensor_service.c	/^    srtm_channel_t channel;$/;"	m	struct:_srtm_sensor_service	typeref:typename:srtm_channel_t	file:
+channels	srtm/services/srtm_audio_service.h	/^    uint8_t channels;$/;"	m	struct:_srtm_audio_payload	typeref:typename:uint8_t
+channels	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t channels;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+chaseIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t chaseIdx;         \/* consumed period index for playback or recording. *\/$/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+close	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*close)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+codec	srtm/services/srtm_audio_service.c	/^    srtm_codec_adapter_t codec;$/;"	m	struct:_srtm_audio_iface	typeref:typename:srtm_codec_adapter_t	file:
+codecHandle	app_srtm.c	/^codec_handle_t codecHandle;$/;"	v	typeref:typename:codec_handle_t
+confIEvent	srtm/services/srtm_io_service.c	/^    srtm_io_service_conf_input_t confIEvent;$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_io_service_conf_input_t	file:
+confKEvent	srtm/services/srtm_keypad_service.c	/^    srtm_keypad_service_conf_t confKEvent;$/;"	m	struct:_srtm_keypad_key	typeref:typename:srtm_keypad_service_conf_t	file:
+config	srtm/channels/srtm_rpmsg_endpoint.c	/^    srtm_rpmsg_endpoint_config_t config;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:typename:srtm_rpmsg_endpoint_config_t	file:
+config	srtm/services/srtm_i2c_codec_adapter.c	/^    srtm_i2c_codec_config_t config;$/;"	m	struct:_srtm_i2c_codec_adapter	typeref:typename:srtm_i2c_codec_config_t	file:
+config	srtm/services/srtm_sai_edma_adapter.h	/^    sai_transceiver_t config;$/;"	m	struct:_srtm_sai_edma_config	typeref:typename:sai_transceiver_t
+configAPPLICATION_ALLOCATED_HEAP	FreeRTOSConfig.h	/^#define configAPPLICATION_ALLOCATED_HEAP /;"	d
+configASSERT	FreeRTOSConfig.h	/^#define configASSERT(/;"	d
+configASSERT_BOOL	FreeRTOSConfig.h	/^#define configASSERT_BOOL(/;"	d
+configCHECK_FOR_STACK_OVERFLOW	FreeRTOSConfig.h	/^#define configCHECK_FOR_STACK_OVERFLOW /;"	d
+configCPU_CLOCK_HZ	FreeRTOSConfig.h	/^#define configCPU_CLOCK_HZ /;"	d
+configENABLE_BACKWARD_COMPATIBILITY	FreeRTOSConfig.h	/^#define configENABLE_BACKWARD_COMPATIBILITY /;"	d
+configFRTOS_MEMORY_SCHEME	FreeRTOSConfig.h	/^#define configFRTOS_MEMORY_SCHEME /;"	d
+configGENERATE_RUN_TIME_STATS	FreeRTOSConfig.h	/^#define configGENERATE_RUN_TIME_STATS /;"	d
+configIDLE_SHOULD_YIELD	FreeRTOSConfig.h	/^#define configIDLE_SHOULD_YIELD /;"	d
+configINCLUDE_FREERTOS_TASK_C_ADDITIONS_H	FreeRTOSConfig.h	/^#define configINCLUDE_FREERTOS_TASK_C_ADDITIONS_H /;"	d
+configKERNEL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	/^#define configKERNEL_INTERRUPT_PRIORITY /;"	d
+configLIBRARY_LOWEST_INTERRUPT_PRIORITY	FreeRTOSConfig.h	/^#define configLIBRARY_LOWEST_INTERRUPT_PRIORITY /;"	d
+configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	/^#define configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY /;"	d
+configMAX_CO_ROUTINE_PRIORITIES	FreeRTOSConfig.h	/^#define configMAX_CO_ROUTINE_PRIORITIES /;"	d
+configMAX_PRIORITIES	FreeRTOSConfig.h	/^#define configMAX_PRIORITIES /;"	d
+configMAX_SYSCALL_INTERRUPT_PRIORITY	FreeRTOSConfig.h	/^#define configMAX_SYSCALL_INTERRUPT_PRIORITY /;"	d
+configMAX_TASK_NAME_LEN	FreeRTOSConfig.h	/^#define configMAX_TASK_NAME_LEN /;"	d
+configMINIMAL_STACK_SIZE	FreeRTOSConfig.h	/^#define configMINIMAL_STACK_SIZE /;"	d
+configNUM_THREAD_LOCAL_STORAGE_POINTERS	FreeRTOSConfig.h	/^#define configNUM_THREAD_LOCAL_STORAGE_POINTERS /;"	d
+configPRIO_BITS	FreeRTOSConfig.h	/^#define configPRIO_BITS /;"	d
+configQUEUE_REGISTRY_SIZE	FreeRTOSConfig.h	/^#define configQUEUE_REGISTRY_SIZE /;"	d
+configRECORD_STACK_HIGH_ADDRESS	FreeRTOSConfig.h	/^#define configRECORD_STACK_HIGH_ADDRESS /;"	d
+configSUPPORT_DYNAMIC_ALLOCATION	FreeRTOSConfig.h	/^#define configSUPPORT_DYNAMIC_ALLOCATION /;"	d
+configSUPPORT_STATIC_ALLOCATION	FreeRTOSConfig.h	/^#define configSUPPORT_STATIC_ALLOCATION /;"	d
+configTICK_RATE_HZ	FreeRTOSConfig.h	/^#define configTICK_RATE_HZ /;"	d
+configTIMER_QUEUE_LENGTH	FreeRTOSConfig.h	/^#define configTIMER_QUEUE_LENGTH /;"	d
+configTIMER_TASK_PRIORITY	FreeRTOSConfig.h	/^#define configTIMER_TASK_PRIORITY /;"	d
+configTIMER_TASK_STACK_DEPTH	FreeRTOSConfig.h	/^#define configTIMER_TASK_STACK_DEPTH /;"	d
+configTOTAL_HEAP_SIZE	FreeRTOSConfig.h	/^#define configTOTAL_HEAP_SIZE /;"	d
+configUSE_16_BIT_TICKS	FreeRTOSConfig.h	/^#define configUSE_16_BIT_TICKS /;"	d
+configUSE_ALTERNATIVE_API	FreeRTOSConfig.h	/^#define configUSE_ALTERNATIVE_API /;"	d
+configUSE_COUNTING_SEMAPHORES	FreeRTOSConfig.h	/^#define configUSE_COUNTING_SEMAPHORES /;"	d
+configUSE_CO_ROUTINES	FreeRTOSConfig.h	/^#define configUSE_CO_ROUTINES /;"	d
+configUSE_DAEMON_TASK_STARTUP_HOOK	FreeRTOSConfig.h	/^#define configUSE_DAEMON_TASK_STARTUP_HOOK /;"	d
+configUSE_IDLE_HOOK	FreeRTOSConfig.h	/^#define configUSE_IDLE_HOOK /;"	d
+configUSE_MALLOC_FAILED_HOOK	FreeRTOSConfig.h	/^#define configUSE_MALLOC_FAILED_HOOK /;"	d
+configUSE_MUTEXES	FreeRTOSConfig.h	/^#define configUSE_MUTEXES /;"	d
+configUSE_NEWLIB_REENTRANT	FreeRTOSConfig.h	/^#define configUSE_NEWLIB_REENTRANT /;"	d
+configUSE_PREEMPTION	FreeRTOSConfig.h	/^#define configUSE_PREEMPTION /;"	d
+configUSE_QUEUE_SETS	FreeRTOSConfig.h	/^#define configUSE_QUEUE_SETS /;"	d
+configUSE_RECURSIVE_MUTEXES	FreeRTOSConfig.h	/^#define configUSE_RECURSIVE_MUTEXES /;"	d
+configUSE_STATS_FORMATTING_FUNCTIONS	FreeRTOSConfig.h	/^#define configUSE_STATS_FORMATTING_FUNCTIONS /;"	d
+configUSE_TASK_NOTIFICATIONS	FreeRTOSConfig.h	/^#define configUSE_TASK_NOTIFICATIONS /;"	d
+configUSE_TICKLESS_IDLE	FreeRTOSConfig.h	/^#define configUSE_TICKLESS_IDLE /;"	d
+configUSE_TICK_HOOK	FreeRTOSConfig.h	/^#define configUSE_TICK_HOOK /;"	d
+configUSE_TIMERS	FreeRTOSConfig.h	/^#define configUSE_TIMERS /;"	d
+configUSE_TIME_SLICING	FreeRTOSConfig.h	/^#define configUSE_TIME_SLICING /;"	d
+configUSE_TRACE_FACILITY	FreeRTOSConfig.h	/^#define configUSE_TRACE_FACILITY /;"	d
+config_len	remoteproc.h	/^    uint32_t config_len;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+copyResourceTable	rsc_table.c	/^void copyResourceTable(void)$/;"	f	typeref:typename:void
+core	app_srtm.c	/^static srtm_peercore_t core;$/;"	v	typeref:typename:srtm_peercore_t	file:
+da	remoteproc.h	/^    uint32_t da;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+da	remoteproc.h	/^    uint32_t da;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+da	remoteproc.h	/^    uint32_t da;$/;"	m	struct:fw_rsc_trace	typeref:typename:uint32_t
+da	remoteproc.h	/^    uint32_t da;$/;"	m	struct:fw_rsc_vdev_vring	typeref:typename:uint32_t
+data	app_srtm.c	/^        app_io_t data[APP_IO_NUM];$/;"	m	struct:__anonb65b96fc0508::__anonb65b96fc0608	typeref:typename:app_io_t[]	file:
+data	remoteproc.h	/^    uint8_t data[0];$/;"	m	struct:fw_rsc_hdr	typeref:typename:uint8_t[0]
+data	srtm/services/srtm_sensor_service.h	/^        uint32_t data;$/;"	m	union:_srtm_sensor_payload::__anond7e64a32020a	typeref:typename:uint32_t
+dataCallback	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_data_callback_t dataCallback; \/* Callback function to provide data *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:srtm_sai_edma_data_callback_t	file:
+dataCallbackParam	srtm/services/srtm_sai_edma_adapter.c	/^    void *dataCallbackParam;                    \/* Callback function argument to be passed back/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:void *	file:
+dataEnabled	app_srtm.c	/^    bool dataEnabled;$/;"	m	struct:__anonb65b96fc0808	typeref:typename:bool	file:
+dataSize	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t dataSize;     \/* bytes of copied data *\/$/;"	m	struct:_srtm_sai_edma_local_period	typeref:typename:uint32_t	file:
+dfeatures	remoteproc.h	/^    uint32_t dfeatures;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+disable	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*disable)(srtm_pmic_adapter_t adapter, uint8_t regulator);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t regulator)
+disp	app_srtm.c	/^static srtm_dispatcher_t disp;$/;"	v	typeref:typename:srtm_dispatcher_t	file:
+dma	srtm/services/srtm_sai_edma_adapter.c	/^    void *dma;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:void *	file:
+dmaChannel	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t dmaChannel;$/;"	m	struct:_srtm_sai_edma_config	typeref:typename:uint32_t
+driver	srtm/services/srtm_i2c_codec_adapter.c	/^    codec_handle_t *driver;$/;"	m	struct:_srtm_i2c_codec_adapter	typeref:typename:codec_handle_t *	file:
+driver	srtm/services/srtm_pf1550_adapter.c	/^    pf1550_handle_t *driver;$/;"	m	struct:_srtm_pf1550_adapter	typeref:typename:pf1550_handle_t *	file:
+enable	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*enable)(srtm_pmic_adapter_t adapter, uint8_t regulator);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t regulator)
+enable	srtm/services/srtm_sensor_service.h	/^        uint8_t enable;$/;"	m	union:_srtm_sensor_payload::__anond7e64a32020a	typeref:typename:uint8_t
+enableAlarm	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*enableAlarm)(srtm_rtc_adapter_t adapter, bool enable);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_rtc_adapter_t adapter,bool enable)
+enableDataReport	srtm/services/srtm_sensor_service.h	/^    srtm_status_t (*enableDataReport)(srtm_sensor_adapter_t adapter,$/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_status_t (*)(srtm_sensor_adapter_t adapter,srtm_sensor_type_t type,uint8_t index,bool enable)
+enableStateDetector	srtm/services/srtm_sensor_service.h	/^    srtm_status_t (*enableStateDetector)(srtm_sensor_adapter_t adapter,$/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_status_t (*)(srtm_sensor_adapter_t adapter,srtm_sensor_type_t type,uint8_t index,bool enable)
+enabled	srtm/services/srtm_rtc_service.h	/^    uint8_t enabled;$/;"	m	struct:_srtm_rtc_alarm	typeref:typename:uint8_t
+endRemoteIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t endRemoteIdx; \/* period index of remote buffer if local period contains remote buf/;"	m	struct:_srtm_sai_edma_local_period	typeref:typename:uint32_t	file:
+epName	srtm/channels/srtm_rpmsg_endpoint.h	/^    const char *epName;                      \/*!< RPMsg endpoint name for name service announce/;"	m	struct:_srtm_rpmsg_endpoint_config	typeref:typename:const char *
+event	app_srtm.c	/^    srtm_io_event_t event;$/;"	m	struct:__anonb65b96fc0408	typeref:typename:srtm_io_event_t	file:
+expired	app_srtm.c	/^    uint32_t expired;    \/* milli-seconds since last data report. *\/$/;"	m	struct:__anonb65b96fc0808	typeref:typename:uint32_t	file:
+finishedBufOffset	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t finishedBufOffset;                 \/* offset from bufAddr where the data transfer /;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+flags	remoteproc.h	/^    uint32_t flags;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+flags	remoteproc.h	/^    uint32_t flags;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+format	srtm/services/srtm_audio_service.h	/^        uint8_t format;$/;"	m	union:_srtm_audio_payload::__anone036b1aa040a	typeref:typename:uint8_t
+format	srtm/services/srtm_audio_service.h	/^    srtm_audio_format_type_t format;$/;"	m	struct:_audio_format	typeref:typename:srtm_audio_format_type_t
+format	srtm/services/srtm_i2c_codec_adapter.c	/^    uint8_t format;$/;"	m	struct:_srtm_i2c_codec_adapter	typeref:typename:uint8_t	file:
+freeProcs	srtm/services/srtm_audio_service.c	/^    srtm_list_t freeProcs;$/;"	m	struct:_srtm_audio_iface	typeref:typename:srtm_list_t	file:
+freeRun	srtm/services/srtm_sai_edma_adapter.c	/^    bool freeRun; \/* flag to indicate that no periodReady will be sent by audio client. *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:bool	file:
+fw_resource_type	remoteproc.h	/^enum fw_resource_type$/;"	g
+fw_rsc_carveout	remoteproc.h	/^struct fw_rsc_carveout$/;"	s
+fw_rsc_devmem	remoteproc.h	/^struct fw_rsc_devmem$/;"	s
+fw_rsc_hdr	remoteproc.h	/^struct fw_rsc_hdr$/;"	s
+fw_rsc_trace	remoteproc.h	/^struct fw_rsc_trace$/;"	s
+fw_rsc_vdev	remoteproc.h	/^struct fw_rsc_vdev$/;"	s
+fw_rsc_vdev_vring	remoteproc.h	/^struct fw_rsc_vdev_vring$/;"	s
+fw_rsc_vendor	remoteproc.h	/^struct fw_rsc_vendor$/;"	s
+g_scgAuxPllConfig	clock_config.c	/^const scg_apll_config_t g_scgAuxPllConfig = {.enableMode    = kSCG_AuxPllEnable,$/;"	v	typeref:typename:const scg_apll_config_t
+g_scgFircConfig	clock_config.c	/^const scg_firc_config_t g_scgFircConfig = {.enableMode = kSCG_FircEnable,$/;"	v	typeref:typename:const scg_firc_config_t
+g_scgSircConfig	clock_config.c	/^const scg_sirc_config_t g_scgSircConfig = {.enableMode = kSCG_SircEnable | kSCG_SircEnableInLowP/;"	v	typeref:typename:const scg_sirc_config_t
+g_scgSysOscConfig	clock_config.c	/^const scg_sosc_config_t g_scgSysOscConfig = {.freq        = BOARD_XTAL0_CLK_HZ,$/;"	v	typeref:typename:const scg_sosc_config_t
+g_scgSysPllConfig	clock_config.c	/^const scg_spll_config_t g_scgSysPllConfig = {.enableMode    = kSCG_SysPllEnable,$/;"	v	typeref:typename:const scg_spll_config_t
+g_sysClkConfigHsrun	clock_config.c	/^const scg_sys_clk_config_t g_sysClkConfigHsrun = {$/;"	v	typeref:typename:const scg_sys_clk_config_t
+g_sysClkConfigNormalRun	clock_config.c	/^const scg_sys_clk_config_t g_sysClkConfigNormalRun = {$/;"	v	typeref:typename:const scg_sys_clk_config_t
+g_sysClkConfigRunToHsrun	clock_config.c	/^const scg_sys_clk_config_t g_sysClkConfigRunToHsrun = {$/;"	v	typeref:typename:const scg_sys_clk_config_t
+g_sysClkConfigSircSource	clock_config.c	/^const scg_sys_clk_config_t g_sysClkConfigSircSource = {$/;"	v	typeref:typename:const scg_sys_clk_config_t
+g_sysClkConfigVlpr	clock_config.c	/^const scg_sys_clk_config_t g_sysClkConfigVlpr = {$/;"	v	typeref:typename:const scg_sys_clk_config_t
+getAlarm	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*getAlarm)(srtm_rtc_adapter_t adapter, struct _srtm_rtc_alarm *pAlarm);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_rtc_adapter_t adapter,struct _srtm_rtc_alarm * pAlarm)
+getBufOffset	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*getBufOffset)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t inde/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index,uint32_t * pOffset)
+getInput	srtm/services/srtm_io_service.c	/^    srtm_io_service_get_input_t getInput;$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_io_service_get_input_t	file:
+getReg	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*getReg)(srtm_codec_adapter_t adapter, uint32_t reg, uint32_t *pRegVal);$/;"	m	struct:_srtm_codec_adapter	typeref:typename:srtm_status_t (*)(srtm_codec_adapter_t adapter,uint32_t reg,uint32_t * pRegVal)
+getRegister	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*getRegister)(srtm_pmic_adapter_t adapter, uint8_t reg, uint32_t *pValue);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t reg,uint32_t * pValue)
+getTime	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*getTime)(srtm_rtc_adapter_t adapter, uint32_t *pSeconds);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_rtc_adapter_t adapter,uint32_t * pSeconds)
+getVoltage	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*getVoltage)(srtm_pmic_adapter_t adapter, uint8_t regulator, uint32_t *pVolt)/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t regulator,uint32_t * pVolt)
+gfeatures	remoteproc.h	/^    uint32_t gfeatures;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+gpios	app_srtm.c	/^static GPIO_Type *const gpios[] = GPIO_BASE_PTRS;$/;"	v	typeref:typename:GPIO_Type * const[]	file:
+guardTime	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t guardTime; \/* TX ONLY guardTime (ms): M core needs to make sure there is enough ti/;"	m	struct:_srtm_sai_edma_config	typeref:typename:uint32_t
+heartBeat	app_srtm.c	/^static bool heartBeat;$/;"	v	typeref:typename:bool	file:
+heartBeatTimer	app_srtm.c	/^static TimerHandle_t heartBeatTimer;$/;"	v	typeref:typename:TimerHandle_t	file:
+i2cHandle	srtm/services/srtm_i2c_codec_adapter.h	/^    void *i2cHandle;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:void *
+id	remoteproc.h	/^    uint32_t id;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+ifaces	srtm/services/srtm_audio_service.c	/^    srtm_list_t ifaces;$/;"	m	struct:_srtm_audio_service	typeref:typename:srtm_list_t	file:
+index	app_srtm.c	/^    uint8_t index;$/;"	m	struct:__anonb65b96fc0408	typeref:typename:uint8_t	file:
+index	srtm/services/srtm_audio_service.c	/^    uint8_t index;$/;"	m	struct:_srtm_audio_iface	typeref:typename:uint8_t	file:
+index	srtm/services/srtm_audio_service.h	/^    uint8_t index;$/;"	m	struct:_srtm_audio_payload	typeref:typename:uint8_t
+index	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t index;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:uint32_t	file:
+index	srtm/services/srtm_sensor_service.h	/^    uint8_t index;$/;"	m	struct:_srtm_sensor_payload	typeref:typename:uint8_t
+io	app_srtm.c	/^    } io;$/;"	m	struct:__anonb65b96fc0508	typeref:struct:__anonb65b96fc0508::__anonb65b96fc0608	file:
+ioId	app_srtm.c	/^    uint16_t ioId;$/;"	m	struct:__anonb65b96fc0408	typeref:typename:uint16_t	file:
+ioId	srtm/services/srtm_io_service.c	/^    uint16_t ioId;$/;"	m	struct:_srtm_io_pin	typeref:typename:uint16_t	file:
+ioService	app_srtm.c	/^static srtm_service_t ioService;$/;"	v	typeref:typename:srtm_service_t	file:
+irqHandler	app_srtm.c	/^static app_irq_handler_t irqHandler;$/;"	v	typeref:typename:app_irq_handler_t	file:
+irqHandlerParam	app_srtm.c	/^static void *irqHandlerParam;$/;"	v	typeref:typename:void *	file:
+isEnabled	srtm/services/srtm_pmic_service.h	/^    bool (*isEnabled)(srtm_pmic_adapter_t adapter, uint8_t regulator);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:bool (*)(srtm_pmic_adapter_t adapter,uint8_t regulator)
+keyIdx	srtm/services/srtm_keypad_service.c	/^    uint8_t keyIdx;$/;"	m	struct:_srtm_keypad_key	typeref:typename:uint8_t	file:
+keypadService	app_srtm.c	/^static srtm_service_t keypadService;$/;"	v	typeref:typename:srtm_service_t	file:
+keys	srtm/services/srtm_keypad_service.c	/^    srtm_list_t keys; \/*!< SRTM keypad keys list *\/$/;"	m	struct:_srtm_keypad_service	typeref:typename:srtm_list_t	file:
+lastCount	app_srtm.c	/^    uint32_t lastCount;  \/* step counter reported last time. *\/$/;"	m	struct:__anonb65b96fc0808	typeref:typename:uint32_t	file:
+leadIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t leadIdx;          \/* ready period index for playback or recording. *\/$/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+len	remoteproc.h	/^    uint32_t len;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+len	remoteproc.h	/^    uint32_t len;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+len	remoteproc.h	/^    uint32_t len;$/;"	m	struct:fw_rsc_trace	typeref:typename:uint32_t
+len	remoteproc.h	/^    uint32_t len;$/;"	m	struct:fw_rsc_vendor	typeref:typename:uint32_t
+linkupTimer	app_srtm.c	/^static TimerHandle_t linkupTimer;$/;"	v	typeref:typename:TimerHandle_t	file:
+llwuPinModeEvents	app_srtm.c	/^static const srtm_io_event_t llwuPinModeEvents[] = {$/;"	v	typeref:typename:const srtm_io_event_t[]	file:
+llwuPins	app_srtm.c	/^static const uint16_t llwuPins[] = {$/;"	v	typeref:typename:const uint16_t[]	file:
+loadIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t loadIdx;          \/* used to indicate period index preloaded either to DMA transfe/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+localAddr	srtm/channels/srtm_rpmsg_endpoint.h	/^    unsigned long localAddr;                 \/*!< RPMsg local endpoint address *\/$/;"	m	struct:_srtm_rpmsg_endpoint_config	typeref:typename:unsigned long
+localBuf	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_local_buf_t localBuf;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:srtm_sai_edma_local_buf_t	file:
+localRtm	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_local_runtime localRtm; \/* buffer set by application. *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:struct:_srtm_sai_edma_local_runtime	file:
+lpi2c0Handle	app_srtm.c	/^static lpi2c_rtos_handle_t lpi2c0Handle;$/;"	v	typeref:typename:lpi2c_rtos_handle_t	file:
+lpi2c0Init	app_srtm.c	/^static bool lpi2c0Init, lpi2c3Init;$/;"	v	typeref:typename:bool	file:
+lpi2c3Handle	app_srtm.c	/^static lpi2c_rtos_handle_t lpi2c3Handle;$/;"	v	typeref:typename:lpi2c_rtos_handle_t	file:
+lpi2c3Init	app_srtm.c	/^static bool lpi2c0Init, lpi2c3Init;$/;"	v	typeref:typename:bool	file:
+main	main_remote.c	/^int main(void)$/;"	f	typeref:typename:int
+mclk	srtm/services/srtm_i2c_codec_adapter.h	/^    uint32_t mclk;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:uint32_t
+mclk	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t mclk;$/;"	m	struct:_srtm_sai_edma_config	typeref:typename:uint32_t
+mode	srtm/services/srtm_sai_edma_adapter.c	/^    sai_mono_stereo_t mode;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:sai_mono_stereo_t	file:
+monSig	app_srtm.c	/^static SemaphoreHandle_t monSig;$/;"	v	typeref:typename:SemaphoreHandle_t	file:
+mu	app_srtm.c	/^    } mu;$/;"	m	struct:__anonb65b96fc0508	typeref:struct:__anonb65b96fc0508::__anonb65b96fc0708	file:
+mutex	srtm/services/srtm_lfcl_service.c	/^    srtm_mutex_t mutex;$/;"	m	struct:_srtm_lfcl_service	typeref:typename:srtm_mutex_t	file:
+my_ept	main_remote.c	/^static struct rpmsg_lite_endpoint *volatile my_ept = NULL;$/;"	v	typeref:struct:rpmsg_lite_endpoint * volatile	file:
+my_queue	main_remote.c	/^static volatile rpmsg_queue_handle my_queue        = NULL;$/;"	v	typeref:typename:volatile rpmsg_queue_handle	file:
+my_rpmsg	main_remote.c	/^static struct rpmsg_lite_instance *volatile my_rpmsg = NULL;$/;"	v	typeref:struct:rpmsg_lite_instance * volatile	file:
+name	remoteproc.h	/^    uint8_t name[RPROC_MAX_NAME_LEN];$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint8_t[]
+name	remoteproc.h	/^    uint8_t name[RPROC_MAX_NAME_LEN];$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint8_t[]
+name	remoteproc.h	/^    uint8_t name[RPROC_MAX_NAME_LEN];$/;"	m	struct:fw_rsc_trace	typeref:typename:uint8_t[]
+node	srtm/services/srtm_audio_service.c	/^    srtm_list_t node;$/;"	m	struct:_srtm_audio_iface	typeref:typename:srtm_list_t	file:
+node	srtm/services/srtm_io_service.c	/^    srtm_list_t node;$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_list_t	file:
+node	srtm/services/srtm_keypad_service.c	/^    srtm_list_t node;$/;"	m	struct:_srtm_keypad_key	typeref:typename:srtm_list_t	file:
+node	srtm/services/srtm_lfcl_service.c	/^    srtm_list_t node;$/;"	m	struct:_srtm_lfcl_callback	typeref:typename:srtm_list_t	file:
+notif	srtm/services/srtm_io_service.c	/^    srtm_notification_t notif; \/* SRTM notification message for input event *\/$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_notification_t	file:
+notif	srtm/services/srtm_keypad_service.c	/^    srtm_notification_t notif[SRTM_KEYPAD_NTF_NUM_PER_KEY]; \/* SRTM notification message for ke/;"	m	struct:_srtm_keypad_key	typeref:typename:srtm_notification_t[]	file:
+notif	srtm/services/srtm_rtc_service.c	/^    srtm_notification_t notif;$/;"	m	struct:_srtm_rtc_service	typeref:typename:srtm_notification_t	file:
+notifyAlarm	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*notifyAlarm)(srtm_service_t service);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_service_t service)
+notifyid	remoteproc.h	/^    uint32_t notifyid;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+notifyid	remoteproc.h	/^    uint32_t notifyid;$/;"	m	struct:fw_rsc_vdev_vring	typeref:typename:uint32_t
+num	remoteproc.h	/^    uint32_t num;$/;"	m	struct:fw_rsc_vdev_vring	typeref:typename:uint32_t
+num	remoteproc.h	/^    uint32_t num;$/;"	m	struct:resource_table	typeref:typename:uint32_t
+num	rsc_table.h	/^    uint32_t num;$/;"	m	struct:remote_resource_table	typeref:typename:uint32_t
+num_of_vrings	remoteproc.h	/^    uint8_t num_of_vrings;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint8_t
+offset	remoteproc.h	/^    uint32_t offset[0];$/;"	m	struct:resource_table	typeref:typename:uint32_t[0]
+offset	rsc_table.h	/^    uint32_t offset[NO_RESOURCE_ENTRIES];$/;"	m	struct:remote_resource_table	typeref:typename:uint32_t[]
+offset	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t offset;               \/* period offset to copy *\/$/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+onoffKeyEvents	app_srtm.c	/^static const srtm_io_event_t onoffKeyEvents[] = {$/;"	v	typeref:typename:const srtm_io_event_t[]	file:
+open	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*open)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+override	app_srtm.c	/^    bool override; \/* Means the CA7 pin configuration is overridden by CM4 wakeup pin. *\/$/;"	m	struct:__anonb65b96fc0408	typeref:typename:bool	file:
+pa	remoteproc.h	/^    uint32_t pa;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+pa	remoteproc.h	/^    uint32_t pa;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+param	srtm/services/srtm_io_service.c	/^    void *param;$/;"	m	struct:_srtm_io_pin	typeref:typename:void *	file:
+param	srtm/services/srtm_keypad_service.c	/^    void *param;$/;"	m	struct:_srtm_keypad_key	typeref:typename:void *	file:
+param	srtm/services/srtm_lfcl_service.c	/^    void *param;$/;"	m	struct:_srtm_lfcl_callback	typeref:typename:void *	file:
+pause	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*pause)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+pedoConfig	app_srtm.c	/^static KeynetikConfig pedoConfig = {$/;"	v	typeref:typename:KeynetikConfig	file:
+pedometer	app_srtm.c	/^static app_pedometer_t pedometer = {.stateEnabled = false,$/;"	v	typeref:typename:app_pedometer_t	file:
+peerAddr	srtm/channels/srtm_rpmsg_endpoint.h	/^    unsigned long peerAddr;                  \/*!< RPMsg peer endpoint address *\/$/;"	m	struct:_srtm_rpmsg_endpoint_config	typeref:typename:unsigned long
+peercorePower	app_srtm.c	/^static app_srtm_power_t peercorePower;$/;"	v	typeref:typename:app_srtm_power_t	file:
+pending	srtm/services/srtm_rtc_service.h	/^    uint8_t pending;$/;"	m	struct:_srtm_rtc_alarm	typeref:typename:uint8_t
+periodDone	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*periodDone)(srtm_service_t service, srtm_audio_dir_t dir, uint8_t index, uin/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_audio_dir_t dir,uint8_t index,uint32_t periodIdx)
+periodIdx	srtm/services/srtm_audio_service.h	/^    uint32_t periodIdx;$/;"	m	struct:_srtm_audio_payload	typeref:typename:uint32_t
+periodReady	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*periodReady)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index,uint32_t periodIdx)
+periodSize	srtm/services/srtm_audio_service.h	/^    uint32_t periodSize;$/;"	m	struct:_srtm_audio_payload	typeref:typename:uint32_t
+periodSize	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t periodSize;$/;"	m	struct:_srtm_sai_edma_local_runtime	typeref:typename:uint32_t	file:
+periodSize	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t periodSize;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+periods	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t periods;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+periods	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t periods;   \/* periods in local buffer *\/$/;"	m	struct:_srtm_sai_edma_local_buf	typeref:typename:uint32_t
+periodsInfo	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_local_period periodsInfo[SRTM_SAI_EDMA_MAX_LOCAL_BUF_PERIODS];$/;"	m	struct:_srtm_sai_edma_local_runtime	typeref:struct:_srtm_sai_edma_local_period[]	file:
+pf1550Handle	app_srtm.c	/^static pf1550_handle_t pf1550Handle;$/;"	v	typeref:typename:pf1550_handle_t	file:
+pf1550ModuleMap	srtm/services/srtm_pf1550_adapter.c	/^static const pf1550_module_t pf1550ModuleMap[] = {$/;"	v	typeref:typename:const pf1550_module_t[]	file:
+pins	srtm/services/srtm_io_service.c	/^    srtm_list_t pins; \/*!< SRTM IO pins list *\/$/;"	m	struct:_srtm_io_service	typeref:typename:srtm_list_t	file:
+pmicI2cHandle	app_srtm.c	/^static lpi2c_rtos_handle_t *pmicI2cHandle;$/;"	v	typeref:typename:lpi2c_rtos_handle_t *	file:
+pollDelay	app_srtm.c	/^    uint32_t pollDelay;$/;"	m	struct:__anonb65b96fc0808	typeref:typename:uint32_t	file:
+pollDelay	srtm/services/srtm_sensor_service.h	/^        uint32_t pollDelay;$/;"	m	union:_srtm_sensor_payload::__anond7e64a32020a	typeref:typename:uint32_t
+ports	app_srtm.c	/^static PORT_Type *const ports[] = PORT_BASE_PTRS;$/;"	v	typeref:typename:PORT_Type * const[]	file:
+postCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_post_copy_callback_t postCopyCallback; \/* Callback function to cleanup after /;"	m	struct:_srtm_sai_edma_local_runtime	typeref:typename:srtm_sai_edma_post_copy_callback_t	file:
+preCopyCallback	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_pre_copy_callback_t preCopyCallback;   \/* Callback function to prepare for da/;"	m	struct:_srtm_sai_edma_local_runtime	typeref:typename:srtm_sai_edma_pre_copy_callback_t	file:
+proc	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_procedure_t proc;                    \/* proc message to trigger DMA transfer in SRTM c/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:srtm_procedure_t	file:
+readRegMap	srtm/services/srtm_i2c_codec_adapter.h	/^    srtm_i2c_read_reg_map_t readRegMap;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:srtm_i2c_read_reg_map_t
+readyIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t readyIdx;                        \/* period ready index. *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+reg	srtm/services/srtm_audio_service.h	/^        uint32_t reg;$/;"	m	union:_srtm_audio_payload::__anone036b1aa060a	typeref:typename:uint32_t
+reg	srtm/services/srtm_pmic_service.h	/^    uint8_t reg;$/;"	m	struct:_srtm_pmic_payload	typeref:typename:uint8_t
+regVal	srtm/services/srtm_audio_service.h	/^        uint32_t regVal;$/;"	m	union:_srtm_audio_payload::__anone036b1aa070a	typeref:typename:uint32_t
+regWidth	srtm/services/srtm_i2c_codec_adapter.h	/^    codec_reg_width_t regWidth;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:codec_reg_width_t
+remainingLoadPeriods	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t remainingLoadPeriods; \/* periods to be preloaded either to DMA transfer or to loca/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+remainingPeriods	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t remainingPeriods; \/* periods to be consumed\/filled *\/$/;"	m	struct:_srtm_sai_edma_buf_runtime	typeref:typename:uint32_t	file:
+remoteIdx	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t remoteIdx;    \/* save remote period index which the local period end points to *\/$/;"	m	struct:_srtm_sai_edma_local_period	typeref:typename:uint32_t	file:
+remoteOffset	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t remoteOffset; \/* save remote period offset which the local period end points to *\/$/;"	m	struct:_srtm_sai_edma_local_period	typeref:typename:uint32_t	file:
+remote_resource_table	rsc_table.h	/^struct remote_resource_table$/;"	s
+reportData	srtm/services/srtm_sensor_service.h	/^    srtm_status_t (*reportData)($/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_sensor_type_t type,uint8_t index,uint8_t * data,uint32_t dataLen)
+reserved	remoteproc.h	/^    uint32_t reserved;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+reserved	remoteproc.h	/^    uint32_t reserved;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+reserved	remoteproc.h	/^    uint32_t reserved;$/;"	m	struct:fw_rsc_trace	typeref:typename:uint32_t
+reserved	remoteproc.h	/^    uint32_t reserved;$/;"	m	struct:fw_rsc_vdev_vring	typeref:typename:uint32_t
+reserved	remoteproc.h	/^    uint32_t reserved[2];$/;"	m	struct:resource_table	typeref:typename:uint32_t[2]
+reserved	remoteproc.h	/^    uint8_t reserved[2];$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint8_t[2]
+reserved	rsc_table.h	/^    uint32_t reserved[2];$/;"	m	struct:remote_resource_table	typeref:typename:uint32_t[2]
+reserved	srtm/services/srtm_rtc_service.h	/^    uint8_t reserved;$/;"	m	struct:_srtm_rtc_payload	typeref:typename:uint8_t
+resource_table	remoteproc.h	/^struct resource_table$/;"	s
+resources	rsc_table.c	/^const struct remote_resource_table resources = {$/;"	v	typeref:typename:const struct remote_resource_table
+restart	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*restart)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+resume	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*resume)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+retCode	srtm/services/srtm_audio_service.h	/^        uint8_t retCode;$/;"	m	union:_srtm_audio_payload::__anone036b1aa040a	typeref:typename:uint8_t
+retCode	srtm/services/srtm_pmic_service.h	/^    uint8_t retCode;$/;"	m	struct:_srtm_pmic_payload	typeref:typename:uint8_t
+retCode	srtm/services/srtm_rtc_service.h	/^    uint8_t retCode;$/;"	m	struct:_srtm_rtc_payload	typeref:typename:uint8_t
+retCode	srtm/services/srtm_sensor_service.h	/^        uint8_t retCode;$/;"	m	union:_srtm_sensor_payload::__anond7e64a32020a	typeref:typename:uint8_t
+rpmsgEndpoint	srtm/channels/srtm_rpmsg_endpoint.c	/^    struct rpmsg_lite_endpoint *rpmsgEndpoint;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:struct:rpmsg_lite_endpoint *	file:
+rpmsgHandle	app_srtm.c	/^static struct rpmsg_lite_instance *rpmsgHandle;$/;"	v	typeref:struct:rpmsg_lite_instance *	file:
+rpmsgHandle	srtm/channels/srtm_rpmsg_endpoint.h	/^    struct rpmsg_lite_instance *rpmsgHandle; \/*!< RPMsg handle initialized by app *\/$/;"	m	struct:_srtm_rpmsg_endpoint_config	typeref:struct:rpmsg_lite_instance *
+rpmsgMonitor	app_srtm.c	/^static app_rpmsg_monitor_t rpmsgMonitor;$/;"	v	typeref:typename:app_rpmsg_monitor_t	file:
+rpmsgMonitorParam	app_srtm.c	/^static void *rpmsgMonitorParam;$/;"	v	typeref:typename:void *	file:
+rtcAdapter	app_srtm.c	/^static srtm_rtc_adapter_t rtcAdapter;$/;"	v	typeref:typename:srtm_rtc_adapter_t	file:
+rtcService	app_srtm.c	/^static srtm_service_t rtcService;$/;"	v	typeref:typename:srtm_service_t	file:
+rxCallback	srtm/channels/srtm_rpmsg_endpoint.c	/^    srtm_rpmsg_endpoint_rx_cb_t rxCallback;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:typename:srtm_rpmsg_endpoint_rx_cb_t	file:
+rxCallbackParam	srtm/channels/srtm_rpmsg_endpoint.c	/^    void *rxCallbackParam;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:typename:void *	file:
+rxConfig	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_config_t rxConfig;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:srtm_sai_edma_config_t	file:
+rxDmaHandle	srtm/services/srtm_sai_edma_adapter.c	/^    edma_handle_t rxDmaHandle;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:edma_handle_t	file:
+rxRtm	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_runtime rxRtm;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:struct:_srtm_sai_edma_runtime	file:
+s_audIdx	srtm/services/srtm_audio_service.c	/^static uint8_t s_audIdx;$/;"	v	typeref:typename:uint8_t	file:
+sai	srtm/services/srtm_audio_service.c	/^    srtm_sai_adapter_t sai;$/;"	m	struct:_srtm_audio_iface	typeref:typename:srtm_sai_adapter_t	file:
+sai	srtm/services/srtm_sai_edma_adapter.c	/^    I2S_Type *sai;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:I2S_Type *	file:
+saiAdapter	app_srtm.c	/^static srtm_sai_adapter_t saiAdapter;$/;"	v	typeref:typename:srtm_sai_adapter_t	file:
+saiBitsWidthMap	srtm/services/srtm_sai_edma_adapter.c	/^static const sai_word_width_t saiBitsWidthMap[] = {kSAI_WordWidth16bits, kSAI_WordWidth24bits};$/;"	v	typeref:typename:const sai_word_width_t[]	file:
+saiChannelMap	srtm/services/srtm_sai_edma_adapter.c	/^static const sai_mono_stereo_t saiChannelMap[]  = {kSAI_MonoLeft, kSAI_MonoRight, kSAI_Stereo};$/;"	v	typeref:typename:const sai_mono_stereo_t[]	file:
+saiDirection	srtm/services/srtm_sai_edma_adapter.c	/^static const char *saiDirection[] = {"Rx", "Tx"};$/;"	v	typeref:typename:const char * []	file:
+saiFormatMap	srtm/services/srtm_audio_service.c	/^srtm_audio_format_map_t saiFormatMap[6] = {{SRTM_Audio_Stereo16Bits, 16U}, {SRTM_Audio_Stereo24B/;"	v	typeref:typename:srtm_audio_format_map_t[6]
+saiHandle	srtm/services/srtm_sai_edma_adapter.c	/^    sai_edma_handle_t saiHandle;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:sai_edma_handle_t	file:
+seconds	srtm/services/srtm_rtc_service.h	/^    uint32_t seconds; \/* Seconds since 01-01-1970 00:00:00 *\/$/;"	m	struct:_srtm_rtc_alarm	typeref:typename:uint32_t
+sensor	srtm/services/srtm_sensor_service.c	/^    srtm_sensor_adapter_t sensor;$/;"	m	struct:_srtm_sensor_service	typeref:typename:srtm_sensor_adapter_t	file:
+sensorAdapter	app_srtm.c	/^static struct _srtm_sensor_adapter sensorAdapter = {.enableStateDetector = APP_SRTM_Sensor_Enabl/;"	v	typeref:struct:_srtm_sensor_adapter	file:
+sensorI2cHandle	app_srtm.c	/^static lpi2c_rtos_handle_t *sensorI2cHandle;$/;"	v	typeref:typename:lpi2c_rtos_handle_t *	file:
+service	srtm/services/srtm_audio_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_audio_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_audio_service.h	/^    srtm_service_t service;$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_service_t
+service	srtm/services/srtm_io_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_io_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_keypad_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_keypad_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_lfcl_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_lfcl_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_pmic_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_pmic_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_rtc_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_rtc_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_rtc_service.h	/^    srtm_service_t service;$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_service_t
+service	srtm/services/srtm_sensor_service.c	/^    struct _srtm_service service;$/;"	m	struct:_srtm_sensor_service	typeref:struct:_srtm_service	file:
+service	srtm/services/srtm_sensor_service.h	/^    srtm_service_t service;$/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_service_t
+setAlarm	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*setAlarm)(srtm_rtc_adapter_t adapter, const struct _srtm_rtc_alarm *pAlarm);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_rtc_adapter_t adapter,const struct _srtm_rtc_alarm * pAlarm)
+setBuf	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*setBuf)(srtm_sai_adapter_t adapter,$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index,uint8_t * bufAddr,uint32_t bufSize,uint32_t periodSize,uint32_t periodIdx)
+setOutput	srtm/services/srtm_io_service.c	/^    srtm_io_service_set_output_t setOutput;$/;"	m	struct:_srtm_io_pin	typeref:typename:srtm_io_service_set_output_t	file:
+setParam	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*setParam)(srtm_codec_adapter_t adapter, uint8_t index, uint8_t format, uint3/;"	m	struct:_srtm_codec_adapter	typeref:typename:srtm_status_t (*)(srtm_codec_adapter_t adapter,uint8_t index,uint8_t format,uint32_t srate)
+setParam	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*setParam)(srtm_sai_adapter_t adapter,$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index,uint8_t format,uint8_t channels,uint32_t srate)
+setPollDelay	srtm/services/srtm_sensor_service.h	/^    srtm_status_t (*setPollDelay)(srtm_sensor_adapter_t adapter,$/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_status_t (*)(srtm_sensor_adapter_t adapter,srtm_sensor_type_t type,uint8_t index,uint32_t millisec)
+setReg	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*setReg)(srtm_codec_adapter_t adapter, uint32_t reg, uint32_t regVal);$/;"	m	struct:_srtm_codec_adapter	typeref:typename:srtm_status_t (*)(srtm_codec_adapter_t adapter,uint32_t reg,uint32_t regVal)
+setRegister	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*setRegister)(srtm_pmic_adapter_t adapter, uint8_t reg, uint32_t value);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t reg,uint32_t value)
+setStandbyVoltage	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*setStandbyVoltage)(srtm_pmic_adapter_t adapter, uint8_t regulator, uint32_t /;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t regulator,uint32_t volt)
+setTime	srtm/services/srtm_rtc_service.h	/^    srtm_status_t (*setTime)(srtm_rtc_adapter_t adapter, uint32_t seconds);$/;"	m	struct:_srtm_rtc_adapter	typeref:typename:srtm_status_t (*)(srtm_rtc_adapter_t adapter,uint32_t seconds)
+setVoltage	srtm/services/srtm_pmic_service.h	/^    srtm_status_t (*setVoltage)(srtm_pmic_adapter_t adapter, uint8_t regulator, uint32_t volt);$/;"	m	struct:_srtm_pmic_adapter	typeref:typename:srtm_status_t (*)(srtm_pmic_adapter_t adapter,uint8_t regulator,uint32_t volt)
+slaveAddr	srtm/services/srtm_i2c_codec_adapter.h	/^    uint8_t slaveAddr;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:uint8_t
+srate	srtm/services/srtm_audio_service.h	/^        uint32_t srate;$/;"	m	union:_srtm_audio_payload::__anone036b1aa050a	typeref:typename:uint32_t
+srate	srtm/services/srtm_i2c_codec_adapter.c	/^    uint32_t srate;$/;"	m	struct:_srtm_i2c_codec_adapter	typeref:typename:uint32_t	file:
+srate	srtm/services/srtm_sai_edma_adapter.c	/^    uint32_t srate;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:uint32_t	file:
+srtmState	app_srtm.c	/^static volatile app_srtm_state_t srtmState;$/;"	v	typeref:typename:volatile app_srtm_state_t	file:
+srtm_audio_dir_t	srtm/services/srtm_audio_service.h	/^} srtm_audio_dir_t;$/;"	t	typeref:enum:__anone036b1aa0103
+srtm_audio_format_map_t	srtm/services/srtm_audio_service.h	/^} srtm_audio_format_map_t;$/;"	t	typeref:struct:_audio_format
+srtm_audio_format_type_t	srtm/services/srtm_audio_service.h	/^} srtm_audio_format_type_t;$/;"	t	typeref:enum:__anone036b1aa0303
+srtm_audio_iface_t	srtm/services/srtm_audio_service.c	/^} * srtm_audio_iface_t;$/;"	t	typeref:struct:_srtm_audio_iface *	file:
+srtm_audio_service_t	srtm/services/srtm_audio_service.c	/^} * srtm_audio_service_t;$/;"	t	typeref:struct:_srtm_audio_service *	file:
+srtm_audio_state_t	srtm/services/srtm_audio_service.h	/^} srtm_audio_state_t;$/;"	t	typeref:enum:__anone036b1aa0203
+srtm_codec_adapter_t	srtm/services/srtm_audio_service.h	/^typedef struct _srtm_codec_adapter *srtm_codec_adapter_t;$/;"	t	typeref:struct:_srtm_codec_adapter *
+srtm_i2c_codec_adapter_t	srtm/services/srtm_i2c_codec_adapter.c	/^} * srtm_i2c_codec_adapter_t;$/;"	t	typeref:struct:_srtm_i2c_codec_adapter *	file:
+srtm_i2c_codec_config_t	srtm/services/srtm_i2c_codec_adapter.h	/^} srtm_i2c_codec_config_t;$/;"	t	typeref:struct:_srtm_i2c_codec_config
+srtm_i2c_read_reg_map_t	srtm/services/srtm_i2c_codec_adapter.h	/^typedef status_t (*srtm_i2c_read_reg_map_t)(void *handle, uint32_t reg, uint32_t *val);$/;"	t	typeref:typename:status_t (*)(void * handle,uint32_t reg,uint32_t * val)
+srtm_i2c_write_reg_map_t	srtm/services/srtm_i2c_codec_adapter.h	/^typedef status_t (*srtm_i2c_write_reg_map_t)(void *handle, uint32_t reg, uint32_t val);$/;"	t	typeref:typename:status_t (*)(void * handle,uint32_t reg,uint32_t val)
+srtm_io_event_t	srtm/services/srtm_io_service.h	/^} srtm_io_event_t;$/;"	t	typeref:enum:_srtm_io_event
+srtm_io_pin_t	srtm/services/srtm_io_service.c	/^} * srtm_io_pin_t;$/;"	t	typeref:struct:_srtm_io_pin *	file:
+srtm_io_service_conf_input_t	srtm/services/srtm_io_service.h	/^typedef srtm_status_t (*srtm_io_service_conf_input_t)($/;"	t	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_peercore_t core,uint16_t ioId,srtm_io_event_t event,bool wakeup)
+srtm_io_service_get_input_t	srtm/services/srtm_io_service.h	/^typedef srtm_status_t (*srtm_io_service_get_input_t)(srtm_service_t service,$/;"	t	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_peercore_t core,uint16_t ioId,srtm_io_value_t * pIoValue)
+srtm_io_service_set_output_t	srtm/services/srtm_io_service.h	/^typedef srtm_status_t (*srtm_io_service_set_output_t)(srtm_service_t service,$/;"	t	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_peercore_t core,uint16_t ioId,srtm_io_value_t ioValue)
+srtm_io_service_t	srtm/services/srtm_io_service.c	/^} * srtm_io_service_t;$/;"	t	typeref:struct:_srtm_io_service *	file:
+srtm_io_value_t	srtm/services/srtm_io_service.h	/^} srtm_io_value_t;$/;"	t	typeref:enum:_srtm_io_value
+srtm_keypad_event_t	srtm/services/srtm_keypad_service.h	/^} srtm_keypad_event_t;$/;"	t	typeref:enum:_srtm_keypad_event
+srtm_keypad_key_t	srtm/services/srtm_keypad_service.c	/^} * srtm_keypad_key_t;$/;"	t	typeref:struct:_srtm_keypad_key *	file:
+srtm_keypad_service_conf_t	srtm/services/srtm_keypad_service.h	/^typedef srtm_status_t (*srtm_keypad_service_conf_t)($/;"	t	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_peercore_t core,uint8_t keyIdx,srtm_keypad_event_t event,bool wakeup)
+srtm_keypad_service_t	srtm/services/srtm_keypad_service.c	/^} * srtm_keypad_service_t;$/;"	t	typeref:struct:_srtm_keypad_service *	file:
+srtm_keypad_value_t	srtm/services/srtm_keypad_service.h	/^} srtm_keypad_value_t;$/;"	t	typeref:enum:_srtm_keypad_value
+srtm_lfcl_callback_t	srtm/services/srtm_lfcl_service.c	/^} * srtm_lfcl_callback_t;$/;"	t	typeref:struct:_srtm_lfcl_callback *	file:
+srtm_lfcl_event_t	srtm/services/srtm_lfcl_service.h	/^} srtm_lfcl_event_t;$/;"	t	typeref:enum:_srtm_lfcl_event
+srtm_lfcl_service_cb_t	srtm/services/srtm_lfcl_service.h	/^typedef srtm_status_t (*srtm_lfcl_service_cb_t)($/;"	t	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_peercore_t core,srtm_lfcl_event_t event,void * eventParam,void * userParam)
+srtm_lfcl_service_t	srtm/services/srtm_lfcl_service.c	/^} * srtm_lfcl_service_t;$/;"	t	typeref:struct:_srtm_lfcl_service *	file:
+srtm_mutex_buf_t	srtm_config.h	/^typedef StaticSemaphore_t srtm_mutex_buf_t;$/;"	t	typeref:typename:StaticSemaphore_t
+srtm_pf1550_adapter_t	srtm/services/srtm_pf1550_adapter.c	/^} * srtm_pf1550_adapter_t;$/;"	t	typeref:struct:_srtm_pf1550_adapter *	file:
+srtm_pmic_adapter_t	srtm/services/srtm_pmic_service.h	/^typedef struct _srtm_pmic_adapter *srtm_pmic_adapter_t;$/;"	t	typeref:struct:_srtm_pmic_adapter *
+srtm_pmic_service_t	srtm/services/srtm_pmic_service.c	/^} * srtm_pmic_service_t;$/;"	t	typeref:struct:_srtm_pmic_service *	file:
+srtm_rpmsg_endpoint_config_t	srtm/channels/srtm_rpmsg_endpoint.h	/^} srtm_rpmsg_endpoint_config_t;$/;"	t	typeref:struct:_srtm_rpmsg_endpoint_config
+srtm_rpmsg_endpoint_rx_cb_t	srtm/channels/srtm_rpmsg_endpoint.h	/^typedef int (*srtm_rpmsg_endpoint_rx_cb_t)($/;"	t	typeref:typename:int (*)(srtm_channel_t channel,void * payload,int payloadLen,unsigned long src,void * param)
+srtm_rpmsg_endpoint_t	srtm/channels/srtm_rpmsg_endpoint.c	/^} * srtm_rpmsg_endpoint_t;$/;"	t	typeref:struct:_srtm_rpmsg_endpoint *	file:
+srtm_rtc_adapter_t	srtm/services/srtm_rtc_service.h	/^typedef struct _srtm_rtc_adapter *srtm_rtc_adapter_t;$/;"	t	typeref:struct:_srtm_rtc_adapter *
+srtm_rtc_service_t	srtm/services/srtm_rtc_service.c	/^} * srtm_rtc_service_t;$/;"	t	typeref:struct:_srtm_rtc_service *	file:
+srtm_sai_adapter_t	srtm/services/srtm_audio_service.h	/^typedef struct _srtm_sai_adapter *srtm_sai_adapter_t;$/;"	t	typeref:struct:_srtm_sai_adapter *
+srtm_sai_edma_adapter_t	srtm/services/srtm_sai_edma_adapter.c	/^} * srtm_sai_edma_adapter_t;$/;"	t	typeref:struct:_srtm_sai_edma_adapter *	file:
+srtm_sai_edma_buf_runtime_t	srtm/services/srtm_sai_edma_adapter.c	/^} * srtm_sai_edma_buf_runtime_t;$/;"	t	typeref:struct:_srtm_sai_edma_buf_runtime *	file:
+srtm_sai_edma_config_t	srtm/services/srtm_sai_edma_adapter.h	/^} srtm_sai_edma_config_t;$/;"	t	typeref:struct:_srtm_sai_edma_config
+srtm_sai_edma_data_callback_t	srtm/services/srtm_sai_edma_adapter.h	/^typedef void (*srtm_sai_edma_data_callback_t)(srtm_sai_adapter_t adapter, void *data, uint32_t b/;"	t	typeref:typename:void (*)(srtm_sai_adapter_t adapter,void * data,uint32_t bytes,void * params)
+srtm_sai_edma_local_buf_t	srtm/services/srtm_sai_edma_adapter.h	/^} srtm_sai_edma_local_buf_t;$/;"	t	typeref:struct:_srtm_sai_edma_local_buf
+srtm_sai_edma_post_copy_callback_t	srtm/services/srtm_sai_edma_adapter.h	/^typedef void (*srtm_sai_edma_post_copy_callback_t)(void);$/;"	t	typeref:typename:void (*)(void)
+srtm_sai_edma_pre_copy_callback_t	srtm/services/srtm_sai_edma_adapter.h	/^typedef void (*srtm_sai_edma_pre_copy_callback_t)(void);$/;"	t	typeref:typename:void (*)(void)
+srtm_sai_edma_runtime_t	srtm/services/srtm_sai_edma_adapter.c	/^} * srtm_sai_edma_runtime_t;$/;"	t	typeref:struct:_srtm_sai_edma_runtime *	file:
+srtm_sai_edma_suspend_state	srtm/services/srtm_sai_edma_adapter.c	/^} srtm_sai_edma_suspend_state;$/;"	t	typeref:enum:_srtm_sai_edma_suspend_state	file:
+srtm_sem_buf_t	srtm_config.h	/^typedef StaticSemaphore_t srtm_sem_buf_t;$/;"	t	typeref:typename:StaticSemaphore_t
+srtm_sensor_adapter_t	srtm/services/srtm_sensor_service.h	/^typedef struct _srtm_sensor_adapter *srtm_sensor_adapter_t;$/;"	t	typeref:struct:_srtm_sensor_adapter *
+srtm_sensor_service_t	srtm/services/srtm_sensor_service.c	/^} * srtm_sensor_service_t;$/;"	t	typeref:struct:_srtm_sensor_service *	file:
+srtm_sensor_type_t	srtm/services/srtm_sensor_service.h	/^} srtm_sensor_type_t;$/;"	t	typeref:enum:__anond7e64a320103
+srtm_snvs_lp_rtc_adapter_t	srtm/services/srtm_snvs_lp_rtc_adapter.c	/^} * srtm_snvs_lp_rtc_adapter_t;$/;"	t	typeref:struct:_srtm_snvs_lp_rtc_adapter *	file:
+srtm_vdev	rsc_table.h	/^    struct fw_rsc_vdev srtm_vdev;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev
+srtm_vring0	rsc_table.h	/^    struct fw_rsc_vdev_vring srtm_vring0;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev_vring
+srtm_vring1	rsc_table.h	/^    struct fw_rsc_vdev_vring srtm_vring1;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev_vring
+start	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*start)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+started	srtm/channels/srtm_rpmsg_endpoint.c	/^    bool started;$/;"	m	struct:_srtm_rpmsg_endpoint	typeref:typename:bool	file:
+state	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_audio_state_t state;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:srtm_audio_state_t	file:
+stateEnabled	app_srtm.c	/^    bool stateEnabled;$/;"	m	struct:__anonb65b96fc0808	typeref:typename:bool	file:
+status	remoteproc.h	/^    uint8_t status;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint8_t
+status	srtm/services/srtm_pmic_service.h	/^    uint8_t status;$/;"	m	struct:_srtm_pmic_payload	typeref:typename:uint8_t
+stop	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*stop)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+stopOnSuspend	srtm/services/srtm_sai_edma_adapter.h	/^    bool stopOnSuspend;$/;"	m	struct:_srtm_sai_edma_config	typeref:typename:bool
+stoppedOnSuspend	srtm/services/srtm_sai_edma_adapter.c	/^    bool stoppedOnSuspend;$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:bool	file:
+subscribers	srtm/services/srtm_lfcl_service.c	/^    srtm_list_t subscribers; \/*!< SRTM life cycle event subscribers *\/$/;"	m	struct:_srtm_lfcl_service	typeref:typename:srtm_list_t	file:
+suspend	srtm/services/srtm_audio_service.h	/^    srtm_status_t (*suspend)(srtm_sai_adapter_t adapter, srtm_audio_dir_t dir, uint8_t index);$/;"	m	struct:_srtm_sai_adapter	typeref:typename:srtm_status_t (*)(srtm_sai_adapter_t adapter,srtm_audio_dir_t dir,uint8_t index)
+suspendContext	app_srtm.c	/^static app_suspend_ctx_t suspendContext;$/;"	v	typeref:typename:app_suspend_ctx_t	file:
+suspendState	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_suspend_state suspendState;   \/* service state in client suspend. *\/$/;"	m	struct:_srtm_sai_edma_runtime	typeref:typename:srtm_sai_edma_suspend_state	file:
+suspendTimer	app_srtm.c	/^static TimerHandle_t suspendTimer;$/;"	v	typeref:typename:TimerHandle_t	file:
+threshold	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t threshold; \/* Threshold period number: under which will trigger copy from share bu/;"	m	struct:_srtm_sai_edma_local_buf	typeref:typename:uint32_t
+threshold	srtm/services/srtm_sai_edma_adapter.h	/^    uint32_t threshold; \/* threshold period number: under which will trigger periodDone notific/;"	m	struct:_srtm_sai_edma_config	typeref:typename:uint32_t
+timer	app_srtm.c	/^    TimerHandle_t timer; \/* GPIO glitch detect timer *\/$/;"	m	struct:__anonb65b96fc0408	typeref:typename:TimerHandle_t	file:
+timer	app_srtm.c	/^    TimerHandle_t timer; \/* Sensor polling timer *\/$/;"	m	struct:__anonb65b96fc0808	typeref:typename:TimerHandle_t	file:
+txConfig	srtm/services/srtm_sai_edma_adapter.c	/^    srtm_sai_edma_config_t txConfig;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:srtm_sai_edma_config_t	file:
+txDmaHandle	srtm/services/srtm_sai_edma_adapter.c	/^    edma_handle_t txDmaHandle;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:typename:edma_handle_t	file:
+txRtm	srtm/services/srtm_sai_edma_adapter.c	/^    struct _srtm_sai_edma_runtime txRtm;$/;"	m	struct:_srtm_sai_edma_adapter	typeref:struct:_srtm_sai_edma_runtime	file:
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_carveout	typeref:typename:uint32_t
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_devmem	typeref:typename:uint32_t
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_hdr	typeref:typename:uint32_t
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_trace	typeref:typename:uint32_t
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_vdev	typeref:typename:uint32_t
+type	remoteproc.h	/^    uint32_t type;$/;"	m	struct:fw_rsc_vendor	typeref:typename:uint32_t
+type	srtm/services/srtm_sensor_service.h	/^    uint8_t type;$/;"	m	struct:_srtm_sensor_payload	typeref:typename:uint8_t
+updateState	srtm/services/srtm_sensor_service.h	/^    srtm_status_t (*updateState)(srtm_service_t service, srtm_sensor_type_t type, uint8_t index)/;"	m	struct:_srtm_sensor_adapter	typeref:typename:srtm_status_t (*)(srtm_service_t service,srtm_sensor_type_t type,uint8_t index)
+useCount	srtm/services/srtm_audio_service.c	/^    uint32_t useCount;$/;"	m	struct:_srtm_audio_iface	typeref:typename:uint32_t	file:
+user_vdev	rsc_table.h	/^    struct fw_rsc_vdev user_vdev;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev
+user_vring0	rsc_table.h	/^    struct fw_rsc_vdev_vring user_vring0;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev_vring
+user_vring1	rsc_table.h	/^    struct fw_rsc_vdev_vring user_vring1;$/;"	m	struct:remote_resource_table	typeref:struct:fw_rsc_vdev_vring
+vPortSVCHandler	FreeRTOSConfig.h	/^#define vPortSVCHandler /;"	d
+value	app_srtm.c	/^    uint8_t value;$/;"	m	struct:__anonb65b96fc0408	typeref:typename:uint8_t	file:
+value	srtm/services/srtm_pmic_service.h	/^    uint32_t value;$/;"	m	struct:_srtm_pmic_payload	typeref:typename:uint32_t
+ver	remoteproc.h	/^    uint32_t ver;$/;"	m	struct:resource_table	typeref:typename:uint32_t
+version	rsc_table.h	/^    uint32_t version;$/;"	m	struct:remote_resource_table	typeref:typename:uint32_t
+volMinusKeyEvents	app_srtm.c	/^static const srtm_io_event_t volMinusKeyEvents[] = {$/;"	v	typeref:typename:const srtm_io_event_t[]	file:
+volPlusKeyEvents	app_srtm.c	/^static const srtm_io_event_t volPlusKeyEvents[] = {$/;"	v	typeref:typename:const srtm_io_event_t[]	file:
+vring	remoteproc.h	/^    struct fw_rsc_vdev_vring vring[0];$/;"	m	struct:fw_rsc_vdev	typeref:struct:fw_rsc_vdev_vring[0]
+wakeup	app_srtm.c	/^    bool wakeup;$/;"	m	struct:__anonb65b96fc0408	typeref:typename:bool	file:
+wakeupCA7Proc	app_srtm.c	/^static srtm_procedure_t wakeupCA7Proc;$/;"	v	typeref:typename:srtm_procedure_t	file:
+wm8960Config	app_srtm.c	/^wm8960_config_t wm8960Config;$/;"	v	typeref:typename:wm8960_config_t
+writeRegMap	srtm/services/srtm_i2c_codec_adapter.h	/^    srtm_i2c_write_reg_map_t writeRegMap;$/;"	m	struct:_srtm_i2c_codec_config	typeref:typename:srtm_i2c_write_reg_map_t
+xPortPendSVHandler	FreeRTOSConfig.h	/^#define xPortPendSVHandler /;"	d
+xPortSysTickHandler	FreeRTOSConfig.h	/^#define xPortSysTickHandler /;"	d
